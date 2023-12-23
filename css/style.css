@@ -1,0 +1,258 @@
+/* Estilos de la página */
+body {
+  max-width: 1920px;
+  background-color: #000000;
+}
+
+/* Estilos de texto y fuentes */
+a, u, h1, h3, p {
+  color: #d7d7d7;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+a, u {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 24px;
+  color: #d750ff;
+}
+
+h2 {
+  padding-left: 0.5rem;
+}
+
+h3 {
+  font-size: 12px;
+  padding-left: 0.5rem;
+}
+
+p {
+  font-size: 16px;
+  padding-left: 1rem;
+}
+
+iframe {
+  position: relative;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  background-color: #000;
+  border-bottom: 2px solid #d750ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 990;
+}
+
+/* Estilos para elementos del encabezado */
+#logo, #lang, #menu {
+  font-size: 24px;
+  color: #d7d7d7;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+#logo {
+  margin: 0 auto;
+  height: 1.9rem;
+}
+
+#lang {
+  padding-left: 2%;
+}
+
+#menu {
+  padding-right: 2%;
+}
+
+/* Estilos para el menú lateral */
+.side-menu {
+  position: fixed;
+  top: 32px;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  background-color: #00000096;
+  border-left: 2px dashed #d750ff;
+  padding: 0.5rem;
+  display: none;
+  z-index: 989;
+}
+
+.side-menu.show {
+  display: block;
+}
+
+/* Estilos para el menú de idiomas */
+.lang-menu {
+  position: fixed;
+  top: 40px;
+  left: 8px;
+  background-color: #00000096;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 2px dashed #d750ff;
+  display: none;
+  z-index: 988;
+}
+
+.lang-menu.show {
+  display: inline;
+}
+
+#order {
+  position: static;
+  padding: 5rem 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner {
+  border: 2px solid #d750ff;
+  height: 7rem;
+  position: relative;
+  padding-left: 1rem;
+  top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h1 {
+  max-width: 45%;
+}
+
+.banner img {
+  position: static;
+  right: 0;
+  height: 7rem;
+  padding-right: 1rem;
+}
+
+/* ESTILOS DE ENTRADA */
+.cajas {
+  padding-top: 1rem;
+}
+
+.caja {
+  position: relative;
+  display: block;
+  padding: 0.2rem;
+}
+
+.blog, .dev, .niupleis, .pcg, .youtube, .arte, .gaming {
+  position: relative;
+  padding-top: 1rem;
+  line-height: 0.1rem;
+  font-family: 'Ysabeau', sans-serif;
+  font-size: 14px;
+}
+
+.blog {
+  border: 2px dashed #d750ff;
+}
+
+.blog h2, h3 {
+  display: inline;
+  color: #d750ff;
+}
+
+.blog p {
+  line-height: 0.8rem;
+}
+
+.dev {
+  border: 2px dashed #5050ff;
+}
+
+.dev h2, h3 {
+  display: inline;
+  color: #5050ff;
+}
+
+.dev p {
+  line-height: 0.8rem;
+}
+
+.niupleis {
+  border: 2px dashed #f42069;
+}
+
+.niupleis h2, h3 {
+  display: inline;
+  color: #f42069;
+}
+
+.niupleis p {
+  line-height: 0.8rem;
+}
+
+.pcg {
+  border: 2px dashed #ff50d7;
+}
+
+.pcg h2, h3 {
+  display: inline;
+  color: #ff50d7;
+}
+
+.pcg p {
+  line-height: 0.8rem;
+}
+
+.youtube {
+  border: 2px dashed #ff5050;
+}
+
+.youtube h2, h3 {
+  display: inline;
+  color: #ff5050;
+}
+
+.youtube p {
+  line-height: 0.8rem;
+}
+
+.arte {
+  border: 2px dashed #ffd7ff;
+}
+
+.arte h2, h3 {
+  display: inline;
+  color: #ffd7ff;
+}
+
+.arte p {
+  line-height: 0.8rem;
+}
+
+.gaming {
+  border: 2px dashed #50d7ff;
+}
+
+.gaming h2, h3 {
+  display: inline;
+  color: #50d7ff;
+}
+
+.gaming p {
+  line-height: 0.8rem;
+}
+
+.entries {
+  background-color: #000;
+}
