@@ -3,8 +3,13 @@ body {
   background-color: #000000;
 }
 
-h2, h3, h4, a, p, li {
+* {
   font-family: 'Ysabeau', sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: #d7d7d7;
 }
 
 h2 {
@@ -55,6 +60,11 @@ video {
   position: relative;
   display: flex;
   justify-content: space-between;
+}
+
+del {
+  padding-left: 0.5rem;
+  color: #ff0000;
 }
 
 #info, #contenido {
@@ -110,10 +120,4 @@ video {
 
 #p {
   font-family: 'Hahmlet', 'sans-serif';
-}
-
-#dic {
-  position: absolute;
-  padding-bottom: 1rem;
-  left: -0.5rem;
 }

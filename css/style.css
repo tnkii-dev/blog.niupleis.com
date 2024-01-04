@@ -1,7 +1,10 @@
 /* Estilos de la página */
 body {
-  max-width: 1920px;
-  background-color: #000000;
+  min-width: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
 }
 
 /* Estilos de texto y fuentes */
@@ -67,14 +70,17 @@ iframe {
 #logo {
   margin: 0 auto;
   height: 1.9rem;
+  cursor: pointer;
 }
 
 #lang {
   padding-left: 2%;
+  cursor: pointer;
 }
 
 #menu {
   padding-right: 2%;
+  cursor: pointer;
 }
 
 /* Estilos para el menú lateral */
@@ -83,17 +89,44 @@ iframe {
   top: 32px;
   right: 0;
   bottom: 0;
-  width: 25%;
-  background-color: #00000096;
-  border-left: 2px dashed #d750ff;
-  padding: 0.5rem;
+  width: 20%;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background-color: #000000d7;
+  border-left: 3px solid #d750ff;
   display: none;
   z-index: 989;
+}
+
+.side-menu a {
+  color: #d750ff;
+  font-size: 24px;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .side-menu.show {
   display: block;
 }
+
+@media only screen and (min-width: 719px) {
+  .side-menu {
+    display: block;
+  }
+}
+
+.section {
+  display: block;
+  margin: 0.5rem;
+}
+
+.section a {
+  color: #d750ff;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 /* Estilos para el menú de idiomas */
 .lang-menu {
@@ -121,12 +154,21 @@ iframe {
   align-items: center;
 }
 
+.content {
+  position: absolute;
+  top: 32px;
+  width: 720px;
+  background-color: #000000d7;
+  border: 3px solid #d750ff;
+  padding: 10px;
+  overflow: auto;
+}
+
 .banner {
   border: 2px solid #d750ff;
   height: 7rem;
   position: relative;
   padding-left: 1rem;
-  top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,10 +186,6 @@ iframe {
 }
 
 /* ESTILOS DE ENTRADA */
-.cajas {
-  padding-top: 3rem;
-}
-
 .caja {
   position: relative;
   display: block;
