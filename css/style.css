@@ -8,7 +8,7 @@ body {
 }
 
 /* Estilos de texto y fuentes */
-a, u, h1, h3, p {
+* {
   color: #d7d7d7;
   font-family: 'Ysabeau', sans-serif;
 }
@@ -35,6 +35,7 @@ h3 {
 p {
   font-size: 16px;
   padding-left: 1rem;
+  line-height: 0.8rem;
 }
 
 iframe {
@@ -64,7 +65,6 @@ iframe {
 #logo, #lang, #menu {
   font-size: 24px;
   color: #d7d7d7;
-  font-family: 'Ysabeau', sans-serif;
 }
 
 #logo {
@@ -107,12 +107,6 @@ iframe {
 
 .side-menu.show {
   display: block;
-}
-
-@media only screen and (min-width: 719px) {
-  .side-menu {
-    display: block;
-  }
 }
 
 .section {
@@ -166,7 +160,6 @@ iframe {
 
 .banner {
   border: 2px solid #d750ff;
-  height: 7rem;
   position: relative;
   padding-left: 1rem;
   display: flex;
@@ -185,6 +178,16 @@ iframe {
   padding-right: 1rem;
 }
 
+.filter {
+  align-items: center;
+  justify-content: center;
+}
+
+.filter a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* ESTILOS DE ENTRADA */
 .caja {
   position: relative;
@@ -192,103 +195,75 @@ iframe {
   padding: 0.2rem;
 }
 
-.blog, .dev, .niupleis, .pcg, .youtube, .arte, .gaming {
+.blog, .news, .niupleis, .idols, .arte, .youtube, .dev, .gaming {
   position: relative;
   padding-top: 1rem;
   line-height: 0.1rem;
-  font-family: 'Ysabeau', sans-serif;
   font-size: 14px;
 }
 
 .blog {
   border: 2px dashed #d750ff;
 }
-
 .blog h2, h3 {
   display: inline;
   color: #d750ff;
 }
 
-.blog p {
-  line-height: 0.8rem;
-}
-
-.dev {
+.news {
   border: 2px dashed #5050ff;
 }
-
-.dev h2, h3 {
+.news h2, h3 {
   display: inline;
   color: #5050ff;
-}
-
-.dev p {
-  line-height: 0.8rem;
 }
 
 .niupleis {
   border: 2px dashed #f42069;
 }
-
 .niupleis h2, h3 {
   display: inline;
   color: #f42069;
 }
 
-.niupleis p {
-  line-height: 0.8rem;
-}
-
-.pcg {
+.idols {
   border: 2px dashed #ff50d7;
 }
-
-.pcg h2, h3 {
+.idols h2, h3 {
   display: inline;
   color: #ff50d7;
-}
-
-.pcg p {
-  line-height: 0.8rem;
-}
-
-.youtube {
-  border: 2px dashed #ff5050;
-}
-
-.youtube h2, h3 {
-  display: inline;
-  color: #ff5050;
-}
-
-.youtube p {
-  line-height: 0.8rem;
 }
 
 .arte {
   border: 2px dashed #ffd7ff;
 }
-
 .arte h2, h3 {
   display: inline;
   color: #ffd7ff;
 }
 
-.arte p {
-  line-height: 0.8rem;
+.youtube {
+  border: 2px dashed #ff5050;
+}
+.youtube h2, h3 {
+  display: inline;
+  color: #ff5050;
+}
+
+.dev {
+  border: 2px dashed #5050ff;
+}
+.dev h2, h3 {
+  display: inline;
+  color: #5050ff;
 }
 
 .gaming {
   border: 2px dashed #50d7ff;
 }
-
 .gaming h2, h3 {
   display: inline;
   color: #50d7ff;
-}
-
-.gaming p {
-  line-height: 0.8rem;
 }
 
 .entries {

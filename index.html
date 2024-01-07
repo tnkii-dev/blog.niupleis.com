@@ -54,12 +54,31 @@
       <u>jp</u>
     </aside-->
 
+    <script>
+      if (isDesktop()) {
+        toggleMenu();
+        langSelection();
+      }
+    </script>
+
   <div class="content">
 
     <div class="banner">
     <h1>hey, bienvenido a mi blog!</h1>
     <img src="images/blogBanner.webp">
     </div><br>
+
+    <!--div class="filter">
+      <a onclick="filter('all')">todo</a><b> • </b>
+      <a onclick="filter('blog')">blog</a><b> • </b>
+      <a onclick="filter('news')">noticias</a><b> • </b>
+      <a onclick="filter('niupleis')">niupleis.com</a><b> • </b>
+      <a onclick="filter('idols')">idols y aprendices</a><b> • </b>
+      <a onclick="filter('arte')">arte</a><b> • </b>
+      <a onclick="filter('youtube')">youtube</a><b> • </b>
+      <a onclick="filter('dev')">desarrollo</a><b> • </b>
+      <a onclick="filter('gaming')">gaming</a>
+    </div><br-->
 
       <a class="caja" id="0" href="#"></a>
       <a class="caja" id="1" href="#"></a>
@@ -113,7 +132,7 @@
       <a class="caja" id="49" href="#"></a>
       <a class="caja" id="50" href="#"></a>
 
-    <script src="js/cargarContenido.js"></script>
+    <script>loadContent('all')</script>
 
   </div>
 </body>
