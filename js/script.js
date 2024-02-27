@@ -14,6 +14,7 @@ function isDesktop() {
 
 function loadContent(type) {
   let contents = [
+    "entries/240227_1.html",
     "entries/240121_1.html",
     "entries/240104_1.html",
     "entries/231216_1.html",
@@ -21,7 +22,6 @@ function loadContent(type) {
     "entries/231203_1.html",
     "entries/231129_1.html",
     "entries/231123_1.html",
-    "entries/231118_1.html",
     "entries/231115_1.html",
   ];
 
