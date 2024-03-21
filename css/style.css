@@ -1,19 +1,23 @@
 /* Estilos de la página */
 body {
-  min-width: 720px;
+  max-width: 1280px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000;
+  background-color: #111111;
 }
 
 /* Estilos de texto y fuentes */
 * {
   color: #d7d7d7;
   font-family: 'Ysabeau', sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  scrollbar-width: none;
+  scrollbar-color: #d750ff #f4206900;
 }
 
-a, u {
+a {
   font-size: 16px;
   text-decoration: none;
 }
@@ -34,8 +38,6 @@ h3 {
 
 p {
   font-size: 16px;
-  padding-left: 1rem;
-  line-height: 0.8rem;
 }
 
 iframe {
@@ -87,15 +89,18 @@ iframe {
 .side-menu {
   position: fixed;
   top: 32px;
-  right: 0;
+  right: -20rem;
   bottom: 0;
   width: 20%;
   padding-left: 1rem;
   padding-top: 1rem;
-  background-color: #000000d7;
   border-left: 3px solid #d750ff;
-  display: none;
-  z-index: 989;
+  display: block;
+  overflow-y: auto;
+  z-index: 800;
+  scrollbar-width: thin;
+  scrollbar-color: #d750ff #f4206900;
+  transition: all 0.5s ease-in-out;
 }
 
 .side-menu a {
@@ -106,7 +111,8 @@ iframe {
 }
 
 .side-menu.show {
-  display: block;
+  transition: all 0.5s ease-in-out;
+  right: 0;
 }
 
 .section {
@@ -121,23 +127,30 @@ iframe {
   cursor: pointer;
 }
 
-
 /* Estilos para el menú de idiomas */
 .lang-menu {
   position: fixed;
   top: 40px;
-  left: 8px;
-  background-color: #00000096;
+  left: -11rem;
+  width: 160px;
   padding: 0.3rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  border: 2px dashed #d750ff;
-  display: none;
-  z-index: 988;
+  border: 2px solid #d750ff;
+  border-radius: 10px;
+  padding: 0.3rem;
+  display: inline;
+  z-index: 700;
+  transition: all 0.3s ease-in-out;
 }
 
 .lang-menu.show {
-  display: inline;
+  transition: all 0.3s ease-in-out;
+  left: 1rem;
+}
+
+.lang-menu a {
+  cursor: pointer;
 }
 
 #order {
@@ -146,6 +159,24 @@ iframe {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.bio {
+  position: fixed;
+  left: 1rem;
+  top: 7rem;
+  width: 18%;
+  height: 360px;
+  border: 2px solid #d750ff;
+  border-radius: 10px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ff50d7 #f4206900;
+  line-height: 1rem;
+}
+
+.bio h1 {
+  font-size: 20px;
 }
 
 .content {
@@ -179,12 +210,14 @@ iframe {
 }
 
 .filter {
-  align-items: center;
+  width: 710px;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .filter a {
-  text-decoration: underline;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -193,79 +226,12 @@ iframe {
   position: relative;
   display: block;
   padding: 0.2rem;
-}
-
-.blog, .news, .niupleis, .idols, .arte, .youtube, .dev, .gaming {
-  position: relative;
   padding-top: 1rem;
+  margin-bottom: 3px;
   line-height: 0.1rem;
   font-size: 14px;
 }
 
-.blog {
-  border: 2px dashed #d750ff;
-}
-.blog h2, h3 {
+.caja h2, h3 {
   display: inline;
-  color: #d750ff;
-}
-
-.news {
-  border: 2px dashed #5050ff;
-}
-.news h2, h3 {
-  display: inline;
-  color: #5050ff;
-}
-
-.niupleis {
-  border: 2px dashed #f42069;
-}
-.niupleis h2, h3 {
-  display: inline;
-  color: #f42069;
-}
-
-.idols {
-  border: 2px dashed #ff50d7;
-}
-.idols h2, h3 {
-  display: inline;
-  color: #ff50d7;
-}
-
-.arte {
-  border: 2px dashed #ffd7ff;
-}
-.arte h2, h3 {
-  display: inline;
-  color: #ffd7ff;
-}
-
-.youtube {
-  border: 2px dashed #ff5050;
-}
-.youtube h2, h3 {
-  display: inline;
-  color: #ff5050;
-}
-
-.dev {
-  border: 2px dashed #5050ff;
-}
-.dev h2, h3 {
-  display: inline;
-  color: #5050ff;
-}
-
-.gaming {
-  border: 2px dashed #50d7ff;
-}
-.gaming h2, h3 {
-  display: inline;
-  color: #50d7ff;
-}
-
-.entries {
-  background-color: #000;
 }

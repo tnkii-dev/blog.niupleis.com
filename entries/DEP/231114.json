@@ -1,0 +1,9 @@
+{
+  "id" : "231114",
+  "type" : "blog",
+  "date" : "14 11 2023",
+  "color" : "#ffff50",
+  "title" : "Prueba de entradas, XD",
+  "sumary" : "Haciendo pruebas para blog",
+  "content" : "<p>Estoy haciendo pruebas para manejar las entradas en el blog, este es un archivo html de prueba, json no parece práctico y no puedo usar una base de datos, xml es un candidato tambien pero primero quiero ver si funciona html</p>"
+}

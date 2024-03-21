@@ -12,35 +12,104 @@ function isDesktop() {
   return window.innerWidth > 719;
 }
 
-function loadContent(type) {
-  let contents = [
-    "entries/240227_1.html",
-    "entries/240121_1.html",
-    "entries/240104_1.html",
-    "entries/231216_1.html",
-    "entries/231215_1.html",
-    "entries/231203_1.html",
-    "entries/231129_1.html",
-    "entries/231123_1.html",
-    "entries/231115_1.html",
+function setCookie(nombre, valor, expiracionEnDias) {
+  fechaExpiracion = new Date();
+  fechaExpiracion.setDate(fechaExpiracion.getDate() + expiracionEnDias);
+
+  cookie = nombre + '=' + valor + '; expires=' + fechaExpiracion.toUTCString() + '; path=/';
+  document.cookie = cookie;
+  console.log('cookie creada:' + valor)
+  loadContent()
+  translate()
+}
+
+function getCookie(nombre) {
+  nombreCookie = nombre + '=';
+  cookies = document.cookie.split(';');
+
+  for (i = 0; i < cookies.length; i++) {
+    cookie = cookies[i].trim();
+    if (cookie.indexOf(nombreCookie) === 0) {
+      return cookie.substring(nombreCookie.length, cookie.length);
+    }
+  }
+
+  return null;
+};
+
+
+function loadContent() {
+  var lang = 'es'
+  var filter = 'all'
+  lang = getCookie('lang')
+  filter = getCookie('filter')
+  var cajas = document.getElementById('cajas')
+  const contents = [
+    "231216",
+    "231203",
+    "231123",
+    "231115"
   ];
+  while (cajas.firstChild){cajas.removeChild(cajas.firstChild)}
 
-  contents.forEach(function(archivo, indice) {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        var parser = new DOMParser();
-        var doc = parser.parseFromString(this.responseText, "text/html");
-        var contenidoEspecifico = doc.getElementById("info").innerHTML;
-        var box = indice.toString();
-        document.getElementById(box).innerHTML = contenidoEspecifico;
+  contents.forEach(entry => {
+    entryPath = 'entries/' + lang + '/' + entry + '.json'
+    fetch(entryPath)
+      .then(response => response.json())
+      .then(data => {
+        if (filter == "all" || data.type == filter) {
+        var caja = document.createElement('a');
+        caja.className = 'caja';
+        caja.style = "border: 2px dashed" + data.color + ";";
+        caja.href = 'entries/entry.html?id=' + data.id;
+        var h2 = document.createElement('h2');
+        h2.textContent = data.title;
+        h2.style.color = data.color;
+        var h3 = document.createElement('h3');
+        h3.textContent = data.date;
+        h3.style.color = data.color;
+        var p = document.createElement('p');
+        p.textContent = data.sumary;
+        p.style.color = data.color;
 
-        document.getElementById(box).setAttribute('href', archivo);
-      }
-    };
-    xhttp.open("GET", archivo, true);
-    xhttp.send();
+        caja.appendChild(h2)
+        caja.appendChild(h3)
+        caja.appendChild(p)
+        cajas.appendChild(caja)
+        }
+    })
+    .catch(error => console.error('Error al cargar el archivo JSON:', error));
   });
+};
+
+function loadEntry() {
+  var lang = 'es'
+  lang = getCookie('lang')
+
+  var url = new URL(window.location.href);
+  var params = url.searchParams;
+  var id = params.get('id');
+
+  var displayTitle = document.getElementById('displayTitle')
+  var visibleTitle = document.getElementById('visibleTitle')
+  var date = document.getElementById('date')
+  var sumary = document.getElementById('sumary')
+  var content = document.getElementById('contenido')
+
+  var entryPath = lang + '/' + id + '.json'
+
+  fetch(entryPath)
+    .then(response => response.json()) // Parsea la respuesta como JSON
+    .then(data => {
+      displayTitle.textContent = data.title;
+      visibleTitle.textContent = data.title;
+      visibleTitle.style.color = data.color;
+      date.textContent = data.date;
+      date.style.color = data.color + '50';
+      sumary.textContent = data.sumary;
+      sumary.style.color = data.color + 'd7';
+      content.innerHTML = data.content;
+  })
 };
 
 function filter(type) {
