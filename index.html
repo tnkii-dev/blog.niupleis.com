@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" media="only screen and (max-width: 719px)" content="width=device-width, initial-scale=0.9">
 
     <link rel="canonical" href="http://blog.niuplies.com/">
-    
-    <title>Blog > Niupleis</title>
+  
+    <title id="displayName">blog de niupleis</title>
     <meta name="description" content=" Proceso creativo, Info del proyecto niupleis, Cultura de Internet, behind the scenes, out takes, blog, tnkii, idol wannabe">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-width: 719px)" href="css/styleM.css">
 
     <link rel="stylesheet" href="css/fonts.css">
 
@@ -32,6 +34,8 @@
 </script>
 
 <body>
+  <script>if(!(checkCookie('lang'))){setCookie('lang', 'es', 3)}</script>
+  <script>if(!(checkCookie('filter'))){setCookie('filter', 'all', 1)}</script>
   <header class="navbar">
     <nav id="lang" onclick="langSelection()">⊕</nav>
     <img id="logo" src="images/blogLogo_anim.gif"/>
@@ -40,13 +44,13 @@
 
   <aside class="side-menu" id="sideMenu">
     <a href="http://www.niupleis.com">niupleis.com ↗</a><br>
-    <a href="entries/">archivo</a>
+    <a id="archivo" href="entries/">archivo</a>
     <div class="section">
       <a href="entries/#2024">├ 2024</a><br>
       <a href="entries/#2023">└ 2023</a>
     </div>
-    <br><p style="color: #ff0;">Se utilizan cookies para guardar configuración de idioma y filtros</p>
-    <code style="font-size: 12px;font-style: italic">
+    <br><p id="cookies1" style="color: #ff0;">Se utilizan cookies para guardar configuración de idioma y filtros</p>
+    <code id="cookies2" style="font-size: 12px;font-style: italic">
       //nombre de la cookie 'lang', codigo de idioma y guardar por 7 dias<br>
       setCookie('lang', '??', 7)<br>
       //nombre de la cookie 'filter', id de filtro y guardar por 1 dias<br>
@@ -55,23 +59,16 @@
   </aside>
 
   <aside class="lang-menu" id="langMenu">
-    <a onclick="setCookie('lang', 'en', 7)">english</a>
-    <a onclick="setCookie('lang', 'es', 7)">español</a><br>
-    <a onclick="setCookie('lang', 'kr', 7)">한국어</a>
-    <a onclick="setCookie('lang', 'jp', 7)">日本語</a>
+    <a onclick="setCookie('lang', 'en', 7, 'root')">english</a>
+    <a onclick="setCookie('lang', 'es', 7, 'root')">español</a><br>
+    <a onclick="setCookie('lang', 'kr', 7, 'root')">한국어</a>
+    <a onclick="setCookie('lang', 'jp', 7, 'root')">日本語</a>
     <a style="display: none;">♡♡</a>
   </aside>
 
-  <script>
-    if (isDesktop()) {
-      toggleMenu();
-      langSelection();
-    }
-  </script>
-
-  <div class="bio">
-    <h1>Biografía</h1>
-    <p>Aquí se comparten muchas cosas, principalmente documento las cosas que aprendo pero también otras cosas y
+  <div class="bio" id="bioDisplay">
+    <h1 id="bio">Biografía</h1>
+    <p id="bio2">Aquí se comparten muchas cosas, principalmente documento las cosas que aprendo pero también otras cosas y
       hobbies que tengo.<br><br>
       Soy ilustrador, centrado en el estilo de anime. Conpongo y produzco música aunque de momento no tengo canciones
       públicadas, soy aprendíz de piano y violín.<br><br>
@@ -92,32 +89,44 @@
   <div class="content">
 
     <div class="banner">
-    <h1>hey, bienvenido a mi blog!</h1>
     <img src="images/blogBanner.webp">
+    <h1 id="wellcome">hey, bienvenido a mi blog!</h1>
+    <h2>-tnkii</h2>
     </div><br>
 
     <div class="filter">
-      <a onclick="setCookie('filter', 'all', 1)">todo</a><a style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'blog', 1)">blog</a><a style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'niupleis', 1)">novedades</a><a style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'waifu', 1)">waifus</a><a style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'art', 1)">arte</a><a style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'youtube', 1)">youtube</a><a style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'dev', 1)">desarrollo</a><a style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'gaming', 1)">gaming</a>
+      <a id="all" onclick="setCookie('filter', 'all', 1, 'root')">todo</a><a id="sep" style="font-size: 12px;">•</a>
+      <a onclick="setCookie('filter', 'blog', 1, 'root')">blog</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="news" onclick="setCookie('filter', 'niupleis', 1, 'root')">novedades</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="waifu" onclick="setCookie('filter', 'waifu', 1, 'root')">waifus</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="art" onclick="setCookie('filter', 'art', 1, 'root')">arte</a><a id="sep" style="font-size: 12px;">•</a>
+      <a onclick="setCookie('filter', 'youtube', 1, 'root')">youtube</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="dev" onclick="setCookie('filter', 'dev', 1, 'root')">desarrollo</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="gaming" onclick="setCookie('filter', 'gaming', 1, 'root')">gaming</a>
     </div>
-
+    <a onclick="loadContent()" class="reload">↻</a>
+ 
     <br><div id="cajas"></div>
 
-    <script>loadContent()</script>
+    <script>
+      loadContent()
+      translate()
+    </script>
   </div>
+
+  <script>
+    if (isDesktop()) {
+      toggleMenu();
+      langSelection();
+    }
+  </script>
 
   <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
   <script>
     kofiWidgetOverlay.draw('niupleis', {
       'type': 'floating-chat',
       'floating-chat.donateButton.text': 'Donate',
-      'floating-chat.donateButton.background-color': '#ff50d7',
+      'floating-chat.donateButton.background-color': '#d750ff',
       'floating-chat.donateButton.text-color': '#fff'
     });
   </script>

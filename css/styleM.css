@@ -1,9 +1,9 @@
 /* Estilos de la página */
 body {
-  max-width: 1280px;
+  max-width: 719;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: #111111;
 }
 
@@ -52,7 +52,8 @@ iframe {
 /* Estilos de la barra de navegación */
 .navbar {
   position: fixed;
-  top: 0;
+  width: 100%;
+  top: 0; 
   left: 0;
   right: 0;
   height: 32px;
@@ -91,9 +92,9 @@ iframe {
 .side-menu {
   position: fixed;
   top: 32px;
-  right: -30rem;
+  right: -12rem;
   bottom: 0;
-  width: 20%;
+  width: 40%;
   padding-left: 1rem;
   padding-top: 1rem;
   background-color: #000000d7;
@@ -134,7 +135,7 @@ iframe {
 .lang-menu {
   position: fixed;
   top: 40px;
-  left: -21rem;
+  left: -10rem;
   width: 160px;
   padding: 0.3rem;
   padding-left: 1rem;
@@ -167,9 +168,9 @@ iframe {
 
 .bio {
   position: fixed;
-  left: -27rem;
+  left: -13rem;
   top: 7rem;
-  width: 18%;
+  width: 45%;
   height: 440px;
   background-color: #000000d7;
   border: 2px solid #d750ff;
@@ -198,10 +199,10 @@ iframe {
 .content {
   position: absolute;
   top: 32px;
-  width: 720px;
+  width: 85%;
   background-color: #00000050;
   border: 3px solid #d750ff;
-  padding: 15px;
+  padding: 5px;
   overflow: auto;
 }
 
@@ -221,20 +222,24 @@ iframe {
 }
 
 .filter {
-  width: 710px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .filter a {
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
+}
+
+#sep {
+  display: none;
 }
 
 .reload {
   position: relative;
-  left: 46%;
+  left: 43%;
   font-size: 36px;
   cursor: pointer;
   rotate: 180deg;

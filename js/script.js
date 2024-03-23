@@ -6,21 +6,25 @@ function toggleMenu() {
 function langSelection() {
   var langMenu = document.getElementById('langMenu');
   langMenu.classList.toggle('show');
+  var bioDisplay = document.getElementById('bioDisplay');
+  bioDisplay.classList.toggle('show');
 }
 
 function isDesktop() {
   return window.innerWidth > 719;
 }
 
-function setCookie(nombre, valor, expiracionEnDias) {
+function setCookie(nombre, valor, expiracionEnDias, source) {
   fechaExpiracion = new Date();
   fechaExpiracion.setDate(fechaExpiracion.getDate() + expiracionEnDias);
 
   cookie = nombre + '=' + valor + '; expires=' + fechaExpiracion.toUTCString() + '; path=/';
   document.cookie = cookie;
   console.log('cookie creada:' + valor)
+  if (source == 'root') {
+  translate();
   loadContent()
-  translate()
+  }
 }
 
 function getCookie(nombre) {
@@ -33,21 +37,28 @@ function getCookie(nombre) {
       return cookie.substring(nombreCookie.length, cookie.length);
     }
   }
-
   return null;
 };
 
+function checkCookie(cookieName) {
+  const cookies = document.cookie.split(';');
+  for (let i = 0; i < cookies.length; i++) {
+    const cookie = cookies[i].trim();
+    if (cookie.startsWith(cookieName + '=')) {
+      return true;
+    }
+  }
+  return false;
+}
 
 function loadContent() {
-  var lang = 'es'
-  var filter = 'all'
   lang = getCookie('lang')
   filter = getCookie('filter')
   var cajas = document.getElementById('cajas')
   const contents = [
+    "240322",
     "231216",
     "231203",
-    "231123",
     "231115"
   ];
   while (cajas.firstChild){cajas.removeChild(cajas.firstChild)}
@@ -69,7 +80,7 @@ function loadContent() {
         h3.textContent = data.date;
         h3.style.color = data.color;
         var p = document.createElement('p');
-        p.textContent = data.sumary;
+        p.textContent = data.summary;
         p.style.color = data.color;
 
         caja.appendChild(h2)
@@ -93,10 +104,12 @@ function loadEntry() {
   var displayTitle = document.getElementById('displayTitle')
   var visibleTitle = document.getElementById('visibleTitle')
   var date = document.getElementById('date')
-  var sumary = document.getElementById('sumary')
+  var summary = document.getElementById('summary')
   var content = document.getElementById('contenido')
 
   var entryPath = lang + '/' + id + '.json'
+
+  var menu = document.getElementById('langMenu')
 
   fetch(entryPath)
     .then(response => response.json()) // Parsea la respuesta como JSON
@@ -106,12 +119,50 @@ function loadEntry() {
       visibleTitle.style.color = data.color;
       date.textContent = data.date;
       date.style.color = data.color + '50';
-      sumary.textContent = data.sumary;
-      sumary.style.color = data.color + 'd7';
+      summary.textContent = data.summary;
+      summary.style.color = data.color + 'd7';
       content.innerHTML = data.content;
+      menu.style.border = '2px solid' + data.color;
   })
 };
 
 function filter(type) {
   loadContent(type);
 }
+
+function translate() {
+  let language = getCookie('lang')
+  langPath = 'lang/' + language + '.json'
+
+  var displayName = document.getElementById("displayName")
+  var archivo = document.getElementById("archivo")
+  var cookies1 = document.getElementById("cookies1")
+  var cookies2 = document.getElementById("cookies2")
+  var bio = document.getElementById("bio")
+  var bio2 = document.getElementById("bio2")
+  var wellcome = document.getElementById("wellcome")
+  var all = document.getElementById("all")
+  var news = document.getElementById("news")
+  var waifu = document.getElementById("waifu")
+  var art = document.getElementById("art")
+  var dev = document.getElementById("dev")
+  var gaming = document.getElementById("gaming")
+
+  fetch(langPath)
+    .then(response => response.json())
+    .then(data => {
+      displayName.textContent = data.displayName
+      archivo.textContent = data.archivo
+      cookies1.textContent = data.cookies1
+      cookies2.innerHTML = data.cookies2
+      bio.textContent = data.bio
+      bio2.innerHTML = data.bio2
+      wellcome.textContent = data.wellcome
+      all.textContent = data.all
+      news.textContent = data.news
+      waifu.textContent = data.waifu
+      art.textContent = data.art
+      dev.textContent = data.dev
+      gaming.textContent = data.gaming
+    });
+};
