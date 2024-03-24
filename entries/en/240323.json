@@ -1,0 +1,9 @@
+{
+    "id" : "240323",
+    "type" : "dev",
+    "date" : "03/23/2024",
+    "color" : "#efb810",
+    "title" : "Project Acordes",
+    "summary" : "I published the Acordes project",
+    "content" : "<p>For a long time, I have been learning to play the piano. Reading sheet music is easy when you have the notes there in simple black and white, but sometimes some sheet music tends to annotate chords with letters and symbols instead of notes; that's jazz notation.</p><p>I know how to read them but not while playing because I didn't learn to read them when I studied solfege. I like to study with spaced repetition because it forces me to know things as they come instead of memorizing sequences. I looked for a tool that would help me study jazz chords with the spaced repetition method, but there are only analog options, so I decided to make a tool myself.</p><p>The <span style=color: #efb810;>Acordes</span> tool took at least three weeks of development. It was developed with JavaScript to facilitate its online implementation, which is why I am hosting it on my website<a href='http://www.niuppleis.com/projects/acordes'>niupleis.com</a>.</p><p><span style=color: #efb810;>Acordes</span> is considered the first official product of <span style=color: #f42069;>Niupleis</span>.</p><p>It is completely open source. You can view the documentation and source code in the <a href=https://github.com/tnkii-dev/acordes>repository on my GitHub</a>.</p><img src=images/acordes_screenshoot.webp>"
+}
