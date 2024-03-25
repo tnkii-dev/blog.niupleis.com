@@ -56,6 +56,7 @@ function loadContent() {
   filter = getCookie('filter')
   var cajas = document.getElementById('cajas')
   const contents = [
+    "240324",
     "240323",
     "240322",
     "231216",
@@ -139,6 +140,7 @@ function translate() {
   var archivo = document.getElementById("archivo")
   var cookies1 = document.getElementById("cookies1")
   var cookies2 = document.getElementById("cookies2")
+  var langDisclaimer = document.getElementById("langDisclaimer")
   var bio = document.getElementById("bio")
   var bio2 = document.getElementById("bio2")
   var wellcome = document.getElementById("wellcome")
@@ -156,6 +158,7 @@ function translate() {
       archivo.textContent = data.archivo
       cookies1.textContent = data.cookies1
       cookies2.innerHTML = data.cookies2
+      langDisclaimer.textContent = data.langDisclaimer
       bio.textContent = data.bio
       bio2.innerHTML = data.bio2
       wellcome.textContent = data.wellcome
