@@ -88,34 +88,6 @@ del {
   display: block;
 }
 
-.blog h2 {
-  color: #d750ff;
-}
-
-.dev h2 {
-  color: #5050ff;
-}
-
-.niupleis h2 {
-  color: #f42069;
-}
-
-.idols h2 {
-  color: #ff50d7;
-}
-
-.youtube h2 {
-  color: #ff5050;
-}
-
-.arte h2 {
-  color: #ffd7ff;
-}
-
-.gaming h2 {
-  color: #50d7ff;
-}
-
 #p {
   font-family: 'Hahmlet', 'sans-serif';
 }
@@ -129,6 +101,7 @@ del {
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 10px;
+  background-color: #000000d7;
   padding: 0.3rem;
   display: inline;
   z-index: 700;
