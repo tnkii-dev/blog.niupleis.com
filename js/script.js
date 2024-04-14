@@ -52,10 +52,13 @@ function checkCookie(cookieName) {
 }
 
 function loadContent() {
+  var loader = document.getElementById("load");
+  loader.style.display = "flex";
   lang = getCookie('lang')
   filter = getCookie('filter')
   var cajas = document.getElementById('cajas')
   const contents = [
+    "240414",
     "240406",
     "240324",
     "240323",
@@ -72,28 +75,29 @@ function loadContent() {
       .then(response => response.json())
       .then(data => {
         if (filter == "all" || data.type == filter) {
-        var caja = document.createElement('a');
-        caja.className = 'caja';
-        caja.style = "border: 2px dashed" + data.color + ";";
-        caja.href = 'entries/entry.html?id=' + data.id;
-        var h2 = document.createElement('h2');
-        h2.textContent = data.title;
-        h2.style.color = data.color;
-        var h3 = document.createElement('h3');
-        h3.textContent = data.date;
-        h3.style.color = data.color;
-        var p = document.createElement('p');
-        p.textContent = data.summary;
-        p.style.color = data.color;
+          var caja = document.createElement('a');
+          caja.className = 'caja';
+          caja.style = "border: 2px dashed" + data.color + ";";
+          caja.href = 'entries/entry.html?id=' + data.id;
+          var h2 = document.createElement('h2');
+          h2.textContent = data.title;
+          h2.style.color = data.color;
+          var h3 = document.createElement('h3');
+          h3.textContent = data.date;
+          h3.style.color = data.color;
+          var p = document.createElement('p');
+          p.textContent = data.summary;
+          p.style.color = data.color;
 
-        caja.appendChild(h2)
-        caja.appendChild(h3)
-        caja.appendChild(p)
-        cajas.appendChild(caja)
+          caja.appendChild(h2)
+          caja.appendChild(h3)
+          caja.appendChild(p)
+          cajas.appendChild(caja)
         }
-    })
+      })
     .catch(error => console.error('Error al cargar el archivo JSON:', error));
   });
+  loader.style.display = "none"
 };
 
 function loadEntry() {

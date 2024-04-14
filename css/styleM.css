@@ -247,12 +247,13 @@ iframe {
 
 /* ESTILOS DE ENTRADA */
 .caja {
-  position: relative;
+  position: static;
   display: block;
   padding: 0.5rem;
   padding-top: 1rem;
   margin-bottom: 3px;
   line-height: 0.1rem;
+  overflow-x: scroll;
   background-color: #000000d7;
   font-size: 14px;
   transition: all 0.3s ease-in-out;

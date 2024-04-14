@@ -1,4 +1,8 @@
 /* Estilos de la página */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 1280px;
   display: flex;
@@ -242,12 +246,13 @@ iframe {
 
 /* ESTILOS DE ENTRADA */
 .caja {
-  position: relative;
+  position: static;
   display: block;
   padding: 0.5rem;
   padding-top: 1rem;
   margin-bottom: 3px;
   line-height: 0.1rem;
+  overflow-x: scroll;
   background-color: #000000d7;
   font-size: 14px;
   transition: all 0.3s ease-in-out;
@@ -261,4 +266,24 @@ iframe {
 
 .caja h2, h3 {
   display: inline;
+}
+
+#load {
+  display: flex;
+  flex-wrap: wrap;
+  height: 96px;
+  position: relative;
+  justify-content: center;
+  /*border: 2px solid #f00;*/
+}
+
+.loader {
+  position: absolute;
+  font-size: 64px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); } /* Rotación inicial */
+  100% { transform: rotate(360deg); } /* Rotación completa */
 }

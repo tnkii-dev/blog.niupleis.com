@@ -107,11 +107,7 @@ k
     <a onclick="loadContent()" class="reload">↻</a>
  
     <br><div id="cajas"></div>
-
-    <script>
-      loadContent()
-      translate()
-    </script>
+    <div id="load"><img class="loader" src="../images/loadingIcon.png"></div>
   </div>
 
   <script>
@@ -129,6 +125,10 @@ k
       'floating-chat.donateButton.background-color': '#d750ff',
       'floating-chat.donateButton.text-color': '#fff'
     });
+  </script>
+  <script>
+    loadContent()
+    translate()
   </script>
 </body>
 </html>
