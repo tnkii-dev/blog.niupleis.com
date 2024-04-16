@@ -58,6 +58,7 @@ function loadContent() {
   filter = getCookie('filter')
   var cajas = document.getElementById('cajas')
   const contents = [
+    "240416",
     "240414",
     "240406",
     "240324",
