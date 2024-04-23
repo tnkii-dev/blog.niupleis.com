@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('../fonts/Ysabeau-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sawarabi Gothic';
+    src: url('../fonts/SawarabiGothic-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hahmlet';
+    src: url('../fonts/Hahmlet-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

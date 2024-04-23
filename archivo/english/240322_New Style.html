@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://localhost:8080/entries/entry.html?id=240322 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title id="displayTitle">New Style</title><!--Display title-->
+  <link rel="stylesheet" href="./240322_New Style_files/style.css">
+  <link rel="stylesheet" href="./240322_New Style_files/fonts.css">
+  <script src="./240322_New Style_files/script.js.descarga"></script>
+</head>
+
+<body>
+  <script>if(!(checkCookie('lang'))){setCookie('lang', 'es', 3)}</script>
+  <script>if(!(checkCookie('filter'))){setCookie('filter', 'all', 1)}</script>
+  <div><!--blog, news, niupleis, idols, arte, youtube, dev, gaming-->
+    <h2 id="visibleTitle" style="color: rgb(255, 215, 255);">New Style</h2><!--Visible title-->
+    <h3 id="date" style="color: rgba(255, 215, 255, 0.314);">03/22/2024</h3><!--Date-->
+    <p id="summary" style="color: rgba(255, 215, 255, 0.843);">New style and features for my blog, this blog</p><!--summary-->
+  </div>
+  <div id="contenido"><p>I basically made a major update to this blog. Entries are now JSON files and I create them with the help of a script; before, I used to make each page in HTML by hand xD</p><p>I added some important features such as the ability to change languages<a href="http://localhost:8080/entries/entry.html?id=240322#fig">(1)</a>, and there are four languages to choose from: Spanish, my first language; Japanese and Korean for my target market; and English. The language selector is in a small menu on the main page and in a corner in the entry reader<a href="http://localhost:8080/entries/entry.html?id=240322#fig2">(1.1)</a>.</p><p>I also added the ability to filter entries by content type<a href="http://localhost:8080/entries/entry.html?id=240322#fig">(2)</a>, as well as a reload button for entries<a href="http://localhost:8080/entries/entry.html?id=240322#fig">(3)</a>.</p><p style="color: #ff0;">It's important to clarify that these features use cookies to function. More information is available on the main page<a href="http://localhost:8080/entries/entry.html?id=240322#fig">(4)</a> or by pressing ctrl+shift+i.</p><p>Another important addition was an About Me section, in the form of a biography<a href="http://localhost:8080/entries/entry.html?id=240322#fig">(5)</a>, which explains who I am and what this blog is for.</p><p>Finally, and most importantly, I implemented a donations button<a href="http://localhost:8080/entries/entry.html?id=240322#fig">(6)</a>, which works with Ko-fi because I found the implementation simple. For now, I understand it may be useless; the main page is practically finished, it just needs to be made visually appealing, i.e., filled with content, art, and whatever else. Any support will be appreciated :)</p><img id="fig" src="./240322_New Style_files/root_novedad.webp"><img id="fig2" src="./240322_New Style_files/entry_novedad.webp"><p>I deleted some previous posts, those that I rushed and others that were incomplete.</p></div>
+  <aside class="lang-menu" id="langMenu" style="border: 2px solid rgb(255, 215, 255);">
+    <a onclick="setCookie(&#39;lang&#39;, &#39;en&#39;, 7, &#39;entry&#39;); loadEntry()">english</a>
+    <a onclick="setCookie(&#39;lang&#39;, &#39;es&#39;, 7, &#39;entry&#39;); loadEntry()">español</a><br>
+    <a onclick="setCookie(&#39;lang&#39;, &#39;kr&#39;, 7, &#39;entry&#39;); loadEntry()">한국어</a>
+    <a onclick="setCookie(&#39;lang&#39;, &#39;jp&#39;, 7, &#39;entry&#39;); loadEntry()">日本語</a>
+    <a style="display: none;">♡♡</a>
+  </aside>
+  <script>loadEntry()</script>
+</body></html>
