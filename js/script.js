@@ -54,10 +54,11 @@ function checkCookie(cookieName) {
 function loadContent() {
   var loader = document.getElementById("load");
   loader.style.display = "flex";
-  lang = getCookie('lang')
-  filter = getCookie('filter')
-  var cajas = document.getElementById('cajas')
+  lang = getCookie('lang');
+  filter = getCookie('filter');
+  var cajas = document.getElementById('cajas');
   const contents = [
+    "240511",
     "240423",
     "240416",
     "240414",
@@ -69,38 +70,52 @@ function loadContent() {
     "231203",
     "231115"
   ];
-  while (cajas.firstChild){cajas.removeChild(cajas.firstChild)}
+  while (cajas.firstChild) {
+    cajas.removeChild(cajas.firstChild);
+  }
 
-  contents.forEach(entry => {
-    entryPath = 'entries/' + lang + '/' + entry + '.json'
-    fetch(entryPath)
-      .then(response => response.json())
-      .then(data => {
-        if (filter == "all" || data.type == filter) {
-          var caja = document.createElement('a');
-          caja.className = 'caja';
-          caja.style = "border: 2px dashed" + data.color + ";";
-          caja.href = 'entries/entry.html?id=' + data.id;
-          var h2 = document.createElement('h2');
-          h2.textContent = data.title;
-          h2.style.color = data.color;
-          var h3 = document.createElement('h3');
-          h3.textContent = data.date;
-          h3.style.color = data.color;
-          var p = document.createElement('p');
-          p.textContent = data.summary;
-          p.style.color = data.color;
+  // Define una función para cargar los contenidos con un retraso entre cada uno
+  function loadSequentially(index) {
+    if (index < contents.length) {
+      setTimeout(() => {
+        entryPath = 'entries/' + lang + '/' + contents[index] + '.json';
+        fetch(entryPath)
+          .then(response => response.json())
+          .then(data => {
+            if (filter == "all" || data.type == filter) {
+              var caja = document.createElement('a');
+              caja.className = 'caja';
+              caja.style = "border: 2px dashed" + data.color + ";";
+              caja.href = 'entries/entry.html?id=' + data.id;
+              var h2 = document.createElement('h2');
+              h2.textContent = data.title;
+              h2.style.color = data.color;
+              var h3 = document.createElement('h3');
+              h3.textContent = data.date;
+              h3.style.color = data.color;
+              var p = document.createElement('p');
+              p.textContent = data.summary;
+              p.style.color = data.color;
 
-          caja.appendChild(h2)
-          caja.appendChild(h3)
-          caja.appendChild(p)
-          cajas.appendChild(caja)
-        }
-      })
-    .catch(error => console.error('Error al cargar el archivo JSON:', error));
-  });
-  loader.style.display = "none"
-};
+              caja.appendChild(h2);
+              caja.appendChild(h3);
+              caja.appendChild(p);
+              cajas.appendChild(caja);
+            }
+            // Llama recursivamente a la función para cargar el siguiente contenido
+            loadSequentially(index + 1);
+          })
+          .catch(error => console.error('Error al cargar el archivo JSON:', error));
+      }, 100); // Retraso de 100 ms entre cada carga
+    } else {
+      loader.style.display = "none";
+    }
+  }
+
+  // Inicia la carga secuencial
+  loadSequentially(0);
+}
+
 
 function loadEntry() {
   var lang = 'es'
@@ -144,7 +159,7 @@ function translate() {
   langPath = 'lang/' + language + '.json'
 
   var displayName = document.getElementById("displayName")
-  var archivo = document.getElementById("archivo")
+  //var archivo = document.getElementById("archivo")
   var cookies1 = document.getElementById("cookies1")
   var cookies2 = document.getElementById("cookies2")
   var langDisclaimer = document.getElementById("langDisclaimer")
@@ -162,7 +177,7 @@ function translate() {
     .then(response => response.json())
     .then(data => {
       displayName.textContent = data.displayName
-      archivo.textContent = data.archivo
+      //archivo.textContent = data.archivo
       cookies1.textContent = data.cookies1
       cookies2.innerHTML = data.cookies2
       langDisclaimer.textContent = data.langDisclaimer

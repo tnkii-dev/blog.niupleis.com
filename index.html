@@ -40,7 +40,7 @@
     <img id="logo" src="images/blogLogo_anim.gif"/>
     <nav id="menu" onclick="toggleMenu()">≡</nav>
   </header>
-k
+
   <aside class="side-menu" id="sideMenu">
     <a href="http://www.niupleis.com">niupleis.com ↗</a><br>
     <!--a id="archivo" href="archivo/">archivo</a>
@@ -107,7 +107,7 @@ k
       <a id="gaming" onclick="setCookie('filter', 'gaming', 1, 'root')">gaming</a>
     </div>
     <a onclick="loadContent()" class="reload">↻</a>
- 
+
     <br><div id="cajas"></div>
     <div id="load"><img class="loader" src="../images/loadingIcon.png"></div>
   </div>
@@ -119,6 +119,10 @@ k
     }
   </script>
 
+  <script>
+    translate()
+    loadContent()
+  </script>
   <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
   <script>
     kofiWidgetOverlay.draw('niupleis', {
@@ -127,10 +131,6 @@ k
       'floating-chat.donateButton.background-color': '#d750ff',
       'floating-chat.donateButton.text-color': '#fff'
     });
-  </script>
-  <script>
-    loadContent()
-    translate()
   </script>
 </body>
 </html>

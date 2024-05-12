@@ -274,12 +274,13 @@ iframe {
   height: 96px;
   position: relative;
   justify-content: center;
+  margin-bottom: 2rem;
   /*border: 2px solid #f00;*/
 }
 
 .loader {
   position: absolute;
-  font-size: 64px;
+  font-size: 48px;
   animation: spin 1s linear infinite;
 }
 
