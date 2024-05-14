@@ -251,7 +251,7 @@ iframe {
   padding: 0.5rem;
   padding-top: 1rem;
   margin-bottom: 3px;
-  line-height: 0.1rem;
+  /*line-height: 0.1rem;*/
   overflow-x: scroll;
   background-color: #000000d7;
   font-size: 14px;
@@ -264,8 +264,15 @@ iframe {
   transform: scale(1.03);
 }
 
-.caja h2, h3 {
+.caja h2, .caja h3 {
   display: inline;
+  line-height: 1rem;
+  margin: 0;
+}
+
+.caja p {
+  line-height: 1rem;
+  margin: 0;
 }
 
 #load {
