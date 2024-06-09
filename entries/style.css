@@ -115,13 +115,24 @@ code {
 
 .lang-menu a {
   color: #d7d7d7;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   cursor: pointer;
 }
 .lang-menu a:hover {
   text-decoration: underline;
 }
+@media (max-width: 1024px) {
+  .lang-menu a {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 1024px) {
+  .lang-menu a {
+    font-size: 2rem;
+  }
+}
+
 
 @keyframes superText {
   0% { color: #d750d7 }
