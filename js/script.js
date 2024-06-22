@@ -14,6 +14,14 @@ function isDesktop() {
   return window.innerWidth > 719;
 }
 
+function setFilter(filtro) {
+  var url = new URL(window.location.href);
+  url.searchParams.set('filter', filtro);
+  window.history.replaceState({}, '', url);
+
+  loadContent()
+}
+
 function setCookie(nombre, valor, expiracionEnDias, source) {
   fechaExpiracion = new Date();
   fechaExpiracion.setDate(fechaExpiracion.getDate() + expiracionEnDias);
@@ -21,8 +29,13 @@ function setCookie(nombre, valor, expiracionEnDias, source) {
   cookie = nombre + '=' + valor + '; expires=' + fechaExpiracion.toUTCString() + '; path=/';
   document.cookie = cookie;
   console.log('cookie creada:' + valor)
+  if (nombre == "lang") {
+    var url = new URL(window.location.href);
+    url.searchParams.set('lang', valor);
+    window.history.replaceState({}, '', url);
+  }
   if (source == 'root') {
-  translate();
+  translate()
   loadContent()
   }
 }
@@ -54,10 +67,33 @@ function checkCookie(cookieName) {
 function loadContent() {
   var loader = document.getElementById("load");
   loader.style.display = "flex";
-  lang = getCookie('lang');
-  filter = getCookie('filter');
+  
+  let lang
+
+  let cookieLang = getCookie('lang')
+
+  var url = new URL(window.location.href);
+  var params = url.searchParams;
+  var urlLang = params.get('lang');
+
+  if (cookieLang && !urlLang) {
+    lang = cookieLang;
+  }
+  else if (urlLang) {
+    lang = urlLang;
+    setCookie(lang, urlLang, 7)
+  }
+  else if (cookieLang) {
+    lang = cookieLang;
+  }
+  else {
+    lang = 'es'
+  }
+
+  var filter = params.get('filter');
   var cajas = document.getElementById('cajas');
   const contents = [
+    "240622",
     "240613",
     "240609",
     "240511",
@@ -120,8 +156,27 @@ function loadContent() {
 
 
 function loadEntry() {
-  var lang = 'es'
-  lang = getCookie('lang')
+  let lang
+
+  let cookieLang = getCookie('lang')
+
+  var url = new URL(window.location.href);
+  var params = url.searchParams;
+  var urlLang = params.get('lang');
+
+  if (cookieLang && !urlLang) {
+    lang = cookieLang;
+  }
+  else if (urlLang) {
+    lang = urlLang;
+    setCookie(lang, urlLang, 7)
+  }
+  else if (cookieLang) {
+    lang = cookieLang;
+  }
+  else {
+    lang = 'es'
+  }
 
   var url = new URL(window.location.href);
   var params = url.searchParams;
@@ -157,8 +212,29 @@ function filter(type) {
 }
 
 function translate() {
-  let language = getCookie('lang')
-  langPath = 'lang/' + language + '.json'
+  let lang
+
+  let cookieLang = getCookie('lang')
+
+  var url = new URL(window.location.href);
+  var params = url.searchParams;
+  var urlLang = params.get('lang');
+
+  if (cookieLang && !urlLang) {
+    lang = cookieLang;
+  }
+  else if (urlLang) {
+    lang = urlLang;
+    setCookie(lang, urlLang, 7)
+  }
+  else if (cookieLang) {
+    lang = cookieLang;
+  }
+  else {
+    lang = 'es'
+  }
+
+  langPath = 'lang/' + lang + '.json'
 
   var displayName = document.getElementById("displayName")
   //var archivo = document.getElementById("archivo")

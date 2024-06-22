@@ -33,8 +33,21 @@
 </script>
 
 <body>
-  <script>if(!(checkCookie('lang'))){setCookie('lang', 'es', 3)}</script>
-  <script>if(!(checkCookie('filter'))){setCookie('filter', 'all', 1)}</script>
+  <script>
+    var url = new URL(window.location.href);
+    var params = url.searchParams;
+    if (!params.get('filter')) {
+      url.searchParams.set('filter', 'all');
+      window.history.replaceState({}, '', url);
+    }
+    if (!params.get('lang') && !checkCookie('lang') || !params.get('lang') || !checkCookie('lang')) {
+      url.searchParams.set('lang', 'es');
+      window.history.replaceState({}, '', url);
+    } else {
+      url.searchParams.set('lang', getCookie('lang'));
+      window.history.replaceState({}, '', url);
+    }
+  </script>
   <header class="navbar">
     <nav id="lang" onclick="langSelection()">⊕</nav>
     <img id="logo" src="images/blogLogo_anim.gif"/>
@@ -50,12 +63,10 @@
       <a href="archivo/한국어/">├ 한국어</a><br>
       <a href="archivo/日本語/">└ 日本語</a>
     </div-->
-    <br><p id="cookies1" style="color: #ff0;">Se utilizan cookies para guardar configuración de idioma y filtros</p>
+    <br><p id="cookies1" style="color: #ff0;">Se utilizan cookies para guardar configuración de idioma</p>
     <code id="cookies2" style="font-size: 12px;font-style: italic">
       //nombre de la cookie 'lang', codigo de idioma y guardar por 7 dias<br>
       setCookie('lang', '??', 7)<br>
-      //nombre de la cookie 'filter', id de filtro y guardar por 1 dias<br>
-      setCookie('filter', '????', 1)<br>
     </code>
     <br><p id="langDisclaimer" style="color: #ff0;">Las traducciones son hechas usando chat-gpt</p>
   </aside>
@@ -97,14 +108,14 @@
     </div><br>
 
     <div class="filter">
-      <a id="all" onclick="setCookie('filter', 'all', 1, 'root')">todo</a><a id="sep" style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'blog', 1, 'root')">blog</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="news" onclick="setCookie('filter', 'niupleis', 1, 'root')">novedades</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="waifu" onclick="setCookie('filter', 'waifu', 1, 'root')">waifus</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="art" onclick="setCookie('filter', 'art', 1, 'root')">arte</a><a id="sep" style="font-size: 12px;">•</a>
-      <a onclick="setCookie('filter', 'youtube', 1, 'root')">youtube</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="dev" onclick="setCookie('filter', 'dev', 1, 'root')">desarrollo</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="gaming" onclick="setCookie('filter', 'gaming', 1, 'root')">gaming</a>
+      <a id="all" onclick="setFilter('all')">todo</a><a id="sep" style="font-size: 12px;">•</a>
+      <a onclick="setFilter('blog')">blog</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="news" onclick="setFilter('niupleis')">novedades</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="waifu" onclick="setFilter('waifu')">waifus</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="art" onclick="setFilter('art')">arte</a><a id="sep" style="font-size: 12px;">•</a>
+      <a onclick="setFilter('youtube')">youtube</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="dev" onclick="setFilter('dev')">desarrollo</a><a id="sep" style="font-size: 12px;">•</a>
+      <a id="gaming" onclick="setFilter('gaming')">gaming</a>
     </div>
     <a onclick="loadContent()" class="reload">↻</a>
 
