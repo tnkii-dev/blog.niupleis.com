@@ -93,6 +93,7 @@ function loadContent() {
   var filter = params.get('filter');
   var cajas = document.getElementById('cajas');
   const contents = [
+    "240628",
     "240622",
     "240613",
     "240609",
