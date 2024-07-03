@@ -93,6 +93,7 @@ function loadContent() {
   var filter = params.get('filter');
   var cajas = document.getElementById('cajas');
   const contents = [
+    "240703",
     "240628",
     "240622",
     "240613",
@@ -205,7 +206,14 @@ function loadEntry() {
       summary.style.color = data.color + 'd7';
       content.innerHTML = data.content;
       menu.style.border = '2px solid' + data.color;
-  })
+    })
+  if (lang == "es" || lang == "en") {
+    document.body.style.fontFamily = 'Ysabeau';
+  }else if (lang == "jp") {
+    document.body.style.fontFamily = 'Sawarabi Gothic';
+  } else if (lang == "kr") {
+    document.body.style.fontFamily = 'Hahmlet';
+  }
 };
 
 function filter(type) {
@@ -270,4 +278,11 @@ function translate() {
       dev.textContent = data.dev
       gaming.textContent = data.gaming
     });
+  if (lang == "es" || lang == "en") {
+    document.body.style.fontFamily = 'Ysabeau';
+  }else if (lang == "jp") {
+    document.body.style.fontFamily = 'Sawarabi Gothic';
+  } else if (lang == "kr") {
+    document.body.style.fontFamily = 'Hahmlet';
+  }
 };
