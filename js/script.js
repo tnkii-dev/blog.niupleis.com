@@ -67,6 +67,11 @@ function checkCookie(cookieName) {
 function loadContent() {
   var loader = document.getElementById("load");
   loader.style.display = "flex";
+
+  var filter = document.getElementById("filter"); filter.style.display = "none";
+  var filterS = document.getElementById("filterS"); filterS.style.display = "flex";
+  var reload = document.getElementById("reload"); reload.style.display = "none";
+  var reloadS = document.getElementById("reloadS"); reloadS.style.display = "inline";
   
   let lang
 
@@ -154,6 +159,10 @@ function loadContent() {
       }, 10); // Retraso de 100 ms entre cada carga
     } else {
       loader.style.display = "none";
+      filter = document.getElementById("filter"); filter.style.display = "flex";
+      filterS = document.getElementById("filterS"); filterS.style.display = "none";
+      reload = document.getElementById("reload"); reload.style.display = "inline";
+      reloadS = document.getElementById("reloadS"); reloadS.style.display = "none";
     }
   }
   // Inicia la carga secuencial
@@ -285,6 +294,12 @@ function translate() {
   var art = document.getElementById("art")
   var dev = document.getElementById("dev")
   var gaming = document.getElementById("gaming")
+  var allS = document.getElementById("allS")
+  var newsS = document.getElementById("newsS")
+  var waifuS = document.getElementById("waifuS")
+  var artS = document.getElementById("artS")
+  var devS = document.getElementById("devS")
+  var gamingS = document.getElementById("gamingS")
 
   fetch(langPath)
     .then(response => response.json())
@@ -303,6 +318,12 @@ function translate() {
       art.textContent = data.art
       dev.textContent = data.dev
       gaming.textContent = data.gaming
+      allS.textContent = data.all
+      newsS.textContent = data.news
+      waifuS.textContent = data.waifu
+      artS.textContent = data.art
+      devS.textContent = data.dev
+      gamingS.textContent = data.gaming
     });
   if (lang == "es" || lang == "en") {
     document.body.style.fontFamily = 'Ysabeau';

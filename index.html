@@ -107,7 +107,7 @@
     <h2>-tnkii</h2>
     </div><br>
 
-    <div class="filter">
+    <div class="filter" id="filter">
       <a id="all" onclick="setFilter('all')">todo</a><a id="sep" style="font-size: 12px;">•</a>
       <a onclick="setFilter('blog')">blog</a><a id="sep" style="font-size: 12px;">•</a>
       <a id="news" onclick="setFilter('niupleis')">novedades</a><a id="sep" style="font-size: 12px;">•</a>
@@ -117,7 +117,8 @@
       <a id="dev" onclick="setFilter('dev')">desarrollo</a><a id="sep" style="font-size: 12px;">•</a>
       <a id="gaming" onclick="setFilter('gaming')">gaming</a>
     </div>
-    <a onclick="loadContent()" class="reload">↻</a>
+      <div class="filter" id="filterS"><a id="allS" style="cursor: not-allowed; color:#888;">todo</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a style="cursor: not-allowed; color:#888;">blog</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="newsS" style="cursor: not-allowed; color:#888;">novedades</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="waifuS" style="cursor: not-allowed; color:#888;">waifus</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="artS" style="cursor: not-allowed; color:#888;">arte</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a style="cursor: not-allowed; color:#888;">youtube</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="devS" style="cursor: not-allowed; color:#888;">desarrollo</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="gamingS" style="cursor: not-allowed; color:#888;">gaming</a></div><a id="reload" onclick="loadContent()" class="reload">↻</a>
+    <a id="reloadS" class="reload" style="cursor: not-allowed; color:#888;">↻</a>
 
     <br><div id="cajas"></div>
     <div id="load"><img class="loader" src="../images/loadingIcon.png"></div>
