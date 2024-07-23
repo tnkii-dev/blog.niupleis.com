@@ -93,6 +93,7 @@ function loadContent() {
   var filter = params.get('filter');
   var cajas = document.getElementById('cajas');
   const contents = [
+    "240722",
     "240703",
     "240628",
     "240622",
@@ -150,7 +151,7 @@ function loadContent() {
             loadSequentially(index + 1);
           })
           .catch(error => console.error('Error al cargar el archivo JSON:', error));
-      }, 50); // Retraso de 100 ms entre cada carga
+      }, 10); // Retraso de 100 ms entre cada carga
     } else {
       loader.style.display = "none";
     }
@@ -199,7 +200,7 @@ function loadEntry(source) {
   fetch(entryPath)
     .then(response => {// Parsea la respuesta como JSON
       if (response.ok) {
-        return rsponse.json();
+        return response.json();
       } else {
         throw new Error("No hay traducciones disponibles");
       }
