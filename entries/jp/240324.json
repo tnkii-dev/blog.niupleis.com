@@ -1,6 +1,7 @@
 {
     "id" : "240324",
     "type" : "blog",
+    "langs" : "[한국어] [日本語] [ESP] [ENG]",
     "date" : "2024年3月24日",
     "color" : "#c8c5c3",
     "title" : "FL Studioプラグインのwaifuを復活させる",

@@ -37,8 +37,13 @@ h2 {
 }
 
 h3 {
-  font-size: 12px;
+  font-size: 14px;
   padding-left: 0.5rem;
+}
+
+h4 {
+  font-size: 12px;
+  float: right;
 }
 
 p {
@@ -264,7 +269,7 @@ iframe {
   transform: scale(1.03);
 }
 
-.caja h2, .caja h3 {
+.caja h2, .caja h3, .caja h4 {
   display: inline;
   line-height: 1rem;
   margin: 0;

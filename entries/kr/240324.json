@@ -1,6 +1,7 @@
 {
     "id" : "240324",
     "type" : "blog",
+    "langs" : "[한국어] [日本語] [ESP] [ENG]",
     "date" : "2024년 3월 24일",
     "color" : "#c8c5c3",
     "title" : "FL Studio 플러그인의 와이프를 되돌리다",

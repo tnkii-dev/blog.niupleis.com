@@ -133,12 +133,16 @@ function loadContent() {
               var h3 = document.createElement('h3');
               h3.textContent = data.date;
               h3.style.color = data.color;
+              var h4 = document.createElement('h4');
+              h4.textContent = data.langs;
+              h4.style.color = data.color;
               var p = document.createElement('p');
               p.textContent = data.summary;
               p.style.color = data.color;
 
               caja.appendChild(h2);
               caja.appendChild(h3);
+              caja.appendChild(h4);
               caja.appendChild(p);
               cajas.appendChild(caja);
             }
@@ -146,18 +150,16 @@ function loadContent() {
             loadSequentially(index + 1);
           })
           .catch(error => console.error('Error al cargar el archivo JSON:', error));
-      }, 100); // Retraso de 100 ms entre cada carga
+      }, 50); // Retraso de 100 ms entre cada carga
     } else {
       loader.style.display = "none";
     }
   }
-
   // Inicia la carga secuencial
   loadSequentially(0);
 }
 
-
-function loadEntry() {
+function loadEntry(source) {
   let lang
 
   let cookieLang = getCookie('lang')
@@ -195,7 +197,13 @@ function loadEntry() {
   var menu = document.getElementById('langMenu')
 
   fetch(entryPath)
-    .then(response => response.json()) // Parsea la respuesta como JSON
+    .then(response => {// Parsea la respuesta como JSON
+      if (response.ok) {
+        return rsponse.json();
+      } else {
+        throw new Error("No hay traducciones disponibles");
+      }
+    })
     .then(data => {
       displayTitle.textContent = data.title;
       visibleTitle.textContent = data.title;
@@ -206,6 +214,23 @@ function loadEntry() {
       summary.style.color = data.color + 'd7';
       content.innerHTML = data.content;
       menu.style.border = '2px solid' + data.color;
+    })
+    .catch(error =>{
+      if (source == "translate") {
+        displayTitle.textContent = "Error al traducir";
+        visibleTitle.textContent = error;
+        date.textContent = "";
+        summary.textContent = "";
+        content.innerHTML = "<p>No translations available at this time</p><p>現在、翻訳は利用できません</p><p>현재 번역이 제공되지 않습니다</p>";
+        menu.style.display = 'none';
+      } else {
+        displayTitle.textContent = "Error al cargar";
+        visibleTitle.textContent = "Blog no encontrado";
+        date.textContent = "";
+        summary.textContent = "";
+        content.innerHTML = "<p>Post not found</p><p>投稿が見つかりません</p><p>게시물이 없습니다</p>";
+        menu.style.display = 'none';
+      }
     })
   if (lang == "es" || lang == "en") {
     document.body.style.fontFamily = 'Ysabeau';

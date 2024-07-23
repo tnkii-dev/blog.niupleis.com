@@ -1,6 +1,7 @@
 {
     "id" : "240323",
     "type" : "dev",
+    "langs" : "[한국어] [日本語] [ESP] [ENG]",
     "date" : "2024年3月23日",
     "color" : "#efb810",
     "title" : "Project Acordes",
