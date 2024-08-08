@@ -1,17 +1,20 @@
 function toggleMenu() {
-  var sideMenu = document.getElementById('sideMenu');
-  sideMenu.classList.toggle('show');
+  navegar = document.getElementById('Navegar');
+  icon = document.getElementById('menuIcon');
+  navegar.classList.toggle('move');
+  icon.classList.toggle('menuActive');
 }
 
-function langSelection() {
-  var langMenu = document.getElementById('langMenu');
-  langMenu.classList.toggle('show');
-  var bioDisplay = document.getElementById('bioDisplay');
-  bioDisplay.classList.toggle('show');
+function toggleBio() {
+  bio = document.getElementById('bioDisplay');
+  bio.classList.toggle('move');
 }
 
-function isDesktop() {
-  return window.innerWidth > 719;
+function toggleLang() {
+  lang = document.getElementById('Lang');
+  icon = document.getElementById('langIcon');
+  lang.classList.toggle('move');
+  icon.classList.toggle('langActive');
 }
 
 function setFilter(filtro) {
@@ -40,19 +43,6 @@ function setCookie(nombre, valor, expiracionEnDias, source) {
   }
 }
 
-function getCookie(nombre) {
-  nombreCookie = nombre + '=';
-  cookies = document.cookie.split(';');
-
-  for (i = 0; i < cookies.length; i++) {
-    cookie = cookies[i].trim();
-    if (cookie.indexOf(nombreCookie) === 0) {
-      return cookie.substring(nombreCookie.length, cookie.length);
-    }
-  }
-  return null;
-};
-
 function checkCookie(cookieName) {
   const cookies = document.cookie.split(';');
   for (let i = 0; i < cookies.length; i++) {
@@ -64,109 +54,81 @@ function checkCookie(cookieName) {
   return false;
 }
 
-function loadContent() {
-  var loader = document.getElementById("load");
-  loader.style.display = "flex";
-
-  var filter = document.getElementById("filter"); filter.style.display = "none";
-  var filterS = document.getElementById("filterS"); filterS.style.display = "flex";
-  var reload = document.getElementById("reload"); reload.style.display = "none";
-  var reloadS = document.getElementById("reloadS"); reloadS.style.display = "inline";
-  
-  let lang
-
-  let cookieLang = getCookie('lang')
-
+function setCookie(nombre, valor, expiracionEnDias) {
   var url = new URL(window.location.href);
   var params = url.searchParams;
-  var urlLang = params.get('lang');
+  var cookie = params.get('noCookie');
 
-  if (cookieLang && !urlLang) {
-    lang = cookieLang;
-  }
-  else if (urlLang) {
-    lang = urlLang;
-    setCookie(lang, urlLang, 7)
-  }
-  else if (cookieLang) {
-    lang = cookieLang;
-  }
-  else {
-    lang = 'es'
-  }
+  fechaExpiracion = new Date();
+  fechaExpiracion.setDate(fechaExpiracion.getDate() + expiracionEnDias);
 
-  var filter = params.get('filter');
-  var cajas = document.getElementById('cajas');
-  const contents = [
-    "240722",
-    "240703",
-    "240628",
-    "240622",
-    "240613",
-    "240609",
-    "240511",
-    "240423",
-    "240416",
-    "240414",
-    "240406",
-    "240324",
-    "240323",
-    "240322",
-    "231216",
-    "231203",
-    "231115"
-  ];
-  while (cajas.firstChild) {
-    cajas.removeChild(cajas.firstChild);
+  cookie = nombre + '=' + valor + '; expires=' + fechaExpiracion.toUTCString() + '; path=/';
+  document.cookie = cookie;
+  console.log('cookie creada: ' + nombre + " " + valor)
+
+  if (nombre == "lang") {
+    url.searchParams.set('lang', valor);
+    window.history.replaceState({}, '', url);
+    translate();
   }
+  if (cookie == "true") {
+    delCookie('lang')
+    delCookie('cookiesEnabled')
+  }
+}
 
-  // Define una función para cargar los contenidos con un retraso entre cada uno
-  function loadSequentially(index) {
-    if (index < contents.length) {
-      setTimeout(() => {
-        entryPath = 'entries/' + lang + '/' + contents[index] + '.json';
-        fetch(entryPath)
-          .then(response => response.json())
-          .then(data => {
-            if (filter == "all" || data.type == filter) {
-              var caja = document.createElement('a');
-              caja.className = 'caja';
-              caja.style = "border: 2px dashed" + data.color + ";";
-              caja.href = 'entries/entry.html?id=' + data.id;
-              var h2 = document.createElement('h2');
-              h2.textContent = data.title;
-              h2.style.color = data.color;
-              var h3 = document.createElement('h3');
-              h3.textContent = data.date;
-              h3.style.color = data.color;
-              var h4 = document.createElement('h4');
-              h4.textContent = data.langs;
-              h4.style.color = data.color;
-              var p = document.createElement('p');
-              p.textContent = data.summary;
-              p.style.color = data.color;
+function getCookie(nombre) {
+  nombreCookie = nombre + '=';
+  cookies = document.cookie.split(';');
 
-              caja.appendChild(h2);
-              caja.appendChild(h3);
-              caja.appendChild(h4);
-              caja.appendChild(p);
-              cajas.appendChild(caja);
-            }
-            // Llama recursivamente a la función para cargar el siguiente contenido
-            loadSequentially(index + 1);
-          })
-          .catch(error => console.error('Error al cargar el archivo JSON:', error));
-      }, 10); // Retraso de 100 ms entre cada carga
-    } else {
-      loader.style.display = "none";
-      filter = document.getElementById("filter"); filter.style.display = "flex";
-      filterS = document.getElementById("filterS"); filterS.style.display = "none";
-      reload = document.getElementById("reload"); reload.style.display = "inline";
-      reloadS = document.getElementById("reloadS"); reloadS.style.display = "none";
+  for (i = 0; i < cookies.length; i++) {
+    cookie = cookies[i].trim();
+    if (cookie.indexOf(nombreCookie) === 0) {
+      return cookie.substring(nombreCookie.length, cookie.length);
     }
   }
-  // Inicia la carga secuencial
-  loadSequentially(0);
+
+  return null;
+}
+
+function delCookie(nombre) {
+  document.cookie = nombre + '=' + '.' + '; expires=Thu, 1 Jan 1970 00:00:01 GMT; path=/';
+  console.log("deleted Cookie: " + nombre)
+}
+
+function rejectCookie() {
+  delCookie('lang')
+  delCookie('cookiesEnabled')
+  var menu = document.getElementById("cookies");
+  menu.classList.toggle("hideCookie")
+
+  var url = new URL(window.location.href);
+  url.searchParams.set('noCookie', "true");
+  window.history.replaceState({}, '', url);
+}
+
+function hideCookie() {
+  var menu = document.getElementById("cookies");
+  menu.classList.toggle("hideCookie")
+
+  var url = new URL(window.location.href);
+  url.searchParams.delete('noCookie')
+  var lang = url.searchParams.get('lang')
+  window.history.replaceState({}, '', url);
+
+  setCookie('lang', lang, 15)
+  setCookie('cookiesEnabled', 'true', 15)
+}
+
+function cookieInfo() {
+  var ck1 = document.getElementById("ck1")
+  var ck2 = document.getElementById("ck2")
+  var ck3 = document.getElementById("ck3")
+  var ck4 = document.getElementById("ck4")
+  ck1.classList.toggle('cock');
+  ck2.classList.toggle('cock');
+  ck3.classList.toggle('cock');
+  ck4.classList.toggle('cock');
 }
 
 function loadEntry(source) {
@@ -280,50 +242,60 @@ function translate() {
 
   langPath = 'lang/' + lang + '.json'
 
-  var displayName = document.getElementById("displayName")
-  //var archivo = document.getElementById("archivo")
-  var cookies1 = document.getElementById("cookies1")
-  var cookies2 = document.getElementById("cookies2")
-  var langDisclaimer = document.getElementById("langDisclaimer")
-  var bio = document.getElementById("bio")
-  var bio2 = document.getElementById("bio2")
-  var wellcome = document.getElementById("wellcome")
-  var all = document.getElementById("all")
-  var news = document.getElementById("news")
-  var waifu = document.getElementById("waifu")
-  var art = document.getElementById("art")
-  var dev = document.getElementById("dev")
-  var gaming = document.getElementById("gaming")
-  var allS = document.getElementById("allS")
-  var newsS = document.getElementById("newsS")
-  var waifuS = document.getElementById("waifuS")
-  var artS = document.getElementById("artS")
-  var devS = document.getElementById("devS")
-  var gamingS = document.getElementById("gamingS")
+  var displayName = document.getElementById("displayName");
+  var text_delCookies = document.getElementById("text_delCookies");
+  var bio = document.getElementById("bio");
+  var text_bio = document.getElementById("text_bio");
+  var text_wellcome = document.getElementById("text_wellcome");
+  var all = document.getElementById("all");
+  var news = document.getElementById("news");
+  var waifu = document.getElementById("waifu");
+  var art = document.getElementById("art");
+  var dev = document.getElementById("dev");
+  var gaming = document.getElementById("gaming");
+  
+  var allS = document.getElementById("allS");
+  var newsS = document.getElementById("newsS");
+  var waifuS = document.getElementById("waifuS");
+  var artS = document.getElementById("artS");
+  var devS = document.getElementById("devS");
+  var gamingS = document.getElementById("gamingS");
+
+  var text_cookieInfo = document.getElementById("text_cookieInfo");
+  var text_rejectCookie = document.getElementById("text_rejectCookie");
+  var text_acceptCookie = document.getElementById("text_acceptCookie");
+  var text_cookiesInfo = document.getElementById("text_cookiesInfo");
+  var text_infoCookies = document.getElementById("text_infoCookies");
+  var text_cookiesInfoNt = document.getElementById("text_cookiesInfoNt");
 
   fetch(langPath)
     .then(response => response.json())
     .then(data => {
-      displayName.textContent = data.displayName
-      //archivo.textContent = data.archivo
-      cookies1.textContent = data.cookies1
-      cookies2.innerHTML = data.cookies2
-      langDisclaimer.textContent = data.langDisclaimer
-      bio.textContent = data.bio
-      bio2.innerHTML = data.bio2
-      wellcome.textContent = data.wellcome
-      all.textContent = data.all
-      news.textContent = data.news
-      waifu.textContent = data.waifu
-      art.textContent = data.art
-      dev.textContent = data.dev
-      gaming.textContent = data.gaming
-      allS.textContent = data.all
-      newsS.textContent = data.news
-      waifuS.textContent = data.waifu
-      artS.textContent = data.art
-      devS.textContent = data.dev
-      gamingS.textContent = data.gaming
+      displayName.textContent = data.displayName;
+      text_delCookies.textContent = data.text_delCookies;
+      bio.innerHTML = data.bio;
+      text_bio.innerHTML = data.text_bio;
+      text_wellcome.textContent = data.text_wellcome;
+      all.textContent = data.all;
+      news.textContent = data.news;
+      waifu.textContent = data.waifu;
+      art.textContent = data.art;
+      dev.textContent = data.dev;
+      gaming.textContent = data.gaming;
+
+      allS.textContent = data.all;
+      newsS.textContent = data.news;
+      waifuS.textContent = data.waifu;
+      artS.textContent = data.art;
+      devS.textContent = data.dev;
+      gamingS.textContent = data.gaming;
+
+      text_cookieInfo.innerHTML = data.text_cookieInfo;
+      text_rejectCookie.innerHTML = data.text_rejectCookie;
+      text_acceptCookie.innerHTML = data.text_acceptCookie;
+      text_cookiesInfo.innerHTML = data.text_cookiesInfo;
+      text_infoCookies.innerHTML = data.text_infoCookies;
+      text_cookiesInfoNt.innerHTML = data.text_cookiesInfoNt;
     });
   if (lang == "es" || lang == "en") {
     document.body.style.fontFamily = 'Ysabeau';

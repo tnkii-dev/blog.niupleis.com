@@ -3,34 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" media="only screen and (max-width: 719px)" content="width=device-width, initial-scale=0.9">
 
     <link rel="canonical" href="https://blog.niuplies.com/">
   
     <title id="displayName">tnkii > blog de niupleis</title>
-    <meta name="description" content=" Proceso creativo, Info del proyecto niupleis, Cultura de Internet, behind the scenes, out takes, blog, tnkii, idol wannabe">
+    <meta name="description" content="blog del Proyecto niupleis: PunkSuteki, idol_wannabe, tnkii">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="only screen and (max-width: 719px)" href="css/styleM.css">
-
+    <link rel="stylesheet" href="css/gStyle.css">
     <link rel="stylesheet" href="css/fonts.css">
-
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <meta name="keywords" content="PCG blog, música pop, cultura pop, eventos especiales, entrevistas, bastidores de PCG, novedades musicales, experiencias virtuales, tecnología en la música, artistas virtuales, idols virtuales, fanarts, colaboraciones musicales, actualizaciones de proyectos, Niupleis noticias">
+    <meta name="keywords" content="Punk Suteki, música pop, cultura pop, eventos especiales, entrevistas, bastidores de PCG, novedades musicales, experiencias virtuales, tecnología en la música, artistas virtuales, idols virtuales, fanarts, colaboraciones musicales, actualizaciones de proyectos, Niupleis noticias">
     <meta name="author" content="tnkii">
     <meta name="robots" content="index, follow">
-    
+
     <script src="js/script.js"></script>
+    <script src="js/loadContent.js"></script>
 </head>
 
-<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) >
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYH6G11CJK"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-BYH6G11CJK');
-</script>
+</script-->
 
 <body>
   <script>
@@ -48,40 +46,29 @@
       window.history.replaceState({}, '', url);
     }
   </script>
-  <header class="navbar">
-    <nav id="lang" onclick="langSelection()">⊕</nav>
-    <img id="logo" src="images/blogLogo_anim.gif"/>
-    <nav id="menu" onclick="toggleMenu()">≡</nav>
-  </header>
 
-  <aside class="side-menu" id="sideMenu">
+  <nav>
+    <img src="images/iconLang.png" class="icon" id="langIcon" onclick="toggleLang()">
+    <img src="images/blogLogo_anim.gif" style="height: 95%;">
+    <img src="images/iconMenu.png" class="icon" id="menuIcon" onclick="toggleMenu()">
+  </nav>
+
+  <aside id="Navegar">
     <a href="http://www.niupleis.com">niupleis.com ↗</a><br>
-    <!--a id="archivo" href="archivo/">archivo</a>
-    <div class="section">
-      <a href="archivo/español/">├ español</a><br>
-      <a href="archivo/english/">├ english</a><br>
-      <a href="archivo/한국어/">├ 한국어</a><br>
-      <a href="archivo/日本語/">└ 日本語</a>
-    </div-->
-    <br><p id="cookies1" style="color: #ff0;">Se utilizan cookies para guardar configuración de idioma</p>
-    <code id="cookies2" style="font-size: 12px;font-style: italic">
-      //nombre de la cookie 'lang', codigo de idioma y guardar por 7 dias<br>
-      setCookie('lang', '??', 7)<br>
-    </code>
-    <br><p id="langDisclaimer" style="color: #ff0;">Las traducciones son hechas usando chat-gpt</p>
   </aside>
 
-  <aside class="lang-menu" id="langMenu">
-    <a onclick="setCookie('lang', 'kr', 7, 'root')">한국어</a>
-    <a onclick="setCookie('lang', 'jp', 7, 'root')">日本語</a><br>
-    <a onclick="setCookie('lang', 'es', 7, 'root')">español</a>
-    <a onclick="setCookie('lang', 'en', 7, 'root')">english</a>
-    <a style="display: none;">♡♡</a>
+  <aside id="Lang">
+    <a onclick="setCookie('lang', 'kr', 7);loadContent()" style="font-family: 'Hahmlet';">한국어</a> •
+    <a onclick="setCookie('lang', 'jp', 7);loadContent()" style="font-family: 'Sawarabi Gothic';">日本語</a><br>
+    <a onclick="setCookie('lang', 'es', 7);loadContent()">Español</a> •
+    <a onclick="setCookie('lang', 'en', 7);loadContent()">English</a><br>
+
+    <br><a onclick="delCookie('lang'); delCookie('cookiesEnabled'); var url = new URL(window.location.href); url.searchParams.set('noCookie', 'true'); window.history.replaceState({}, '', url);" id="text_delCookies">BORRAR COOKIES</a>
   </aside>
 
-  <div class="bio" id="bioDisplay">
-    <h1 id="bio">Biografía</h1>
-    <p id="bio2">Aquí se comparten muchas cosas, principalmente documento las cosas que aprendo pero también otras cosas y
+  <aside class="bio" id="bioDisplay">
+    <h1 id="bio">Biografía <a onclick="toggleBio()">✕</a></h1>
+    <div id="text_bio"><p>Aquí se comparten muchas cosas, principalmente documento las cosas que aprendo pero también otras cosas y
       hobbies que tengo.<br><br>
       Soy ilustrador, centrado en el estilo de anime. Conpongo y produzco música aunque de momento no tengo canciones
       públicadas, soy aprendíz de piano y violín.<br><br>
@@ -96,45 +83,103 @@
       también musica que tiene que ver con anime, pero principalmente escucho Vocaloid y K-Pop.<br><br>
       Soy estudiante universitario pero también estudio por mi cuenta, estudio materias que tienen que ver con mis
       intereses y algunas ciencias exactas: Matemáticas, Física, Astronomía y Ciencia de computadoras.
-    </p>
-  </div>
+    </p></div>
+  </aside>
 
-  <div class="content">
+  <main>
+    <header class="banner">
+      <h1 id="text_wellcome">Hey, bienvenido a mi blog!</h1>
+      <h2>tnkii<a onclick="toggleBio()">ⓘ</a></h2>
+    </header>
 
-    <div class="banner">
-    <img src="images/blogBanner.webp">
-    <h1 id="wellcome">hey, bienvenido a mi blog!</h1>
-    <h2>-tnkii</h2>
-    </div><br>
+    <div class="hr">× × × × × × × × × × × × × × × × × × × × × × × × × × × × × ×</div>
 
-    <div class="filter" id="filter">
-      <a id="all" onclick="setFilter('all')">todo</a><a id="sep" style="font-size: 12px;">•</a>
-      <a onclick="setFilter('blog')">blog</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="news" onclick="setFilter('niupleis')">novedades</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="waifu" onclick="setFilter('waifu')">waifus</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="art" onclick="setFilter('art')">arte</a><a id="sep" style="font-size: 12px;">•</a>
-      <a onclick="setFilter('youtube')">youtube</a><a id="sep" style="font-size: 12px;">•</a>
-      <a id="dev" onclick="setFilter('dev')">desarrollo</a><a id="sep" style="font-size: 12px;">•</a>
+    <section class="momos" id="momos"></section>
+
+    <div class="hr">× × × × × × × × × × × × × × × × × × × × × × × × × × × × × ×</div>
+
+    <section class="filter" id="filter">
+      <a id="all" onclick="setFilter('all')">todo</a><!--a class="sep">•</a-->
+      <a id="blog" onclick="setFilter('blog')">blog</a><!--a class="sep">•</a-->
+      <a id="news" onclick="setFilter('niupleis')">novedades</a><!--a class="sep">•</a-->
+      <a id="waifu" onclick="setFilter('waifu')">waifus</a><!--a class="sep">•</a-->
+      <a id="art" onclick="setFilter('art')">arte</a><!--a class="sep">•</a-->
+      <a id="yt" onclick="setFilter('youtube')">youtube</a><!--a class="sep">•</a-->
+      <a id="dev" onclick="setFilter('dev')">desarrollo</a><!--a class="sep">•</a-->
       <a id="gaming" onclick="setFilter('gaming')">gaming</a>
+    </section>
+    <div class="filter" id="filterS"><a id="allS" onclick="setFilter('all')">todo</a><!--a class="sep">•</a--><a id="blogS" onclick="setFilter('blog')">blog</a><!--a class="sep">•</a--><a id="newsS" onclick="setFilter('niupleis')">novedades</a><!--a class="sep">•</a--><a id="waifuS" onclick="setFilter('waifu')">waifus</a><!--a class="sep">•</a--><a id="artS" onclick="setFilter('art')">arte</a><!--a class="sep">•</a--><a id="ytS" onclick="setFilter('youtube')">youtube</a><!--a class="sep">•</a--><a id="devS" onclick="setFilter('dev')">desarrollo</a><!--a class="sep">•</a--><a id="gamingS" onclick="setFilter('gaming')">gaming</a></div>
+    <a id="reload" class="reload" onclick="loadContent()">↻</a><a id="reloadS" class="reload" onclick="loadContent()">↻</a>
+
+    <section id="cajas"></section>
+    <section id="load"><img class="loader" src="../images/loadingIcon.png"></section>
+
+    <div class="hr">× × × × × × × × × × × × × × × × × × × × × × × × × × × × × ×</div>
+  </main>
+
+  <aside id="cookies">
+    <h1 id="ck1">Cookies</h1>
+    <div class="cookieDiv" id="ck2">
+      <p id="text_cookieInfo">Se usan cookies para guardar configuración de Idioma</p>
+      <img>
     </div>
-      <div class="filter" id="filterS"><a id="allS" style="cursor: not-allowed; color:#888;">todo</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a style="cursor: not-allowed; color:#888;">blog</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="newsS" style="cursor: not-allowed; color:#888;">novedades</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="waifuS" style="cursor: not-allowed; color:#888;">waifus</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="artS" style="cursor: not-allowed; color:#888;">arte</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a style="cursor: not-allowed; color:#888;">youtube</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="devS" style="cursor: not-allowed; color:#888;">desarrollo</a><a id="sep" style="font-size: 12px; cursor: not-allowed; color:#888;">•</a><a id="gamingS" style="cursor: not-allowed; color:#888;">gaming</a></div><a id="reload" onclick="loadContent()" class="reload">↻</a>
-    <a id="reloadS" class="reload" style="cursor: not-allowed; color:#888;">↻</a>
+    <div id="ck3">
+      <button class="reject" onclick="rejectCookie()" id="text_rejectCookie">RECHAZAR</button>
+      <button class="accept" onclick="hideCookie()" id="text_acceptCookie">ACEPTAR</button>
+    </div>
+    <div id="ck4"><a onclick="cookieInfo()" id="text_cookiesInfo">Más información</a></div>
+    <div><p id="text_infoCookies" style="width: 90%; font-size:13px;">Se guardan <span style="color:#ff0;">2</span> cookies con nombres: "lang" & "cookiesEnabled".
+      <br>Si aceptas por error o deseas borar las cookies puedes pulsar <span style="color:#d750ff;">BORRAR COOKIES</span> en el menú de idiomas o tambien puedes
+      usar los comandos <code>delCookie("lang")</code> & <code>delCookie("cookiesEnabled")</code> respectivamente en la consola de tu navegador</p>
+    </div>
+    <div><a onclick="cookieInfo()" id="text_cookiesInfoNt">CERRAR</a></div>
+    <script>
+      var url = new URL(window.location.href);  var cookie = url.searchParams.get('noCookie');
+      if (cookie == "true" || getCookie('cookiesEnabled') == "true") {
+        var menu = document.getElementById("cookies"); menu.classList.toggle("hideCookie");
+      }
+    </script>
+  </aside>
 
-    <br><div id="cajas"></div>
-    <div id="load"><img class="loader" src="../images/loadingIcon.png"></div>
-  </div>
+  <footer style="margin-top: 6rem;">
+    <section style="align-content: start; padding-top: 2rem;">
+      <svg id="svg" xmlns="https://www.w3.org/2000/svg" version="1.0" width="144" height="144" viewBox="0 0 800.000000 800.000000" preserveAspectRatio="xMidYMid meet">
+        <g id="logo" transform="translate(0.000000,800.000000) scale(0.100000,-0.100000)" fill="#d750ff" stroke="none">
+          <path d="M1870 5914 c-751 -851 -1377 -1561 -1393 -1579 l-27 -34 872 -707 c480 -389 878 -711 885 -716 12 -9 -68 239 -332 1033 l-158 475 688 1390 c378 764 721 1455 761 1537 41 81 73 147 72 147 -2 0 -617 -696 -1368 -1546z"/>
+          <path d="M5575 6140 c296 -443 668 -998 826 -1235 l288 -430 -75 -1055 c-41 -580 -73 -1068 -72 -1084 2 -21 135 258 503 1053 275 595 501 1086 503 1091 2 6 -2012 1985 -2432 2389 -77 75 -70 63 459 -729z"/>
+          <path d="M2888 3192 c-267 -1467 -485 -2667 -485 -2668 4 -2 3979 1175 3984 1179 2 3 -109 450 -248 994 l-252 989 -1229 1065 c-676 585 -1242 1074 -1257 1086 l-27 21 -486 -2666z"/>
+        </g>
+        <g id="heart" fill="#d750ff" stroke="none" transform="translate(160, 250) scale(5)">
+          <path d="M92.71,7.27L92.71,7.27c-9.71-9.69-25.46-9.69-35.18,0L50,14.79l-7.54-7.52C32.75-2.42,17-2.42,7.29,7.27v0 c-9.71,9.69-9.71,25.41,0,35.1L50,85l42.71-42.63C102.43,32.68,102.43,16.96,92.71,7.27z"></path>
+        </g>
+        <g id="pent" fill="#d750ff" stroke="none" transform="translate(96, 136) scale(0.05)">
+          <path d="M6345 12148 c-5 -14 -1046 -3267 -1151 -3598 -36 -113 -69 -216 -74 -230 -5 -14 -41 -126 -80 -250 -39 -124 -75 -236 -80 -250 -5 -14 -41 -126 -80 -250 -39 -124 -75 -236 -80 -250 -27 -76 -600 -1878 -599 -1886 0 -15 481 -396 489 -387 4 4 41 116 83 248 142 451 398 1260 497 1570 54 171 171 540 260 820 89 281 219 692 290 915 355 1120 450 1421 472 1492 13 43 25 78 28 78 3 0 189 -552 414 -1226 l408 -1226 207 6 c113 4 272 9 352 12 l146 6 -63 192 c-34 105 -103 316 -153 469 -168 511 -270 825 -360 1100 -49 149 -207 632 -351 1072 -144 440 -301 922 -350 1070 -49 149 -106 324 -127 390 -36 112 -41 120 -66 123 -16 2 -29 -2 -32 -10z"></path>
+          <path d="M6840 11297 c0 -9 198 -659 203 -663 2 -3 61 -13 130 -24 652 -100 1260 -320 1832 -663 583 -349 1122 -856 1527 -1434 110 -157 259 -405 338 -563 34 -69 64 -127 67 -130 5 -5 502 -28 635 -29 l87 -1 -40 93 c-417 960 -1076 1775 -1924 2382 -569 407 -1230 711 -1911 879 -263 65 -589 120 -829 141 -38 3 -80 8 -92 11 -13 2 -23 3 -23 1z"></path>
+          <path d="M5795 11279 c-560 -71 -996 -180 -1485 -373 -181 -72 -583 -269 -755 -371 -1086 -642 -1919 -1611 -2387 -2775 -28 -69 -52 -131 -55 -137 -4 -10 69 -13 346 -13 260 0 351 3 351 12 0 19 191 404 260 523 412 717 1006 1332 1705 1767 554 345 1150 570 1810 684 83 14 151 26 152 27 0 1 40 133 88 292 47 160 92 309 100 333 l14 42 -37 -1 c-20 -1 -68 -6 -107 -10z"></path>
+          <path d="M11955 7689 c-473 -8 -1429 -24 -2315 -39 -327 -6 -858 -14 -1180 -20 -1121 -19 -1868 -31 -2337 -39 -260 -4 -475 -10 -478 -13 -10 -10 -177 -580 -171 -585 6 -6 1375 8 4635 48 485 5 885 9 886 7 3 -3 -2210 -1639 -2258 -1670 -7 -4 18 -114 69 -308 43 -166 82 -307 86 -312 3 -7 68 35 160 103 84 62 810 602 1613 1199 803 597 1612 1198 1797 1335 299 222 337 253 338 278 l0 27 -212 -2 c-117 -1 -402 -5 -633 -9z"></path>
+          <path d="M4550 7563 c-47 -1 -395 -7 -775 -13 -379 -6 -953 -15 -1275 -20 -322 -6 -850 -14 -1175 -20 -324 -5 -755 -13 -957 -16 l-368 -7 0 -27 c0 -24 134 -122 1368 -1000 752 -535 2052 -1461 2890 -2058 837 -596 1528 -1082 1535 -1079 17 6 532 407 534 415 1 4 -173 133 -386 287 -213 154 -1205 874 -2204 1600 l-1818 1320 573 7 c315 4 905 11 1310 16 406 5 741 11 744 14 7 8 174 558 174 575 0 9 -13 12 -42 11 -24 -1 -81 -3 -128 -5z"></path>
+          <path d="M7765 6920 c-104 -4 -227 -8 -272 -9 l-81 -1 868 -2605 c478 -1433 867 -2605 864 -2605 -3 0 -1860 1347 -2086 1513 l-28 21 -290 -194 c-229 -153 -288 -196 -278 -206 7 -6 735 -526 1618 -1155 883 -628 1755 -1250 1939 -1381 184 -131 335 -237 337 -235 2 2 -209 651 -825 2532 -33 99 -137 416 -231 705 -94 289 -211 647 -260 795 -49 149 -129 394 -179 545 -49 151 -130 400 -180 552 -50 153 -131 401 -180 550 -49 150 -130 397 -180 548 -49 151 -116 356 -148 455 l-59 180 -80 1 c-43 0 -164 -2 -269 -6z"></path>
+          <path d="M11665 6711 c-144 -97 -271 -184 -284 -193 l-24 -17 16 -123 c63 -461 69 -866 21 -1283 -68 -601 -233 -1154 -504 -1690 -239 -472 -525 -872 -908 -1266 l-138 -142 94 -341 c51 -187 95 -342 97 -344 7 -8 279 244 435 404 837 858 1375 1951 1544 3137 43 297 51 431 51 822 0 449 -25 716 -101 1089 -13 65 -24 120 -24 122 0 10 -34 -11 -275 -175z"></path>
+          <path d="M855 6677 c-35 -165 -74 -539 -84 -811 -15 -385 6 -726 65 -1105 182 -1157 738 -2250 1567 -3084 163 -164 315 -302 323 -295 5 6 204 657 204 670 0 5 -61 71 -135 148 -746 778 -1214 1766 -1349 2845 -41 327 -46 829 -12 1140 9 76 12 142 8 146 -4 3 -136 88 -295 187 -261 164 -287 178 -292 159z"></path>
+          <path d="M5800 3210 c-1207 -890 -2196 -1618 -2197 -1616 -2 1 63 209 143 462 634 1997 662 2088 658 2096 -6 9 -506 350 -509 346 -4 -5 -1435 -4484 -1435 -4492 0 -42 172 82 2702 1964 1454 1081 2725 2026 2825 2100 100 74 182 141 183 148 0 13 -167 602 -172 608 -2 1 -991 -726 -2198 -1616z"></path>
+          <path d="M3937 938 c-163 -112 -297 -206 -297 -209 0 -9 431 -222 555 -274 1446 -611 3053 -606 4480 15 145 63 515 250 515 260 0 9 -576 410 -588 410 -5 0 -74 -29 -153 -64 -527 -234 -1078 -371 -1671 -417 -227 -17 -714 -7 -933 20 -540 65 -1049 207 -1500 416 -54 25 -101 45 -104 45 -4 0 -140 -91 -304 -202z"></path>
+        </g>
+      </svg>
+      <div id="psps"></div>
+    </section>
+    <section>
+      <h1>Links</h1>
+      <a href="https://www.niupleis.com/" target="_blank"><img src="images/niupleis.png">‎ niupleis.com</a>
+      <a href="https://github.com/tnkii-dev" target="_blank"><img src="images/github.png">‎ tnkii-dev</a>
+      <a href="https://www.instagram.com/niupleis" target="_blank"><img src="images/instagram.png">‎ niupleis</a>
+      <a href="https://x.com/ido1_wannabe" target="_blank"><img src="images/twitter.png">‎ tnkii</a>
+      <a href="https://youtube.com/@idol_wannabe" target="_blank"><img src="images/youtube.png">‎ Idol Wannabe</a>
+      <a href="https://youtube.com/@PunkSuteki" target="_blank"><img src="images/youtube.png">‎ PunkSuteki</a>
+      <a href="https://youtube.com/@niupleis" target="_blank"><img src="images/youtube.png">‎ niupleis</a>
+    </section>
+  </footer>
 
-  <script>
-    if (isDesktop()) {
-      toggleMenu();
-      langSelection();
-    }
-  </script>
-
-  <script>
-    translate()
-    loadContent()
-  </script>
+  <script>translate();loadContent()</script>
   <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
   <script>
     kofiWidgetOverlay.draw('niupleis', {

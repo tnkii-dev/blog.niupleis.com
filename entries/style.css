@@ -2,6 +2,10 @@ body {
   background-color: #000000;
 }
 
+main {
+  margin-bottom: 64px;
+}
+
 * {
   color: #d7d7d7;
   font-family: 'Ysabeau', sans-serif;
@@ -98,6 +102,7 @@ code {
   font-family: 'Hahmlet', 'sans-serif';
 }
 
+
 .lang-menu {
   position: fixed;
   bottom: 40px;
@@ -122,6 +127,7 @@ code {
 .lang-menu a:hover {
   text-decoration: underline;
 }
+
 @media (max-width: 1024px) {
   .lang-menu a {
     font-size: 1.75rem;
