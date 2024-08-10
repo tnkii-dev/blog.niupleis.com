@@ -142,7 +142,7 @@ header h2 {
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
-  margin-block: 5px;
+  margin-block: 7px;
   transition: 0.1s all linear;
 }
 .caja:hover {background-color: #00000044;}
@@ -172,4 +172,14 @@ header h2 {
 #load {
   display: flex;
   justify-content: center;
+}
+
+fieldset {
+  min-height: 5rem;
+  border: 2px solid #888;
+  border-radius: 10px;
+  margin-block: 5px;
+}
+legend {
+  color: #888;
 }

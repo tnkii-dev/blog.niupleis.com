@@ -50,6 +50,7 @@ function loadContent() {
   
           link.appendChild(image);
           momos.appendChild(link);
+
           showMemes(index + 1)
         }, 10);
       }
@@ -97,8 +98,17 @@ function loadContent() {
 
                 cajas.appendChild(caja);
               }
-              // Llama recursivamente a la función para cargar el siguiente contenido
-              loadSequentially(index + 1);
+
+              var ad = document.createElement("fieldset");
+              var notice = document.createElement("legend");
+              notice.textContent = "Sponsored"
+              ad.appendChild(notice);
+              
+              if (adCount == 10) {
+                //cajas.appendChild(ad);
+                adCount = 0
+              }
+              loadSequentially(index + 1, adCount + 1);
             })
         }, 10); // Retraso de 100 ms entre cada carga
       } else {
@@ -109,6 +119,6 @@ function loadContent() {
         reloadS = document.getElementById("reloadS"); reloadS.style.display = "none";
       }
     }
-    loadSequentially(0);
+    loadSequentially(0, 1);
   })
 }
