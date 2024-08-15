@@ -58,6 +58,11 @@ function loadContent() {
     showMemes(0);
   })
 
+  var ad = document.createElement("fieldset");
+  var notice = document.createElement("legend");
+  notice.textContent = "Sponsored"
+  ad.appendChild(notice);
+
   var filter = params.get('filter');
   var cajas = document.getElementById('cajas');
   while (cajas.firstChild) {
@@ -98,11 +103,6 @@ function loadContent() {
 
                 cajas.appendChild(caja);
               }
-
-              var ad = document.createElement("fieldset");
-              var notice = document.createElement("legend");
-              notice.textContent = "Sponsored"
-              ad.appendChild(notice);
               
               if (adCount == 10) {
                 //cajas.appendChild(ad);
