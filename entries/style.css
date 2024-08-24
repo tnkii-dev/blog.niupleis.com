@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #080008;
 }
 
 main {
@@ -20,6 +20,7 @@ h1 {
 
 h2 {
   font-size: 64px;
+	font-family: monospace;
 }
 
 h3 {
