@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>404 NOT FOUND</title>
+	<meta name="author" content="tnkii">
+	<meta name="description" content="error 404">
+
+	<link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" href="/favicon.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg">	
+	<link rel="canonical" href="https://niupleis.com/404">
+	<style>
+		html, body {display:flex;background-color:#000;justify-content:center;overflow:hidden;}
+		* {color:#f42069;font-family:monospace;}
+		h1 {font-size:5rem;position:absolute;text-shadow:0 0 20px #f42069;z-index:999;}
+		img {position:absolute;height:99vh;z-index:998;}
+	</style>
+</head>
+
+<body>
+	<h1>404 Not Found</h1>
+	<img src="/images/MaidChan404.webp">
+	<main id="main" style="width:120%;filter:blur(3px);"></main>
+
+<script>
+function rnd() {
+var main = document.getElementById("main");
+main.innerHTML = "";
+var w = window.innerWidth;
+var h = window.innerHeight;
+for (let i = 0; i <= 50; i++) {
+	var text = document.createElement("span");
+	text.className = "span"
+	text.style = "font-size:"+ (1 + Math.random()) +"rem;"
+	text.textContent= "Página no encontrada. ページが見つかりません。 Page Not Found. 페이지를 찾을 수 없습니다. "
+	main.appendChild(text);
+}};
+setInterval(rnd, 300);
+</script>
+</body>
+
+</html>
