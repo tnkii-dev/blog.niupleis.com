@@ -63,7 +63,7 @@
     <a onclick="setCookie('lang', 'es', 7);loadContent()">Español</a> •
     <a onclick="setCookie('lang', 'en', 7);loadContent()">English</a><br>
 
-    <br><a onclick="delCookie('lang'); delCookie('cookiesEnabled'); var url = new URL(window.location.href); url.searchParams.set('noCookie', 'true'); window.history.replaceState({}, '', url);" id="text_delCookies">BORRAR COOKIES</a>
+    <br><a onclick="delCookie('lang'); delCookie('cookiesEnabled'); alert('no cookies :)'); var url = new URL(window.location.href); url.searchParams.set('noCookie', 'true'); window.history.replaceState({}, '', url);" id="text_delCookies">BORRAR COOKIES</a>
   </aside>
 
   <aside class="bio" id="bioDisplay">
