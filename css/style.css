@@ -143,6 +143,11 @@ main {
 	border-radius: 6px;
 }
 
+.live-youtube {
+	padding: 15px !important;
+	background-color: var(--blog-color);
+}
+
 .live-audio {
 	background-color: var(--blog-color);
 }

@@ -146,6 +146,11 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 				log.classList = "live-video log-top"
 				log.innerHTML = `<video src="${item.content}" controls></video>${timestamp}`
 				break;
+			case ("yt"):
+				vn++
+				log.classList = "live-youtube log-top"
+				log.innerHTML = `${item.content}${timestamp}`
+				break;
 			default:
 				break;
 		};
