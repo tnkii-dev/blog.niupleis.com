@@ -107,6 +107,8 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 	const liveLog = document.getElementById("live-log");
 	liveLog.textContent = "";
 
+	let vn = 0;
+
 	fetch(`content/${lang}_live.json`)
 	.then(response => response.json())
 	.then(data => {
@@ -140,6 +142,7 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 				log.innerHTML = `<audio src="${item.content}" controls></audio>${timestamp}`
 				break;
 			case ("video"):
+				vn++
 				log.classList = "live-video log-top"
 				log.innerHTML = `<video src="${item.content}" controls></video>${timestamp}`
 				break;

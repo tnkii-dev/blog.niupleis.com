@@ -42,7 +42,7 @@ main {
 }
 
 main > img {
-	width: 80vh;
-	height: 80vh;
+	max-width: 80vw;
+	max-height: 80vh;
 	object-fit: contain;
 }

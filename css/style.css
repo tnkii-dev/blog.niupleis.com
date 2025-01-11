@@ -146,9 +146,6 @@ main {
 .live-audio {
 	background-color: var(--blog-color);
 }
-.live-audio audio {height: 2rem; filter: invert();}
-.live-audio audio::-webkit-media-controls-panel {background-color: #28af00;}
-.live-audio audio::-webkit-media-controls-enclosure {border-radius: 0;}
 
 .live-video {
 	padding: 15px !important;
@@ -159,6 +156,48 @@ main {
 	max-height: 400px;
 	border-radius: 6px;
 }
+
+audio {height: 2rem; filter: invert();}
+video {overflow: auto;}
+
+video::-webkit-media-controls-panel {
+	background: none !important;
+	filter: invert();
+}
+
+video::-webkit-media-controls-play-button {
+	display: flex;
+}
+
+audio::-webkit-media-controls-panel {background-color: #28af00;}
+audio::-webkit-media-controls-enclosure {border-radius: 0;}
+audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display {
+	font-family: monospace;
+	font-size: 12px;
+	text-shadow: none;
+}
+
+video::-webkit-media-controls-timeline, video::-webkit-media-controls-timeline-container {
+	padding: 0;
+	background-color: #28af00;
+	background-clip: content-box;
+}
+video::-webkit-media-controls-current-time-display, video::-webkit-media-controls-time-remaining-display {
+	font-family: monospace;
+	font-size: 12px;
+}
+
+
+/*video::-webkit-media-controls-play-button {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-pause-button {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-rewind-button {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-fast-forward-button {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-timeline {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-timeline-container {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-volume-slider {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-volume-slider-container {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-mute-button1 {background-color: var(--blog-color);background-clip: content-box;}
+video::-webkit-media-controls-fullscreen-button {background-color: var(--blog-color);background-clip: content-bo*/x;}
 
 
 /* ARTICLES --------------------------------------------------------- */
