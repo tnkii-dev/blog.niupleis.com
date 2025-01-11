@@ -102,7 +102,12 @@ function loadArticles() { // {"image" : ".jpg", "title" : "", "href" : "250109_"
 }
 
 function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" : "Hola!"},
-	meses = ["yuna", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+	let meses;
+	if (lang === "en") {
+		meses = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	} else {
+		meses = ["", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+	}
 
 	const liveLog = document.getElementById("live-log");
 	liveLog.textContent = "";
@@ -122,7 +127,25 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 		var h = (item.t.charAt(6) + item.t.charAt(7))
 		var n = (item.t.charAt(8) + item.t.charAt(9))
 
-		var timestamp = `<small class="${lang}" title="Este mensaje fué publicado el ${d} de ${meses[Number(m)]} de 20${y} a las ${h}:${n}">${y+m+d} ${h}:${n}</small>`
+		let timestamp;
+
+		switch (lang) {
+			case "es":
+				timestamp = `<small class="${lang}" title="Este mensaje fué publicado el ${d} de ${meses[Number(m)]} de 20${y} a las ${h}:${n}">${y+m+d} ${h}:${n}</small>`;
+				break;
+			case "en":
+				timestamp = `<small class="${lang}" title="This message was published on ${d} ${meses[Number(m)]}, 20${y} at ${h}:${n}">${y+m+d} ${h}:${n}</small>`;
+				break;
+			case "kr":
+				timestamp = `<small class="${lang}" title="이 메시지는 20${y}년 ${m}월 ${d}일 ${h}시 ${n}분에 게시되었습니다">${y+m+d} ${h}:${n}</small>`;
+				break;
+			case "jp":
+				timestamp = `<small class="${lang}" title="このメッセージは20${y}年${m}月${d}日 ${h}時${n}分に公開されました">${y+m+d} ${h}:${n}</small>`;
+				break;
+			case "cn":
+				timestamp = `<small class="${lang}" title="此消息发布于20${y}年${m}月${d}日 ${h}:${n}">${y+m+d} ${h}:${n}</small>`;
+				break;
+		}
 
 		switch (item.type) {
 			case ("message"):
