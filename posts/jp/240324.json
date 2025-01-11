@@ -1,0 +1,10 @@
+{
+    "id" : "240324",
+    "type" : "blog",
+    "langs" : "[한국어] [日本語] [ESP] [ENG]",
+    "date" : "2024年3月24日",
+    "color" : "#c8c5c3",
+    "title" : "FL Studioプラグインのwaifuを復活させる",
+    "summary" : "FL Studio 21では、HarmlessとHarmorからwaifuが削除されたため、私が追加しました",
+    "content" : "<p>今朝、FL Studioのイースターエッグに関するYouTube動画を見つけました。そのうちの1つは、'Harmless'と'Harmor'プラグインのクレジットで表示されるアートワークについてでした。動画には、FL Studioでそれらがもはや利用できないと記載されていました。私はそのことを知りませんでしたので、確認しましたが、本当でした。</p><p>私は誰も私のwaifuを取り上げることを許しませんので、プラグインのローカルファイルを見てみると、クレジットバナーが画像ファイルにあることが分かりました。これにより、それらを編集して昔のwaifu画像を戻すことが簡単にできました。</p><p>これは唯一の問題でした。低品質の画像しかありませんでした。もっと探す気はしませんでしたので、低品質のPNGをダウンロードして人工知能で拡大しました。それから、オリジナルのバナーを再作成してクレジットを追加し、新しいバナーをFL Studioのソースにインポートしました。そして、完璧に動作しました。</p><img src='images/240324_waifusDeFlStudio.webp'><p>インポートするには、すぐにダウンロードして、名前を 'About.png' に変更し、それぞれのパス 'FL Studio 21/Plugins/Fruity/Generators/Harmor' と 'FL Studio 21/Plugins/Fruity/Generators/Harmless' でバナーを置き換える必要があります。</p><img src='images/Harmless_About.png'><a href='images/Harmless_About.png' download><img alt='Static Badge' src='https://img.shields.io/badge/ダウンロード-%23c8c5c3?label=%E2%87%A9'></a><img src='images/Harmor_About.png'><a href='images/Harmor_About.png' download><img alt='Static Badge' src='https://img.shields.io/badge/ダウンロード-%23c8c5c3?label=%E2%87%A9'></a>"
+}

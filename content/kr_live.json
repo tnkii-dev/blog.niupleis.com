@@ -1,0 +1,16 @@
+[
+	{"type" : "action", "t" : "2501100621", "content" : "Tnkii가 새로운 블로그를 게시했습니다: <a href='entry.html?id=250110'>블로그 업데이트</a>."},
+	{"type" : "video", "t" : "2501100435", "content" : "live_video/250110_blackpink.mp4"},
+	{"type" : "message", "t" : "2501100435", "content" : "그리고 비디오도 있습니다."},
+	{"type" : "audio", "t" : "2501100434", "content" : "live_audio/250110_blackpink.m4a"},
+	{"type" : "message", "t" : "2501100434", "content" : "오디오도 있습니다."},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_blackpink.jpg"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_itzy.jpg"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_triples.jpg"},
+	{"type" : "message", "t" : "2501100433", "content" : "이미지도 올릴 수 있습니다:"},
+	{"type" : "action", "t" : "2501100432", "content" : "Tnkii가 새로운 섹션을 만들었습니다."},
+	{"type" : "message", "t" : "2501100432", "content" : "활동 로그:"},
+	{"type" : "message", "t" : "2501100432", "content" : "이런 메시지도 올릴 수 있습니다."},
+	{"type" : "message", "t" : "2501100432", "content" : "이 섹션에서 더 자주 짧은 업데이트를 게시할 것입니다."},
+	{"type" : "message", "t" : "2501100432", "content" : "안녕하세요!"}
+]

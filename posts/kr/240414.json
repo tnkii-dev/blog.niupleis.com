@@ -1,0 +1,10 @@
+{
+    "id": "240414",
+    "type": "youtube",
+    "langs" : "[한국어] [日本語] [ESP] [ENG]",
+    "date": "2024년 04월 14일",
+    "color": "#ea7600",
+    "title": "내 캐릭터를 생생하게 만들기",
+    "summary": "Blender를 배우고 OCs를 애니메이션화하고 YouTube에 기록하기로 결정했습니다.",
+    "content": "<p>여러 이유로 공개하지 않은 원작 캐릭터가 있습니다. 그 중 하나는 그들을 매력적으로 만드는 것이 얼마나 어려운지입니다 (콘텐츠 측면에서).</p><p><span style='color: #ff0;'>스포일러</span>: 그들은 niupleis 프로젝트의 아이돌 견습생입니다. 그들에 대한 패널과 일러스트를 만들었지만, 충분하지 않다고 느껴 공유하지 않습니다.</p><p>이러한 캐릭터에 가장 적합한 형식을 고려했고, 애니메이션이 가장 적합하다고 판단했습니다. 손으로 그린 애니메이션은 완벽하게 할 수 있지만, 매우 복잡하고 시간이 많이 걸립니다. 특별한 행사를 위해 예약하고 싶습니다.</p><p>3D는 항상 외계인 같았습니다; 추가적인 차원은 위협적입니다. 장기적으로 배우는 것은 가치가 있습니다.</p><p>2024년에 새로운 기술을 배우려는 모든 다재다능한 사람처럼, Google에 가서 3D 애니메이션 스타일을 만드는 데 필요한 것을 찾았습니다. TikTok과 유료 벽만 발견한 후, 저는 Oracle로, <span style='color: #74AA9C;'>Chat-GPT</span>에게 돌아갔습니다. 나의 프롬프트는 다음과 같습니다：<code>'Blender를 배우기 위한 자세한 로드맵을 작성하십시오. 내 목표는 애니메이션 스타일을 만드는 것입니다'</code>. 나의 쿼리 결과는 (요약하면)：<code>'모델링 → 텍스처링 → 렌더링 → 리깅 → 컨트롤 → 애니메이션 → 시뮬레이션 → 포스트 프로덕션 → 스타일'</code></p><p>실제로는 작년부터 모델링을 하고 있으며, 최근 몇 주 동안 리깅을 시도했습니다. 리깅은 이해하기 어렵지만, 초기 무지의 단계를 극복하고 있는 것 같습니다. 컨트롤, 애니메이션, 텍스처링에 대해 전혀 모릅니다. 그리고 쉐이더에 대해서도 잘 모르겠습니다. 과거에 컴퓨터 그래픽스를 공부했고, 마인크래프트를 위한 쉐이더를 만든 적이 있으므로, 이 단계가 나에게는 더 쉬울 수 있습니다. 시뮬레이션에는 큰 관심이 없습니다. 그냥 <span style='animation: superText 1s infinite linear;'>가슴과 엉덩이에 물리학을 적용</span>하고 싶습니다 🗿. 포스트 프로덕션과 스타일은 현재는 놀람으로 남겨둘 예정입니다.</p><p>마지막으로, 과정을 비디오로 문서화 할 것입니다. YouTube에 비디오를 업로드하기로 결정했고, 최근 시작한 지 얼마 안 됐습니다.</p><iframe width='640' height='360' src='https://www.youtube.com/embed/pjW49Loupaw?si=45y4Nf1XGS0Z6XB0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+}

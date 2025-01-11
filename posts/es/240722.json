@@ -1,0 +1,10 @@
+{
+    "id" : "240722",
+    "type" : "blog",
+    "langs" : "[한국어][日本語][ESP][ENG]",
+    "date" : "22 de Julio de 2024",
+    "color" : "#fee12b",
+    "title" : "Post en la tormenta",
+    "summary" : "Lo que he hecho estos dias",
+    "content" : "<p >Ahora mismo hay una tormenta eléctrica, son raras en este lugar, aquí es normalmente seco y caluroso, \"Odio Aquí\"!.</p> <p >Como sea, anoche estaba de insomnio (como siempre estoy), pensé en algo que quería hacer desde hace mucho tiempo, hice un script para publicar en este blog desde terminal, es algo que necesitaba porque normalmente creaba los archivos a mano desde mi IDE y necesitaba escribir el HTML entero prácticamente y luego formatearlo a JSON, pero ahora solo escribo en el terminallay el script hace el resto por mí, esta es la primera publicación para la que uso mi script, lo escribí en bash, por cierto.</p> <p >he estado trabajando en los dibujos de niupleis.com, por eso no hé publicado aquí o en youtube o en ,en youtube o en X, pero he terminado 4 dibujos ya, mañana comparto aquí capturas si puedo.<br>Qué rayos! Lo haré ahora.</p> <p >Estas son las 4 ilustraciones que terminé, son de hecho sobre eseproyecto del que hablo en este otro blog:<a href=\"?id=240628\">Niupleis tiene competencia</a>.</p> <img src=\"images/240722_ilustraciones.jpg\"></img> <p >Estas ilustraciones estarán en niupleis.com/PunkSuteki/</p> <p >Aparte estuve trabajando en otros proyectos que no hé discutido aquí o en youtube, planeo actualizar en youtube y porfín hacer pública la página niupleis.com en agosto o septimbre, antes de que este blog cumpla un año al menos, cómo sea.</p> <p >Olvidé mer que hay una desventaja de públicar con este script y es que no hay traducciónes en simultaneo al publicar, antes era posible porque lo hacía a mano, quiero implementar una API pero eso va tardar, mientras he configurado la página principal para que mostrara los idiomas disponibles en cada post.</p> <p >Eso es todo por ahora, trataré de volver pronto, Adios!!!</p>"
+}

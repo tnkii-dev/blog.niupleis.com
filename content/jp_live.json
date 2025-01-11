@@ -1,0 +1,16 @@
+[
+	{"type" : "action", "t" : "2501100621", "content" : "Tnkii が新しいブログを公開しました: <a href='entry.html?id=250110'>ブログを更新しました</a>."},
+	{"type" : "video", "t" : "2501100435", "content" : "live_video/250110_blackpink.mp4"},
+	{"type" : "message", "t" : "2501100435", "content" : "そして動画も。"},
+	{"type" : "audio", "t" : "2501100434", "content" : "live_audio/250110_blackpink.m4a"},
+	{"type" : "message", "t" : "2501100434", "content" : "音声もあります。"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_blackpink.jpg"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_itzy.jpg"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_triples.jpg"},
+	{"type" : "message", "t" : "2501100433", "content" : "画像も投稿できます:"},
+	{"type" : "action", "t" : "2501100432", "content" : "Tnkiiが新しいセクションを作成しました。"},
+	{"type" : "message", "t" : "2501100432", "content" : "活動ログ:"},
+	{"type" : "message", "t" : "2501100432", "content" : "こんなメッセージも投稿できます。"},
+	{"type" : "message", "t" : "2501100432", "content" : "このセクションでは、短い更新をもっと頻繁に投稿します。"},
+	{"type" : "message", "t" : "2501100432", "content" : "こんにちは！"}
+]

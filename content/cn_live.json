@@ -1,0 +1,16 @@
+[
+	{"type" : "action", "t" : "2501100621", "content" : "Tnkii 发布了一篇新博客: <a href='entry.html?id=250110'>博客更新</a>."},
+	{"type" : "video", "t" : "2501100435", "content" : "live_video/250110_blackpink.mp4"},
+	{"type" : "message", "t" : "2501100435", "content" : "还有视频。"},
+	{"type" : "audio", "t" : "2501100434", "content" : "live_audio/250110_blackpink.m4a"},
+	{"type" : "message", "t" : "2501100434", "content" : "还有音频。"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_blackpink.jpg"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_itzy.jpg"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_triples.jpg"},
+	{"type" : "message", "t" : "2501100433", "content" : "我还可以发布图片："},
+	{"type" : "action", "t" : "2501100432", "content" : "Tnkii创建了一个新部分。"},
+	{"type" : "message", "t" : "2501100432", "content" : "活动日志："},
+	{"type" : "message", "t" : "2501100432", "content" : "我可以发布这样的消息。"},
+	{"type" : "message", "t" : "2501100432", "content" : "在这个部分，我会更频繁地发布简短的更新。"},
+	{"type" : "message", "t" : "2501100432", "content" : "你好！"}
+]

@@ -1,0 +1,10 @@
+{
+  "id" : "231115",
+  "type" : "blog",
+  "langs" : "[한국어] [日本語] [ESP] [ENG]",
+  "date" : "11/14/2023",
+  "color" : "#0050ff",
+  "title" : "First Public Post",
+  "summary" : "Opening of the Blog",
+  "content" : "<p>Today I finished the foundation of this blog. The code isn't anything fancy and it's lacking a lot since I have to add everything manually. In the future, I'll add whatever I can to make the process of posting entries simpler.</p><img src='images/nekomimi151123.webp' alt='anime catgirl'>"
+}

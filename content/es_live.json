@@ -1,0 +1,16 @@
+[
+	{"type" : "action", "t" : "2501100621", "content" : "Tnkii ha publicado un nuevo blog: <a href='entry.html?id=250110'>Actualizando el blog</a>."},
+	{"type" : "video", "t" : "2501100435", "content" : "live_video/250110_blackpink.mp4"},
+	{"type" : "message", "t" : "2501100435", "content" : "y también videos."},
+	{"type" : "audio", "t" : "2501100434", "content" : "live_audio/250110_blackpink.m4a"},
+	{"type" : "message", "t" : "2501100434", "content" : "También audios"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_blackpink.jpg"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_itzy.jpg"},
+	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_triples.jpg"},
+	{"type" : "message", "t" : "2501100433", "content" : "También puedo publicar imágenes:"},
+	{"type" : "action", "t" : "2501100432", "content" : "Tnkii ha creado una nueva sección."},
+	{"type" : "message", "t" : "2501100432", "content" : "Logs de actividad:"},
+	{"type" : "message", "t" : "2501100432", "content" : "Hay Puedo publicar mensajes como estos"},
+	{"type" : "message", "t" : "2501100432", "content" : "En esta sección publicaré actualizaciónes cortas  más seguido."},
+	{"type" : "message", "t" : "2501100432", "content" : "Hola!"}
+]

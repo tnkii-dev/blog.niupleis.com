@@ -1,0 +1,10 @@
+{
+    "id" : "240324",
+    "type" : "blog",
+    "langs" : "[한국어] [日本語] [ESP] [ENG]",
+    "date" : "24 03 2024",
+    "color" : "#c8c5c3",
+    "title" : "Hago volver a la waifu de plugins de fl-Studio",
+    "summary" : "En fl-studio 21 quitaron la waifu de Harmless y Harmor, así que los añadí yo",
+    "content" : "<p>Esta mañana me salió un video en youtube de easter eggs en fl studio, uno de ellos era sobre los dibujos que aparecen en los creditos de los plugins 'harmless' y 'harmor', en el video decía que ya no estaban disponibles en el fl-Studio, yo eso no lo sabía así que revisé y era cierto.</p><p>No permito que nadie me quite las waifus, así que busqué en los archivos locales de los plugins y me dí cuenta que el banner de los créditos estaban en un archivo de imagen, eso me lo puso facil para simplemente intentar editarlos y poner las viejas imagenes de la waifu.</p><p>Esto fué el único problema porque solo había imagenes en mala calidad, no quise buscar más así que mejor descargue los png en mala calidad y los escalé con inteligencia artificial, luego recreé el banner original para agregar los créditos, importé los nuevos banners a la fuente de fl-studio y funcionó perfectamente</p><img src='images/240324_waifusDeFlStudio.webp'><p>Para importarlas hay que decargarlas en seguida, cambiar el nombre a 'About.png' y reemplazar el banner en las rutas 'FL Studio 21/Plugins/Fruity/Generators/Harmor' y 'FL Studio 21/Plugins/Fruity/Generators/Harmless' respectivamente</p><img src='images/Harmless_About.png'><a href='images/Harmless_About.png' download><img alt='Static Badge' src='https://img.shields.io/badge/descargar-%23c8c5c3?label=%E2%87%A9'></a><img src='images/Harmor_About.png'><a href='images/Harmor_About.png' download><img alt='Static Badge' src='https://img.shields.io/badge/descargar-%23c8c5c3?label=%E2%87%A9'></a>"
+}

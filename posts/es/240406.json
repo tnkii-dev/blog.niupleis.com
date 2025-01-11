@@ -1,0 +1,10 @@
+{
+    "id" : "240406",
+    "type" : "dev",
+    "langs" : "[한국어] [日本語] [ESP] [ENG]",
+    "date" : "06 04 2004",
+    "color" : "#dd88aa",
+    "title" : "Proyecto sexy-Knob",
+    "summary" : "Hice un módulo de input para html",
+    "content" : "<p>Esta semana empecé a construír un reproductor de música para mi web, en algún momento quice implementar un control de volumen y pensé que un knob como los de FL-Studio quedaría bién, busque una librería pero ninguna de las opciones en la primera página de google era fácil de implementar o tenía buena documentación, así que mejor hice mi propio módulo.</p><p>El nombre no tiene nada de especial, los elementos custom necesitan un guion para funcionar según las reglas, escribí sexy como placeholder pero lo dejé así porque ya estaba muy avanzado el desarrollo cuando lo quise cambiar y porque honestamente no se me ocurrió nada mejor que ponerle XD</p><p>Publiqué una<a href='http://www.niupleis.com/projects/sexy-knob/'>demo en mi web</a> y el código fuente está disponible en el<a href='https://github.com/tnkii-dev/sexy-knob/'>repositorio de github</a>.</p><img src='images/sexy-knobDemo.gif'>"
+}

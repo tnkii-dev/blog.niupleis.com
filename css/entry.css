@@ -1,0 +1,48 @@
+:root {
+	--blog-color: #d750ff;
+	--blog-color-comp: #ff50d7;
+	--blog-color-dark: #8900b3;
+}
+
+html {
+	scrollbar-color: var(--blog-color) #000;
+}
+
+body {
+	background: url(/res/bodyBackground.jpg);
+	margin: 0;
+	min-height:100vh;
+}
+
+* {
+	color: #fff;
+	font-family: "Ysabeau";
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+header {
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+main {
+	padding: 1rem;
+}
+
+main > img {
+	width: 80vh;
+	height: 80vh;
+	object-fit: contain;
+}

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Ysabeau';
-    src: url('../fonts/Ysabeau-Regular.woff2') format('woff2');
+    src: url('fonts/Ysabeau-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Sawarabi Gothic';
-    src: url('../fonts/SawarabiGothic-Regular.woff2') format('woff2');
+    src: url('fonts/SawarabiGothic-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,63 @@
 
 @font-face {
     font-family: 'Hahmlet';
-    src: url('../fonts/Hahmlet-Regular.woff2') format('woff2');
+    src: url('fonts/Hahmlet-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('fonts/SourceCodePro-Regular.ttf.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('fonts/GreatVibes-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('fonts/DancingScript-VariableFont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InitialsWithACurl';
+    src: url('fonts/InitialsWithACurl.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MrDafoe';
+    src: url('fonts/MrDafoe-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FixedsysExcelsior';
+    src: url('fonts/FSEX300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'zcoolxiaoWei';
+    src: url('fonts/ZCOOLXiaoWei-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
