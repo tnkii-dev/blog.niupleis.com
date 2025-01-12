@@ -1,5 +1,5 @@
 [
-	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid' ></iframe>"},
+	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid_Iframe' ></iframe>"},
 	{"type" : "message", "t" : "2501121518", "content" : "事实上，我的框架非常灵活，你可以在这里玩:"},
 	{"type" : "message", "t" : "2501121516", "content" : "你也可以在<a style='color: #0ff;' href='https://niupleis.com/games/NekoNoid'>niupleis.com</a>玩。"},
 	{"type" : "message", "t" : "2501121516", "content" : "NekoNoid是一个基于文本的Arkanoid克隆，我用了大约4小时编写完成。"},

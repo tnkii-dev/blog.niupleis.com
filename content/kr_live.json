@@ -1,5 +1,5 @@
 [
-	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid' ></iframe>"},
+	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid_Iframe' ></iframe>"},
 	{"type" : "message", "t" : "2501121518", "content" : "사실, 제 프레임워크는 매우 유연해서 여기에서 플레이할 수 있습니다:"},
 	{"type" : "message", "t" : "2501121516", "content" : "그리고 <a style='color: #0ff;' href='https://niupleis.com/games/NekoNoid'>niupleis.com</a>에서 플레이할 수 있습니다."},
 	{"type" : "message", "t" : "2501121516", "content" : "NekoNoid는 텍스트 기반의 Arkanoid 클론이며, 약 4시간 만에 프로그래밍했습니다."},

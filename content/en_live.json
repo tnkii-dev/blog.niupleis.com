@@ -1,5 +1,5 @@
 [
-	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid' ></iframe>"},
+	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid_Iframe' ></iframe>"},
 	{"type" : "message", "t" : "2501121518", "content" : "In fact, my framework is so versatile you can play it here:"},
 	{"type" : "message", "t" : "2501121516", "content" : "And you can play it at <a style='color: #0ff;' href='https://niupleis.com/games/NekoNoid'>niupleis.com</a>."},
 	{"type" : "message", "t" : "2501121516", "content" : "NekoNoid is a text-based Arkanoid clone, I programmed it in about 4 hours."},
