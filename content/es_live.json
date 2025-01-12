@@ -1,22 +1,31 @@
 [
-	{"type" : "yt", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/PD8xu0ooYko' title='Angel/MEM [Jungle|Breakcore|DnB|Dreamcast|PSX]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
-	{"type" : "yt", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/d3KfkKXRDzk' title='Sanctuary OS (Atmospheric Breaks/Jungle/Frutiger Aero/Nintendo/Dreamcast)' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid' ></iframe>"},
+	{"type" : "message", "t" : "2501121518", "content" : "De hecho, mi framework es tan versatil que lo pueden jugar aquí:"},
+	{"type" : "message", "t" : "2501121516", "content" : "Y lo pueden jugar en <a style='color: #0ff;' href='https://niupleis.com/games/NekoNoid'>niupleis.com</a>."},
+	{"type" : "message", "t" : "2501121516", "content" : "NekoNoid es un clon de Arkanoid de texto, lo programé en unas 4 horas."},
+	{"type" : "message", "t" : "2501121515", "content" : "Esta madrugada quería probar una build beta así que hice NekoNoid."},
+	{"type" : "message", "t" : "2501121515", "content" : "Llevo un par de semanas programando un framework de videojuegos, y para probarlo estoy haciendo prototipos."},
+
+	{"type" : "action", "t" : "2501121445", "content" : "Tnkii ha publicado un videojuego: <a href='https://niupleis.com/games/#NekoNoid'>NekoNoid</a>."},
+
+	{"type" : "iframe", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/PD8xu0ooYko' title='Angel/MEM [Jungle|Breakcore|DnB|Dreamcast|PSX]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "iframe", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/d3KfkKXRDzk' title='Sanctuary OS (Atmospheric Breaks/Jungle/Frutiger Aero/Nintendo/Dreamcast)' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2501110944", "content" : "Escuché estos anoche:"},
 	{"type" : "message", "t" : "2501110944", "content" : "He estado escuchando breakbeats para trabajar o antes de dormir."},
 
-	{"type" : "action", "t" : "2501100621", "content" : "Tnkii ha publicado un nuevo blog: <a href='entry.html?id=250110'>Actualizando el blog</a>."},
+	{"type" : "action", "t" : "2501101821", "content" : "Tnkii ha publicado un nuevo blog: <a href='entry.html?id=250110'>Actualizando el blog</a>."},
 
-	{"type" : "video", "t" : "2501100435", "content" : "live_video/250110_blackpink.mp4"},
-	{"type" : "message", "t" : "2501100435", "content" : "y también videos."},
-	{"type" : "audio", "t" : "2501100434", "content" : "live_audio/250110_blackpink.m4a"},
-	{"type" : "message", "t" : "2501100434", "content" : "También audios"},
-	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_blackpink.jpg"},
-	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_itzy.jpg"},
-	{"type" : "image", "t" : "2501100433", "content" : "live_images/250110_triples.jpg"},
-	{"type" : "message", "t" : "2501100433", "content" : "También puedo publicar imágenes:"},
-	{"type" : "action", "t" : "2501100432", "content" : "Tnkii ha creado una nueva sección."},
-	{"type" : "message", "t" : "2501100432", "content" : "Logs de actividad:"},
-	{"type" : "message", "t" : "2501100432", "content" : "Hay Puedo publicar mensajes como estos"},
-	{"type" : "message", "t" : "2501100432", "content" : "En esta sección publicaré actualizaciónes cortas  más seguido."},
-	{"type" : "message", "t" : "2501100432", "content" : "Hola!"}
+	{"type" : "video", "t" : "2501101635", "content" : "live_video/250110_blackpink.mp4"},
+	{"type" : "message", "t" : "2501101635", "content" : "y también videos."},
+	{"type" : "audio", "t" : "2501101634", "content" : "live_audio/250110_blackpink.m4a"},
+	{"type" : "message", "t" : "2501101634", "content" : "También audios"},
+	{"type" : "image", "t" : "2501101633", "content" : "live_images/250110_blackpink.jpg"},
+	{"type" : "image", "t" : "2501101633", "content" : "live_images/250110_itzy.jpg"},
+	{"type" : "image", "t" : "2501101633", "content" : "live_images/250110_triples.jpg"},
+	{"type" : "message", "t" : "2501101633", "content" : "También puedo publicar imágenes:"},
+	{"type" : "action", "t" : "2501101632", "content" : "Tnkii ha creado una nueva sección."},
+	{"type" : "message", "t" : "2501101632", "content" : "Logs de actividad:"},
+	{"type" : "message", "t" : "2501101632", "content" : "Hay Puedo publicar mensajes como estos"},
+	{"type" : "message", "t" : "2501101632", "content" : "En esta sección publicaré actualizaciónes cortas  más seguido."},
+	{"type" : "message", "t" : "2501101632", "content" : "Hola!"}
 ]

@@ -62,6 +62,11 @@ main {
 	margin-top: 4rem;
 }
 
+iframe {
+	border: none;
+	border-radius: 16px;
+}
+
 /* LIVE ------------------------------------------------------------- */
 
 #live-log {
@@ -143,7 +148,7 @@ main {
 	border-radius: 6px;
 }
 
-.live-youtube {
+.live-iframe {
 	padding: 15px !important;
 	background-color: var(--blog-color);
 }

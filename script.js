@@ -40,6 +40,7 @@ function selectScreen(screen) {
 		} else {
 			screenSelector.children[screen - 1].setAttribute("onclick", "")
 			document.body.style.overflow = "hidden";
+			window.scrollTo(0, 0);
 		}
 
 		liveLog.classList.toggle("flex")
@@ -169,9 +170,9 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 				log.classList = "live-video log-top"
 				log.innerHTML = `<video src="${item.content}" controls></video>${timestamp}`
 				break;
-			case ("yt"):
+			case ("iframe"):
 				vn++
-				log.classList = "live-youtube log-top"
+				log.classList = "live-iframe log-top"
 				log.innerHTML = `${item.content}${timestamp}`
 				break;
 			default:

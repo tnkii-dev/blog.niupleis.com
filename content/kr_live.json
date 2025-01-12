@@ -1,4 +1,13 @@
 [
+	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid' ></iframe>"},
+	{"type" : "message", "t" : "2501121518", "content" : "사실, 제 프레임워크는 매우 유연해서 여기에서 플레이할 수 있습니다:"},
+	{"type" : "message", "t" : "2501121516", "content" : "그리고 <a style='color: #0ff;' href='https://niupleis.com/games/NekoNoid'>niupleis.com</a>에서 플레이할 수 있습니다."},
+	{"type" : "message", "t" : "2501121516", "content" : "NekoNoid는 텍스트 기반의 Arkanoid 클론이며, 약 4시간 만에 프로그래밍했습니다."},
+	{"type" : "message", "t" : "2501121515", "content" : "오늘 아침, 베타 빌드를 테스트하고 싶어서 NekoNoid를 만들었습니다."},
+	{"type" : "message", "t" : "2501121515", "content" : "몇 주 동안 게임 프레임워크를 개발 중이며, 프로토타입을 만들어 테스트하고 있습니다."},
+
+	{"type" : "action", "t" : "2501121445", "content" : "Tnkii가 게임을 출시했습니다: <a href='https://niupleis.com/games/#NekoNoid'>NekoNoid</a>."},
+
 	{"type" : "yt", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/PD8xu0ooYko' title='Angel/MEM [Jungle|Breakcore|DnB|Dreamcast|PSX]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "yt", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/d3KfkKXRDzk' title='Sanctuary OS (Atmospheric Breaks/Jungle/Frutiger Aero/Nintendo/Dreamcast)' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2501110944", "content" : "어젯밤에 이것들을 들었어요:"},
