@@ -1,4 +1,7 @@
 [
+	{"type" : "iframe", "t" : "2501141605", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/4wcYVTP4gJ8' title='Kandis | &#39;Playground&#39; Official M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "message", "t" : "2501141605", "content" : "Finally, Kandis debut!!!"},
+
 	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid_Iframe' ></iframe>"},
 	{"type" : "message", "t" : "2501121518", "content" : "In fact, my framework is so versatile you can play it here:"},
 	{"type" : "message", "t" : "2501121516", "content" : "And you can play it at <a style='color: #0ff;' href='https://niupleis.com/games/NekoNoid'>niupleis.com</a>."},
