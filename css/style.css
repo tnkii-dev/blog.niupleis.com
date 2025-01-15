@@ -89,7 +89,8 @@ iframe {
 	width: fit-content;
 	max-width: 360px;
 	margin-inline: 0.5rem;
-	padding: 10px;
+	padding-inline: 10px;
+	padding-block: 5px;
 }
 
 #live-log a {
