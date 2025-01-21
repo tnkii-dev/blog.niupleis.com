@@ -83,7 +83,6 @@ function selectScreen(screen) {
 }
 
 function loadArticles() { // {"image" : ".jpg", "title" : "", "href" : "250109_"},
-	return;
 	const articles = document.getElementById("articles");
 	articles.textContent = "";
 
