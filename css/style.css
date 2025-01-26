@@ -107,7 +107,7 @@ iframe {
 .log-top {
 	display: flex;
 	flex-direction: column;
-	margin-top: 0.2rem;
+	margin-top: 0rem;
 	align-items: end;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
