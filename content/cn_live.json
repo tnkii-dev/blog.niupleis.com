@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2501290104", "content" : "live_images/250129_yuna.jpg"},
+	{"type" : "message", "t" : "2501290104", "content" : "这是Cabbit！Yuna的毛绒玩具 💖💗💕💖💗💕💖"},
+	{"type" : "image", "t" : "2501290102", "content" : "live_images/250129_cabbit.jpg"},
+	{"type" : "message", "t" : "2501290102", "content" : "看看这个!!!"},
+
 	{"type" : "message", "t" : "2501252349", "content" : "请把这当作是那个游戏的预告 (｡•̀ᴗ-)"},
 	{"type" : "image", "t" : "2501252348", "content" : "live_images/250125_MikuSpritesheet.jpg"},
 	{"type" : "message", "t" : "2501252347", "content" : "总之，从两天前开始我就在制作游戏素材了:"},

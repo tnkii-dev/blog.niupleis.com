@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2501290104", "content" : "live_images/250129_yuna.jpg"},
+	{"type" : "message", "t" : "2501290104", "content" : "es Cabbit! el plushie de Yuna 💖​💗​💕​💖​💗​​💕​​💖​"},
+	{"type" : "image", "t" : "2501290102", "content" : "live_images/250129_cabbit.jpg"},
+	{"type" : "message", "t" : "2501290102", "content" : "Miren esto!!!"},
+
 	{"type" : "message", "t" : "2501252349", "content" : "Consideren eso un teaser de ese juego (｡•̀ᴗ-)"},
 	{"type" : "image", "t" : "2501252348", "content" : "live_images/250125_MikuSpritesheet.jpg"},
 	{"type" : "message", "t" : "2501252347", "content" : "Como sea, desde hace 2 dias estoy haciendo assests para el juego:"},

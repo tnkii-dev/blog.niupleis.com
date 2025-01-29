@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2501290104", "content" : "live_images/250129_yuna.jpg"},
+	{"type" : "message", "t" : "2501290104", "content" : "이것은 Cabbit! 유나의 인형이에요 💖💗💕💖💗💕💖"},
+	{"type" : "image", "t" : "2501290102", "content" : "live_images/250129_cabbit.jpg"},
+	{"type" : "message", "t" : "2501290102", "content" : "이거 봐요!!!"},
+
 	{"type" : "message", "t" : "2501252349", "content" : "그 게임의 티저라고 생각해주세요 (｡•̀ᴗ-)"},
 	{"type" : "image", "t" : "2501252348", "content" : "live_images/250125_MikuSpritesheet.jpg"},
 	{"type" : "message", "t" : "2501252347", "content" : "어쨌든, 이틀 전부터 게임 에셋을 만들고 있습니다:"},

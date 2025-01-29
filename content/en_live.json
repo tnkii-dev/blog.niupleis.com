@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2501290104", "content" : "live_images/250129_yuna.jpg"},
+	{"type" : "message", "t" : "2501290104", "content" : "It's Cabbit! Yuna's plushie 💖💗💕💖💗💕💖"},
+	{"type" : "image", "t" : "2501290102", "content" : "live_images/250129_cabbit.jpg"},
+	{"type" : "message", "t" : "2501290102", "content" : "Look at this!!!"},
+
 	{"type" : "message", "t" : "2501252349", "content" : "Consider that a teaser for the game (｡•̀ᴗ-)"},
 	{"type" : "image", "t" : "2501252348", "content" : "live_images/250125_MikuSpritesheet.jpg"},
 	{"type" : "message", "t" : "2501252347", "content" : "Anyway, I've been making assets for the game for two days:"},
