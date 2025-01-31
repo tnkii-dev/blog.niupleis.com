@@ -1,4 +1,8 @@
 [
+	{"type" : "message", "t" : "2501311032", "content" : "Eso está listo, solo falta refinar, lo siguiente es hacerla saltar."},
+	{"type" : "video", "t" : "2501311032", "content" : "live_video/250131_HatsuneMikuWalking.mp4"},
+	{"type" : "message", "t" : "2501311032", "content" : "Mirad como camina esta Miku! (Y como corre)​"},
+
 	{"type" : "image", "t" : "2501290104", "content" : "live_images/250129_yuna.jpg"},
 	{"type" : "message", "t" : "2501290104", "content" : "es Cabbit! el plushie de Yuna 💖​💗​💕​💖​💗​​💕​​💖​"},
 	{"type" : "image", "t" : "2501290102", "content" : "live_images/250129_cabbit.jpg"},

@@ -1,4 +1,8 @@
 [
+	{"type" : "message", "t" : "2501311032", "content" : "이건 거의 다 됐어, 이제 다듬기만 하면 돼. 다음은 점프하게 만들 거야."},
+	{"type" : "video", "t" : "2501311032", "content" : "live_video/250131_HatsuneMikuWalking.mp4"},
+	{"type" : "message", "t" : "2501311032", "content" : "이 미쿠가 어떻게 걷는지 봐! (그리고 뛰는 것도)​"},
+
 	{"type" : "image", "t" : "2501290104", "content" : "live_images/250129_yuna.jpg"},
 	{"type" : "message", "t" : "2501290104", "content" : "이것은 Cabbit! 유나의 인형이에요 💖💗💕💖💗💕💖"},
 	{"type" : "image", "t" : "2501290102", "content" : "live_images/250129_cabbit.jpg"},
