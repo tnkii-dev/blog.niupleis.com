@@ -1,4 +1,8 @@
 [
+	{"type" : "message", "t" : "2502032226", "content" : "Historically, double jumping has been a consequence of a poorly implemented 'coyote time'."},
+	{"type" : "message", "t" : "2502032225", "content" : "Let me explain..."},
+	{"type" : "message", "t" : "2502032223", "content" : "Double jump = being dumb."},
+
 	{"type" : "message", "t" : "2501311032", "content" : "That's ready, it just needs some refinement. Next, I'll make her jump."},
 	{"type" : "video", "t" : "2501311032", "content" : "live_video/250131_HatsuneMikuWalking.mp4"},
 	{"type" : "message", "t" : "2501311032", "content" : "Look at how this Miku walks! (And how she runs)​"},

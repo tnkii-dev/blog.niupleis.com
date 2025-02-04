@@ -1,4 +1,8 @@
 [
+	{"type" : "message", "t" : "2502032226", "content" : "Históricamente el doble salto ha sido consecuencia de una implementación deficiente del 'tiempo coyote'."},
+	{"type" : "message", "t" : "2502032225", "content" : "Lo explico..."},
+	{"type" : "message", "t" : "2502032223", "content" : "Doble salto = ser tonto."},
+
 	{"type" : "message", "t" : "2501311032", "content" : "Eso está listo, solo falta refinar, lo siguiente es hacerla saltar."},
 	{"type" : "video", "t" : "2501311032", "content" : "live_video/250131_HatsuneMikuWalking.mp4"},
 	{"type" : "message", "t" : "2501311032", "content" : "Mirad como camina esta Miku! (Y como corre)​"},

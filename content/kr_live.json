@@ -1,4 +1,8 @@
 [
+	{"type" : "message", "t" : "2502032226", "content" : "역사적으로 더블 점프는 '코요테 타임'이 제대로 구현되지 않은 결과였다."},
+	{"type" : "message", "t" : "2502032225", "content" : "설명할게..."},
+	{"type" : "message", "t" : "2502032223", "content" : "더블 점프 = 멍청함."},
+
 	{"type" : "message", "t" : "2501311032", "content" : "이건 거의 다 됐어, 이제 다듬기만 하면 돼. 다음은 점프하게 만들 거야."},
 	{"type" : "video", "t" : "2501311032", "content" : "live_video/250131_HatsuneMikuWalking.mp4"},
 	{"type" : "message", "t" : "2501311032", "content" : "이 미쿠가 어떻게 걷는지 봐! (그리고 뛰는 것도)​"},

@@ -1,4 +1,8 @@
 [
+	{"type" : "message", "t" : "2502032226", "content" : "歴史的に、二段ジャンプは 「コヨーテタイム」 の不完全な実装によるものだった。"},
+	{"type" : "message", "t" : "2502032225", "content" : "説明するね..."},
+	{"type" : "message", "t" : "2502032223", "content" : "二段ジャンプ＝バカ。"},
+
 	{"type" : "message", "t" : "2501311032", "content" : "これは完成してるけど、もう少し磨く必要があるね。次はジャンプさせるよ。"},
 	{"type" : "video", "t" : "2501311032", "content" : "live_video/250131_HatsuneMikuWalking.mp4"},
 	{"type" : "message", "t" : "2501311032", "content" : "このミクの歩き方を見て！(そして走り方も)​"},
