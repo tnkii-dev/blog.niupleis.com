@@ -1,4 +1,8 @@
 [
+	{"type" : "image", "t" : "2502061058", "content" : "live_images/250206_niupleis_update.png"},
+	{"type" : "action", "t" : "2502061056", "content" : "New section: <a href='https://niupleis.com/#GAMES' target='_blank'>Games</a>"},
+	{"type" : "action", "t" : "2502061056", "content" : "niupleis.com has been updated."},
+
 	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
 	{"type" : "message", "t" : "2502060930", "content" : "Behold, my new wallpaper."},
 

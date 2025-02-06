@@ -1,4 +1,8 @@
 [
+	{"type" : "image", "t" : "2502061058", "content" : "live_images/250206_niupleis_update.png"},
+	{"type" : "action", "t" : "2502061056", "content" : "新しいセクション: <a href='https://niupleis.com/#GAMES' target='_blank'>ゲーム</a>"},
+	{"type" : "action", "t" : "2502061056", "content" : "niupleis.comが更新されました。"},
+
 	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
 	{"type" : "message", "t" : "2502060930", "content" : "見て、私の新しい壁紙。"},
 

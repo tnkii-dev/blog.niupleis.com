@@ -1,4 +1,8 @@
 [
+	{"type" : "image", "t" : "2502061058", "content" : "live_images/250206_niupleis_update.png"},
+	{"type" : "action", "t" : "2502061056", "content" : "Nueva sección: <a href='https://niupleis.com/#GAMES' target='_blank'>Juegos</a>"},
+	{"type" : "action", "t" : "2502061056", "content" : "Se ha actualizado niupleis.com"},
+
 	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
 	{"type" : "message", "t" : "2502060930", "content" : "Mirad, mi nuevo fondo de pantalla."},
 
