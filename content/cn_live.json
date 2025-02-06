@@ -1,4 +1,7 @@
 [
+	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
+	{"type" : "message", "t" : "2502060930", "content" : "看看，我的新壁纸。"},
+
 	{"type" : "message", "t" : "2502032226", "content" : "从历史上看，二段跳通常是由于'郊狼时间'实现不当造成的。"},
 	{"type" : "message", "t" : "2502032225", "content" : "让我解释一下..."},
 	{"type" : "message", "t" : "2502032223", "content" : "二段跳 = 傻瓜。"},

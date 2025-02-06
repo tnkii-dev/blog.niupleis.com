@@ -1,4 +1,7 @@
 [
+	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
+	{"type" : "message", "t" : "2502060930", "content" : "봐봐, 내 새로운 배경화면이야."},
+
 	{"type" : "message", "t" : "2502032226", "content" : "역사적으로 더블 점프는 '코요테 타임'이 제대로 구현되지 않은 결과였다."},
 	{"type" : "message", "t" : "2502032225", "content" : "설명할게..."},
 	{"type" : "message", "t" : "2502032223", "content" : "더블 점프 = 멍청함."},

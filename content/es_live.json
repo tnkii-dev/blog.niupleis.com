@@ -1,4 +1,7 @@
 [
+	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
+	{"type" : "message", "t" : "2502060930", "content" : "Mirad, mi nuevo fondo de pantalla."},
+
 	{"type" : "message", "t" : "2502032226", "content" : "Históricamente el doble salto ha sido consecuencia de una implementación deficiente del 'tiempo coyote'."},
 	{"type" : "message", "t" : "2502032225", "content" : "Lo explico..."},
 	{"type" : "message", "t" : "2502032223", "content" : "Doble salto = ser tonto."},

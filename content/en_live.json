@@ -1,4 +1,7 @@
 [
+	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
+	{"type" : "message", "t" : "2502060930", "content" : "Behold, my new wallpaper."},
+
 	{"type" : "message", "t" : "2502032226", "content" : "Historically, double jumping has been a consequence of a poorly implemented 'coyote time'."},
 	{"type" : "message", "t" : "2502032225", "content" : "Let me explain..."},
 	{"type" : "message", "t" : "2502032223", "content" : "Double jump = being dumb."},
