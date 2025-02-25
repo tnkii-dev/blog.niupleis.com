@@ -1,4 +1,7 @@
 [
+	{"type" : "image", "t" : "2502250929", "content" : "live_images/250225_nekoplay_maichan.png"},
+	{"type" : "message", "t" : "2502250929", "content" : "활동이 뜸해서 죄송합니다. 이사했고 아파요."},
+
 	{"type" : "image", "t" : "2502061058", "content" : "live_images/250206_niupleis_update.png"},
 	{"type" : "action", "t" : "2502061056", "content" : "새로운 섹션: <a href='https://niupleis.com/#GAMES' target='_blank'>게임</a>"},
 	{"type" : "action", "t" : "2502061056", "content" : "niupleis.com이 업데이트되었습니다."},

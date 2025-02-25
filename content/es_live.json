@@ -1,4 +1,7 @@
 [
+	{"type" : "image", "t" : "2502250929", "content" : "live_images/250225_nekoplay_maichan.png"},
+	{"type" : "message", "t" : "2502250929", "content" : "Lamento la inactividad, me cambié de casa y estoy enfermo."},
+
 	{"type" : "image", "t" : "2502061058", "content" : "live_images/250206_niupleis_update.png"},
 	{"type" : "action", "t" : "2502061056", "content" : "Nueva sección: <a href='https://niupleis.com/#GAMES' target='_blank'>Juegos</a>"},
 	{"type" : "action", "t" : "2502061056", "content" : "Se ha actualizado niupleis.com"},
