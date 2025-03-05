@@ -1,4 +1,7 @@
 [
+	{"type" : "message", "t" : "2503051702", "content" : "우리는 바락이다!!!"},
+	{"type" : "message", "t" : "2503051701", "content" : "이사하고 사랑니를 뽑았는데, 이제 좀 나아졌어요."},
+
 	{"type" : "image", "t" : "2502250929", "content" : "live_images/250225_nekoplay_maichan.png"},
 	{"type" : "message", "t" : "2502250929", "content" : "활동이 뜸해서 죄송합니다. 이사했고 아파요."},
 

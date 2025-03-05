@@ -1,4 +1,7 @@
 [
+	{"type" : "message", "t" : "2503051702", "content" : "Estamos barack!!!"},
+	{"type" : "message", "t" : "2503051701", "content" : "Ya me cambié de casa, me sacaron la muela y estoy mejor."},
+
 	{"type" : "image", "t" : "2502250929", "content" : "live_images/250225_nekoplay_maichan.png"},
 	{"type" : "message", "t" : "2502250929", "content" : "Lamento la inactividad, me cambié de casa y estoy enfermo."},
 
