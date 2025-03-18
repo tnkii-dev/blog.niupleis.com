@@ -1,4 +1,12 @@
 [
+	{"type" : "message", "t" : "250312005", "content" : "게임 엔진의 성능을 보여줄 게임이 준비되면 마케팅을 시작할 것입니다."}, 
+	{"type" : "message", "t" : "250312005", "content" : "이번 주 안에 위키를 완성하려고 합니다. 그 정도면 조용한 출시에는 충분할 거예요."},
+	{"type" : "message", "t" : "250312005", "content" : "이것이 가장 시간이 많이 걸리는 부분이며, 튜토리얼, 템플릿, 가이드 등을 작성해야 합니다."},
+	{"type" : "image", "t" : "250312004", "content" : "live_images/250317_nekoplay_wiki.png"},
+	{"type" : "message", "t" : "250312004", "content" : "이것은 웹에서 실행되는 게임 프레임워크인 NekoPlay입니다. 며칠 전에 언급했었죠. 이미 완성되었고 원래는 <a href='https://niupleis.com/NekoPlay/'>niupleis.com</a>에서 사용할 수 있어야 하지만, 지난 몇 주 동안 위키 형식으로 문서를 작성하는 데 집중하고 있었습니다…"},
+	{"type" : "image", "t" : "250312003", "content" : "live_images/250317nekoplay.png"},
+	{"type" : "message", "t" : "250312003", "content" : "이것이 제가 작업하고 있는 것입니다:"},
+
 	{"type" : "iframe", "t" : "2503102206", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/TamDOXponnM' title='YEJI &quot;Air&quot; M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2503102206", "content" : "Yeji!!!<br>💖​💓​💝​💞​💕​💝​💓​💖​💞​💕​💖​"},
 

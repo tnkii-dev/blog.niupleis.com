@@ -1,4 +1,12 @@
 [
+	{"type" : "message", "t" : "250312005", "content" : "We will do marketing when I have a game to showcase the engine's capabilities."}, 
+	{"type" : "message", "t" : "250312005", "content" : "I'll try to finish the wiki this week; that should be enough for a soft launch."},
+	{"type" : "message", "t" : "250312005", "content" : "That’s what’s taking the most time, plus I need to write tutorials, templates, guides, and more."},
+	{"type" : "image", "t" : "250312004", "content" : "live_images/250317_nekoplay_wiki.png"},
+	{"type" : "message", "t" : "250312004", "content" : "It's a web-based game framework that runs on the web, called NekoPlay. I had mentioned it in previous days. It's finished and should be available at <a href='https://niupleis.com/NekoPlay/'>niupleis.com</a>, but I've been spending the past few weeks writing documentation in the form of a wiki..."},
+	{"type" : "image", "t" : "250312003", "content" : "live_images/250317nekoplay.png"},
+	{"type" : "message", "t" : "250312003", "content" : "This is what I've been working on:"},
+
 	{"type" : "iframe", "t" : "2503102206", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/TamDOXponnM' title='YEJI &quot;Air&quot; M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2503102206", "content" : "Yeji!!!<br>💖​💓​💝​💞​💕​💝​💓​💖​💞​💕​💖​"},
 

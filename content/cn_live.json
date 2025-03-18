@@ -1,4 +1,12 @@
 [
+	{"type" : "message", "t" : "250312005", "content" : "等到有可以展示引擎性能的游戏时，我们会开始营销。"}, 
+	{"type" : "message", "t" : "250312005", "content" : "我打算本周内完成Wiki，这应该足够进行一个低调的发布。"},
+	{"type" : "message", "t" : "250312005", "content" : "这部分最耗时间，此外我还需要编写教程、模板、指南等内容。"},
+	{"type" : "image", "t" : "250312004", "content" : "live_images/250317_nekoplay_wiki.png"},
+	{"type" : "message", "t" : "250312004", "content" : "这是一个在Web上运行的游戏框架，叫做NekoPlay。我前几天已经提到过，它已经完成，并且应该可以在<a href='https://niupleis.com/NekoPlay/'>niupleis.com</a>上使用，但我过去几周一直在撰写以Wiki形式呈现的文档……"},
+	{"type" : "image", "t" : "250312003", "content" : "live_images/250317nekoplay.png"},
+	{"type" : "message", "t" : "250312003", "content" : "这是我一直在做的工作:"},
+
 	{"type" : "iframe", "t" : "2503102206", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/TamDOXponnM' title='YEJI &quot;Air&quot; M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2503102206", "content" : "Yeji!!!<br>💖​💓​💝​💞​💕​💝​💓​💖​💞​💕​💖​"},
 
