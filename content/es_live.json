@@ -3,7 +3,7 @@
 	{"type" : "message", "t" : "250312005", "content" : "Trataré de terminar la wiki está semana, eso devería ser suficiente para un lanzamiento discreto."},
 	{"type" : "message", "t" : "250312005", "content" : "Eso es lo que más tiempo está tomando, además necesito escribir tutoriales, plantillas, guias y demás."},
 	{"type" : "image", "t" : "250312004", "content" : "live_images/250317_nekoplay_wiki.png"},
-	{"type" : "message", "t" : "250312004", "content" : "Es un framework de videojuegos web que funciona en la web, se llama NekoPlay, ya lo había mencionade en dias anteriores, está terminado y se supone que esté disponible en <a href='https://niupleis.com/NekoPlay/'>niupleis.com</a> pero llevo un par de semanas escribiendo documentación en forma de una wiki..."},
+	{"type" : "message", "t" : "250312004", "content" : "Es un framework de videojuegos web que funciona en la web, se llama NekoPlay, ya lo había mencionado en dias anteriores, está terminado y se supone que esté disponible en <a href='https://niupleis.com/NekoPlay/'>niupleis.com</a> pero llevo un par de semanas escribiendo documentación en forma de una wiki..."},
 	{"type" : "image", "t" : "250312003", "content" : "live_images/250317nekoplay.png"},
 	{"type" : "message", "t" : "250312003", "content" : "Esto es el lo que he estado trabajando:"},
 
