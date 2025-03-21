@@ -81,8 +81,10 @@ iframe {
 	#live-log {height: calc(100vh - 8rem);}
 }
 
-#live-log:last-child {
-	margin-bottom: 1rem;
+@media (max-width: 720px) {
+	#live-log > div:first-child {
+		margin-bottom: 3rem !important;
+	}
 }
 
 #live-log > div {
