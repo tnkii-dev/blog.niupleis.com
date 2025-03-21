@@ -1,4 +1,11 @@
 [
+	{"type" : "image", "t" : "2503210142", "content" : "live_images/250321_chroma.png"},
+	{"type" : "message", "t" : "2503210142", "content" : "Cabbitは私のテスト対象でした。"},
+	{"type" : "message", "t" : "2503210141", "content" : "カメラを手に持ったまま3枚の写真を撮り、それぞれをRGBチャンネルに割り当て、最後に1つの画像に合成しました。"},
+	{"type" : "message", "t" : "2503210141", "content" : "アルゴリズムやフィルターを使わずに色収差を作りました。"},
+
+	{"type" : "timestamp", "t" : "2503210141"},
+
 	{"type" : "message", "t" : "250312005", "content" : "ゲームエンジンの性能を示すゲームができたら、マーケティングを行います。"}, 
 	{"type" : "message", "t" : "250312005", "content" : "今週中にWikiを完成させるつもりです。それで控えめなリリースには十分でしょう。"},
 	{"type" : "message", "t" : "250312005", "content" : "これが最も時間がかかっている部分です。さらに、チュートリアル、テンプレート、ガイドなどを書かなければなりません。"},
@@ -7,14 +14,22 @@
 	{"type" : "image", "t" : "250312003", "content" : "live_images/250317nekoplay.png"},
 	{"type" : "message", "t" : "250312003", "content" : "これが私の作業内容です："},
 
+	{"type" : "timestamp", "t" : "2503192003"},
+
 	{"type" : "iframe", "t" : "2503102206", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/TamDOXponnM' title='YEJI &quot;Air&quot; M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2503102206", "content" : "Yeji!!!<br>💖​💓​💝​💞​💕​💝​💓​💖​💞​💕​💖​"},
+
+	{"type" : "timestamp", "t" : "2503102206"},
 
 	{"type" : "message", "t" : "2503051702", "content" : "俺たちはバラックだ!!!"},  
 	{"type" : "message", "t" : "2503051701", "content" : "引っ越して、親知らずを抜いて、元気になったよ。"},
 
+	{"type" : "timestamp", "t" : "2503051701"},
+
 	{"type" : "image", "t" : "2502250929", "content" : "live_images/250225_nekoplay_maichan.png"},
 	{"type" : "message", "t" : "2502250929", "content" : "活動が少なくてすみません。引っ越しして、体調を崩しました。"},
+
+	{"type" : "timestamp", "t" : "2502250929"},
 
 	{"type" : "image", "t" : "2502061058", "content" : "live_images/250206_niupleis_update.png"},
 	{"type" : "action", "t" : "2502061056", "content" : "新しいセクション: <a href='https://niupleis.com/#GAMES' target='_blank'>ゲーム</a>"},
@@ -23,18 +38,26 @@
 	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
 	{"type" : "message", "t" : "2502060930", "content" : "見て、私の新しい壁紙。"},
 
+	{"type" : "timestamp", "t" : "2502060930"},
+
 	{"type" : "message", "t" : "2502032226", "content" : "歴史的に、二段ジャンプは 「コヨーテタイム」 の不完全な実装によるものだった。"},
 	{"type" : "message", "t" : "2502032225", "content" : "説明するね..."},
 	{"type" : "message", "t" : "2502032223", "content" : "二段ジャンプ＝バカ。"},
+
+	{"type" : "timestamp", "t" : "2502032223"},
 
 	{"type" : "message", "t" : "2501311032", "content" : "これは完成してるけど、もう少し磨く必要があるね。次はジャンプさせるよ。"},
 	{"type" : "video", "t" : "2501311032", "content" : "live_video/250131_HatsuneMikuWalking.mp4"},
 	{"type" : "message", "t" : "2501311032", "content" : "このミクの歩き方を見て！(そして走り方も)​"},
 
+	{"type" : "timestamp", "t" : "2501311032"},
+
 	{"type" : "image", "t" : "2501290104", "content" : "live_images/250129_yuna.jpg"},
 	{"type" : "message", "t" : "2501290104", "content" : "これはCabbit！ユナのぬいぐるみだよ 💖💗💕💖💗💕💖"},
 	{"type" : "image", "t" : "2501290102", "content" : "live_images/250129_cabbit.jpg"},
 	{"type" : "message", "t" : "2501290102", "content" : "見てこれ!!!"},
+
+	{"type" : "timestamp", "t" : "2501290102"},
 
 	{"type" : "message", "t" : "2501252349", "content" : "そのゲームのティーザーだと思ってください (｡•̀ᴗ-)"},
 	{"type" : "image", "t" : "2501252348", "content" : "live_images/250125_MikuSpritesheet.jpg"},
@@ -43,9 +66,15 @@
 	{"type" : "message", "t" : "2501252341", "content" : "デバッグとバグ修正のためにゲームを作っています（NekoNoidより大きいゲーム）。"},
 	{"type" : "message", "t" : "2501252341", "content" : "私のゲームフレームワークはほぼ完成しています。"},
 
+	{"type" : "timestamp", "t" : "2501252341"},
+
 	{"type" : "message", "t" : "2501221537", "content" : "💔"},
 
+	{"type" : "timestamp", "t" : "2501221537"},
+
 	{"type" : "message", "t" : "2501211242", "content" : "アイスバーグチャンネルが失われたエロメディアを語る際の方が、トゥルークライムチャンネルが虐殺について語る時よりも敬意があるのを見たことがあります <br>(⊙ _ ⊙ )"},
+
+	{"type" : "timestamp", "t" : "2501211242"},
 
 	{"type" : "message", "t" : "2501162239", "content" : "୧(๑•̀ᗝ•́)૭ アルゴリズム..."},
 	{"type" : "video", "t" : "2501162239", "content" : "live_video/250116_zalgoyuna.mp4"},
@@ -54,6 +83,8 @@
 	{"type" : "iframe", "t" : "2501160924", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/XShaIZs7J7M' title='BABYMONSTER - ‘Really Like You’ M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2501160924", "content" : "なんて綺麗な曲なんだろう！"},
 
+	{"type" : "timestamp", "t" : "2501160924"},
+
 	{"type" : "message", "t" : "2501142327", "content" : "5時間くらいかかった owo"},
 	{"type" : "image", "t" : "2501142326", "content" : "live_images/250114_MikiStardom.jpg"},
 	{"type" : "message", "t" : "2501142326", "content" : "今日は絵を描きました:"},
@@ -61,6 +92,8 @@
 
 	{"type" : "iframe", "t" : "2501141605", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/4wcYVTP4gJ8' title='Kandis | &#39;Playground&#39; Official M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2501141605", "content" : "ついに、Kandisデビュー!!!"},
+
+	{"type" : "timestamp", "t" : "2501141605"},
 
 	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid_Iframe' ></iframe>"},
 	{"type" : "message", "t" : "2501121518", "content" : "実際、私のフレームワークはとても柔軟で、ここで遊べます:"},
@@ -71,12 +104,18 @@
 
 	{"type" : "action", "t" : "2501121445", "content" : "Tnkiiがゲームを公開しました: <a href='https://niupleis.com/games/#NekoNoid'>NekoNoid</a>。"},
 
+	{"type" : "timestamp", "t" : "2501121445"},
+
 	{"type" : "yt", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/PD8xu0ooYko' title='Angel/MEM [Jungle|Breakcore|DnB|Dreamcast|PSX]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "yt", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/d3KfkKXRDzk' title='Sanctuary OS (Atmospheric Breaks/Jungle/Frutiger Aero/Nintendo/Dreamcast)' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2501110944", "content" : "昨晩これを聴きました:"},
 	{"type" : "message", "t" : "2501110944", "content" : "作業中や寝る前にブレイクビーツを聴いています。"},
 
+	{"type" : "timestamp", "t" : "2501110944"},
+
 	{"type" : "action", "t" : "2501100621", "content" : "Tnkii が新しいブログを公開しました: <a href='entry.html?id=250110'>ブログを更新しました</a>."},
+
+	{"type" : "timestamp", "t" : "2501101821"},
 
 	{"type" : "video", "t" : "2501100435", "content" : "live_video/250110_blackpink.mp4"},
 	{"type" : "message", "t" : "2501100435", "content" : "そして動画も。"},
@@ -90,5 +129,7 @@
 	{"type" : "message", "t" : "2501100432", "content" : "活動ログ:"},
 	{"type" : "message", "t" : "2501100432", "content" : "こんなメッセージも投稿できます。"},
 	{"type" : "message", "t" : "2501100432", "content" : "このセクションでは、短い更新をもっと頻繁に投稿します。"},
-	{"type" : "message", "t" : "2501100432", "content" : "こんにちは！"}
+	{"type" : "message", "t" : "2501100432", "content" : "こんにちは！"},
+
+	{"type" : "timestamp", "t" : "2501101632"}
 ]

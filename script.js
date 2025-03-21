@@ -128,26 +128,36 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 		var n = (item.t.charAt(8) + item.t.charAt(9))
 
 		let timestamp;
+		let day_date;
 
 		switch (lang) {
 			case "es":
 				timestamp = `<small class="${lang}" title="Este mensaje fué publicado el ${d} de ${meses[Number(m)]} de 20${y} a las ${h}:${n}">${y+m+d} ${h}:${n}</small>`;
+				day_date = `${d} de ${meses[Number(m)]} de 20${y}`
 				break;
 			case "en":
 				timestamp = `<small class="${lang}" title="This message was published on ${d} ${meses[Number(m)]}, 20${y} at ${h}:${n}">${y+m+d} ${h}:${n}</small>`;
+				day_date = `${d} ${meses[Number(m)]}, 20${y}`
 				break;
 			case "kr":
 				timestamp = `<small class="${lang}" title="이 메시지는 20${y}년 ${m}월 ${d}일 ${h}시 ${n}분에 게시되었습니다">${y+m+d} ${h}:${n}</small>`;
+				day_date = `20${y}년 ${m}월 ${d}일`
 				break;
 			case "jp":
 				timestamp = `<small class="${lang}" title="このメッセージは20${y}年${m}月${d}日 ${h}時${n}分に公開されました">${y+m+d} ${h}:${n}</small>`;
+				day_date = `20${y}年${m}月${d}日`
 				break;
 			case "cn":
 				timestamp = `<small class="${lang}" title="此消息发布于20${y}年${m}月${d}日 ${h}:${n}">${y+m+d} ${h}:${n}</small>`;
+				day_date = `20${y}年${m}月${d}日`
 				break;
 		}
 
 		switch (item.type) {
+			case ("timestamp"):
+				log.classList = "live-timestamp"
+				log.innerHTML = `${day_date}`
+				break;
 			case ("message"):
 				log.classList = "live-message log-bottom"
 				log.innerHTML = `<span class="${lang}">${item.content}</span>${timestamp}`
@@ -158,7 +168,7 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 				break;
 			case ("image"):
 				log.classList = "live-photo log-top"
-				log.innerHTML = `<img src="${item.content}">${timestamp}`
+				log.innerHTML = `<img loading="lazy" src="${item.content}">${timestamp}`
 				break;
 			case ("audio"):
 				log.classList = "live-audio log-top"
@@ -224,3 +234,33 @@ function loadEntry(id) {
 		document.getElementById("content").innerHTML = data.content;
 	})
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+	let videos = document.querySelectorAll("video[data-src]");
+
+	let observer = new IntersectionObserver((entries, observer) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				let video = entry.target;
+				video.src = video.dataset.src;
+				observer.unobserve(video);
+			}
+		});
+	});
+
+	videos.forEach(video => observer.observe(video));
+	
+	let iframes = document.querySelectorAll("iframe[data-src]");
+
+	let observer_i = new IntersectionObserver((entries, observer_i) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				let iframe = entry.target;
+				iframe.src = iframe.dataset.src;
+				observer_i.unobserve(iframe);
+			}
+		});
+	});
+
+	iframes.forEach(iframe => observer_i.observe(iframe));
+});

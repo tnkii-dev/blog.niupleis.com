@@ -1,4 +1,11 @@
 [
+	{"type" : "image", "t" : "2503210142", "content" : "live_images/250321_chroma.png"},
+	{"type" : "message", "t" : "2503210142", "content" : "Cabbit was my test subject."},
+	{"type" : "message", "t" : "2503210141", "content" : "I took three photos while holding the camera in my hand, assigned each one to an RGB channel, and then combined them into a single image."},
+	{"type" : "message", "t" : "2503210141", "content" : "I created chromatic aberration without algorithms or filters."},
+
+	{"type" : "timestamp", "t" : "2503210141"},
+
 	{"type" : "message", "t" : "250312005", "content" : "We will do marketing when I have a game to showcase the engine's capabilities."}, 
 	{"type" : "message", "t" : "250312005", "content" : "I'll try to finish the wiki this week; that should be enough for a soft launch."},
 	{"type" : "message", "t" : "250312005", "content" : "That’s what’s taking the most time, plus I need to write tutorials, templates, guides, and more."},
@@ -7,14 +14,22 @@
 	{"type" : "image", "t" : "250312003", "content" : "live_images/250317nekoplay.png"},
 	{"type" : "message", "t" : "250312003", "content" : "This is what I've been working on:"},
 
+	{"type" : "timestamp", "t" : "2503192003"},
+
 	{"type" : "iframe", "t" : "2503102206", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/TamDOXponnM' title='YEJI &quot;Air&quot; M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2503102206", "content" : "Yeji!!!<br>💖​💓​💝​💞​💕​💝​💓​💖​💞​💕​💖​"},
+
+	{"type" : "timestamp", "t" : "2503102206"},
 
 	{"type" : "message", "t" : "2503051702", "content" : "We are so Barack!!!"},
 	{"type" : "message", "t" : "2503051701", "content" : "I’ve moved houses, had a tooth extracted, and I’m feeling better."},
 
+	{"type" : "timestamp", "t" : "2503051701"},
+
 	{"type" : "image", "t" : "2502250929", "content" : "live_images/250225_nekoplay_maichan.png"},
 	{"type" : "message", "t" : "2502250929", "content" : "Sorry for the inactivity, I moved houses and I'm sick."},
+
+	{"type" : "timestamp", "t" : "2502250929"},
 
 	{"type" : "image", "t" : "2502061058", "content" : "live_images/250206_niupleis_update.png"},
 	{"type" : "action", "t" : "2502061056", "content" : "New section: <a href='https://niupleis.com/#GAMES' target='_blank'>Games</a>"},
@@ -23,18 +38,26 @@
 	{"type" : "image", "t" : "2502060930", "content" : "live_images/250206_wpp.jpg"},
 	{"type" : "message", "t" : "2502060930", "content" : "Behold, my new wallpaper."},
 
+	{"type" : "timestamp", "t" : "2502060930"},
+
 	{"type" : "message", "t" : "2502032226", "content" : "Historically, double jumping has been a consequence of a poorly implemented 'coyote time'."},
 	{"type" : "message", "t" : "2502032225", "content" : "Let me explain..."},
 	{"type" : "message", "t" : "2502032223", "content" : "Double jump = being dumb."},
+
+	{"type" : "timestamp", "t" : "2502032223"},
 
 	{"type" : "message", "t" : "2501311032", "content" : "That's ready, it just needs some refinement. Next, I'll make her jump."},
 	{"type" : "video", "t" : "2501311032", "content" : "live_video/250131_HatsuneMikuWalking.mp4"},
 	{"type" : "message", "t" : "2501311032", "content" : "Look at how this Miku walks! (And how she runs)​"},
 
+	{"type" : "timestamp", "t" : "2501311032"},
+
 	{"type" : "image", "t" : "2501290104", "content" : "live_images/250129_yuna.jpg"},
 	{"type" : "message", "t" : "2501290104", "content" : "It's Cabbit! Yuna's plushie 💖💗💕💖💗💕💖"},
 	{"type" : "image", "t" : "2501290102", "content" : "live_images/250129_cabbit.jpg"},
 	{"type" : "message", "t" : "2501290102", "content" : "Look at this!!!"},
+
+	{"type" : "timestamp", "t" : "2501290102"},
 
 	{"type" : "message", "t" : "2501252349", "content" : "Consider that a teaser for the game (｡•̀ᴗ-)"},
 	{"type" : "image", "t" : "2501252348", "content" : "live_images/250125_MikuSpritesheet.jpg"},
@@ -43,9 +66,15 @@
 	{"type" : "message", "t" : "2501252341", "content" : "To debug and fix errors, I'm making a game (bigger than NekoNoid)."},
 	{"type" : "message", "t" : "2501252341", "content" : "My game framework is practically finished."},
 
+	{"type" : "timestamp", "t" : "2501252341"},
+
 	{"type" : "message", "t" : "2501221537", "content" : "💔"},
 
+	{"type" : "timestamp", "t" : "2501221537"},
+
 	{"type" : "message", "t" : "2501211242", "content" : "I've seen iceberg channels narrate lost hentai media with more respect than true crime channels do for massacres <br>(⊙ _ ⊙ )"},
+
+	{"type" : "timestamp", "t" : "2501211242"},
 
 	{"type" : "message", "t" : "2501162239", "content" : "୧(๑•̀ᗝ•́)૭ Algorithms..."},
 	{"type" : "video", "t" : "2501162239", "content" : "live_video/250116_zalgoyuna.mp4"},
@@ -54,6 +83,8 @@
 	{"type" : "iframe", "t" : "2501160924", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/XShaIZs7J7M' title='BABYMONSTER - ‘Really Like You’ M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2501160924", "content" : "What a beautiful song!"},
 
+	{"type" : "timestamp", "t" : "2501160924"},
+
 	{"type" : "message", "t" : "2501142327", "content" : "It took me about 5 hours owo"},
 	{"type" : "image", "t" : "2501142326", "content" : "live_images/250114_MikiStardom.jpg"},
 	{"type" : "message", "t" : "2501142326", "content" : "Today I made a drawing:"},
@@ -61,6 +92,8 @@
 
 	{"type" : "iframe", "t" : "2501141605", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/4wcYVTP4gJ8' title='Kandis | &#39;Playground&#39; Official M/V' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2501141605", "content" : "Finally, Kandis debut!!!"},
+
+	{"type" : "timestamp", "t" : "2501141605"},
 
 	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid_Iframe' ></iframe>"},
 	{"type" : "message", "t" : "2501121518", "content" : "In fact, my framework is so versatile you can play it here:"},
@@ -71,12 +104,18 @@
 
 	{"type" : "action", "t" : "2501121445", "content" : "Tnkii has released a game: <a href='https://niupleis.com/games/#NekoNoid'>NekoNoid</a>."},
 
+	{"type" : "timestamp", "t" : "2501121445"},
+
 	{"type" : "yt", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/PD8xu0ooYko' title='Angel/MEM [Jungle|Breakcore|DnB|Dreamcast|PSX]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "yt", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/d3KfkKXRDzk' title='Sanctuary OS (Atmospheric Breaks/Jungle/Frutiger Aero/Nintendo/Dreamcast)' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "message", "t" : "2501110944", "content" : "I listened to these last night:"},
 	{"type" : "message", "t" : "2501110944", "content" : "I've been listening to breakbeats while working or before sleeping."},
 
+	{"type" : "timestamp", "t" : "2501110944"},
+
 	{"type" : "action", "t" : "2501100621", "content" : "Tnkii has published a new blog: <a href='entry.html?id=250110'>Updating the Blog</a>."},
+
+	{"type" : "timestamp", "t" : "2501101821"},
 
 	{"type" : "video", "t" : "2501100435", "content" : "live_video/250110_blackpink.mp4"},
 	{"type" : "message", "t" : "2501100435", "content" : "and also videos."},
@@ -90,5 +129,7 @@
 	{"type" : "message", "t" : "2501100432", "content" : "Activity logs:"},
 	{"type" : "message", "t" : "2501100432", "content" : "I can post messages like these"},
 	{"type" : "message", "t" : "2501100432", "content" : "In this section, I'll post short updates more frequently."},
-	{"type" : "message", "t" : "2501100432", "content" : "Hello!"}
+	{"type" : "message", "t" : "2501100432", "content" : "Hello!"},
+
+	{"type" : "timestamp", "t" : "2501101632"}
 ]
