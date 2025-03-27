@@ -1,4 +1,11 @@
 [
+	{"type" : "message", "t" : "2503271346", "content" : "また彼女に恋をしました 💖💖💖"},
+	{"type" : "video", "t" : "2503271345", "content" : "live_video/250327_PrincessYuna.mp4"},
+	{"type" : "message", "t" : "2503271345", "content" : "<a href='https://youtube.com/shorts/kgKw5LXtu70' target='_blank' style='color:#dff;'>この美しい動画でした:</a>"},
+	{"type" : "message", "t" : "2503271345", "content" : "昨日、水曜日にYouTubeの通知で目が覚めました"},
+
+	{"type" : "timestamp", "t" : "2503271345"},
+
 	{"type" : "image", "t" : "2503210142", "content" : "live_images/250321_chroma.png"},
 	{"type" : "message", "t" : "2503210142", "content" : "Cabbitは私のテスト対象でした。"},
 	{"type" : "message", "t" : "2503210141", "content" : "カメラを手に持ったまま3枚の写真を撮り、それぞれをRGBチャンネルに割り当て、最後に1つの画像に合成しました。"},
