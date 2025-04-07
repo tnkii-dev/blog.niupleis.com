@@ -59,7 +59,7 @@ a {
 }
 
 main {
-	margin-top: 4rem;
+	margin-top: 2rem;
 }
 
 iframe {
@@ -72,7 +72,7 @@ iframe {
 #live-log {
 	display: none;
 	flex-direction: column-reverse;
-	height: calc(100vh - 4rem);
+	height: calc(100vh - 2rem);
 	overflow: auto;
 	scrollbar-color: var(--blog-color) #00000000;
 }

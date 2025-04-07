@@ -1,4 +1,10 @@
 [
+	{"type" : "image", "t" : "2504071215", "content" : "live_images/250407_sv_vhs.jpg"},
+	{"type" : "action", "t" : "2504071215", "content" : "Actualización <a href='https://niupleis.com/resources/'>resources/</a>"},
+	{"type" : "message", "t" : "2504071215", "content" : "Estoy preparando unos recursos para un próximo video de YouTube"},
+
+	{"type" : "timestamp", "t" : "2504071215"},
+
 	{"type" : "message", "t" : "2503271346", "content" : "Me he vuelto a enamorar de ella 💖💖💖"},
 	{"type" : "video", "t" : "2503271345", "content" : "live_video/250327_PrincessYuna.mp4"},
 	{"type" : "message", "t" : "2503271345", "content" : "<a href='https://youtube.com/shorts/kgKw5LXtu70' target='_blank' style='color:#dff;'>Era este hermoso video:</a>"},
