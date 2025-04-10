@@ -125,6 +125,13 @@ iframe {
 	cursor: default;
 }
 
+.deleted {
+	color: #3f3;
+	padding-block: 1px !important;
+	background-color: #7d001a;
+	border-radius: 15px;
+}
+
 .live-timestamp {
 	color: #000;
 	padding-block: 1px !important;

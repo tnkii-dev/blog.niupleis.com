@@ -1,7 +1,12 @@
 [
-	{"type" : "image", "t" : "2504071215", "content" : "live_images/250407_sv_vhs.jpg"},
-	{"type" : "action", "t" : "2504071215", "content" : "업데이트 <a href='https://niupleis.com/resources/'>resources/</a>"},
-	{"type" : "message", "t" : "2504071215", "content" : "곧 업로드할 유튜브 영상용 자료를 준비 중이에요"},
+	{"type" : "iframe", "t" : "2504092258", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/kgBcil-EyvE' title='cosas' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "action", "t" : "2504092258", "content" : "타누키가 영상을 올렸어요 <a href='https://youtu.be/kgBcil-EyvE'>\"cosas\"</a>"},
+
+	{"type" : "timestamp", "t" : "2504092258"},
+
+	{"type" : "deleted", "oldtype" : "image", "t" : "2504071215", "content" : "live_images/250407_sv_vhs.jpg"},
+	{"type" : "deleted", "oldtype" : "action", "t" : "2504071215", "content" : "업데이트 <a href='https://niupleis.com/resources/'>resources/</a>"},
+	{"type" : "deleted", "oldtype" : "message", "t" : "2504071215", "content" : "곧 업로드할 유튜브 영상용 자료를 준비 중이에요"},
 
 	{"type" : "timestamp", "t" : "2504071215"},
 

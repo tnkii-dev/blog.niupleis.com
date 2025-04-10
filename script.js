@@ -154,6 +154,10 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 		}
 
 		switch (item.type) {
+			case ("deleted"):
+				log.classList = "deleted"
+				log.innerHTML = `<img style="filter: brightness(2); mix-blend-mode: darken;" height="16" src="res/ojjjo.webp"> DELETED <img style="filter: brightness(2); mix-blend-mode: darken;" height="16" src="res/ojjjo.webp">`
+				break;
 			case ("timestamp"):
 				log.classList = "live-timestamp"
 				log.innerHTML = `${day_date}`
