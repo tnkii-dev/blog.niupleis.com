@@ -1,4 +1,10 @@
 [
+	{"type" : "image", "t" : "2504181248", "content" : "live_images/250418_nkys.webp"},
+	{"type" : "message", "t" : "2504181248", "content" : "我想做3D老婆，用Blender试了试，太难了我就泄气了。但我想做老婆又重燃动力，然后又开始循环。"},
+	{"type" : "message", "t" : "2504181248", "content" : "我一直想学3D，但就是学不会哈哈"},
+
+	{"type" : "timestamp", "t" : "2504181248"},
+
 	{"type" : "iframe", "t" : "2504092258", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/kgBcil-EyvE' title='cosas' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "action", "t" : "2504092258", "content" : "TNKII 发布了一个视频 <a href='https://youtu.be/kgBcil-EyvE'>\"cosas\"</a>"},
 

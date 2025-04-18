@@ -1,4 +1,10 @@
 [
+	{"type" : "image", "t" : "2504181248", "content" : "live_images/250418_nkys.webp"},
+	{"type" : "message", "t" : "2504181248", "content" : "I want to make 3D waifus, I try with Blender, it's hard and I get discouraged, but I want to make waifus so I get motivated again, and the cycle repeats."},
+	{"type" : "message", "t" : "2504181248", "content" : "I've wanted to learn 3D but I can't lol"},
+
+	{"type" : "timestamp", "t" : "2504181248"},
+
 	{"type" : "iframe", "t" : "2504092258", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/kgBcil-EyvE' title='cosas' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type" : "action", "t" : "2504092258", "content" : "tnkii has uploaded a video <a href='https://youtu.be/kgBcil-EyvE'>\"cosas\"</a>"},
 
