@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2504201834", "content" : "live_images/250420_Mishil_LipStick.webp"},
+	{"type" : "action", "t" : "2504201834", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250420_Mishil_LipStick.png'>Mishil</a>."},
+
+	{"type" : "timestamp", "t" : "2504201823"},
+
 	{"type" : "image", "t" : "2504181857", "content" : "live_images/250418_Lis_JiraiKei.webp"},
 	{"type" : "message", "t" : "2504181857", "content" : "Hoy hice un dibujo:"},
 	{"type" : "action", "t" : "2504181847", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250418_Lis_JiraiKei.png'>Lis</a>."},
