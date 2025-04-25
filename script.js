@@ -193,7 +193,7 @@ function loadLiveLog() { // {"type" : "message", "t" : "2501090259", "content" :
 		};
 
 		liveLog.appendChild(log);
-			}, 10 * i)
+			}, 150 * i)
 		})
 	})
 }

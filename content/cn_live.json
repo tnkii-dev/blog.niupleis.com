@@ -1,4 +1,7 @@
 [
+	{"type" : "message", "t" : "2504251412", "content" : "<div style='display: grid; grid-template-columns: 1fr 1fr;'><img style='width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top;' src='https://niupleis.com/gallery/thumbnails/250425_Lis_CorpsePaint.png'><img style='width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top;' src='https://niupleis.com/gallery/thumbnails/250425_Mishil_CorpsePaint.png'><img style='width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top;' src='https://niupleis.com/gallery/thumbnails/250425_Jiwoon_CorpsePaint.png'><img style='width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top;' src='https://niupleis.com/gallery/thumbnails/250425_Cherry_CorpsePaint.png'></div>"},
+	{"type" : "action", "t" : "2504251412", "content" : "TNKII 发布了四幅画作：<div style='display: grid; grid-template-columns: 1fr 1fr;'><a href='https://niupleis.com/gallery/?image=250425_Lis_CorpsePaint.png'>Lis Metal</a><a href='https://niupleis.com/gallery/?image=250425_Mishil_CorpsePaint.png'>Mishil Metal</a><a href='https://niupleis.com/gallery/?image=250425_Jiwoon_CorpsePaint.png'>Jiwoon Metal</a><a href='https://niupleis.com/gallery/?image=250425_Cherry_CorpsePaint.png'>Cherry Metal</a></div>"},
+
 	{"type" : "message", "t" : "2504250043", "content" : "她们是<span style='font-size: 24px; font-weight: bold; color: #000;'>Punk Suteki</span>"},
 	{"type" : "message", "t" : "2504250043", "content" : "没错，金属风会是她们的概念之一。"},
 	{"type" : "message", "t" : "2504250042", "content" : "她们是我在另一个博客里很早就提到的团体成员。"},
