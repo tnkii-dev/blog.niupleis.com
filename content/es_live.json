@@ -1,5 +1,17 @@
 [
-	{"type" : "message", "t" : "2504222221", "content" : "Aquí está el último."},
+	{"type" : "message", "t" : "2504250043", "content" : "Ellas son <span style='font-size: 24px; font-weight: bold; color: #000;'>Punk Suteki</span>"},
+	{"type" : "message", "t" : "2504250043", "content" : "Y si, incluirán el Metal en su concepto."},
+	{"type" : "message", "t" : "2504250042", "content" : "Ellas son las miembros del grupo que mencioné hace mucho en mi otro blog."},
+	{"type" : "message", "t" : "2504250042", "content" : "He puesto maquillaje (Corpse Paint)"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Cherry_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Jiwoon_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Mishil_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Lis_CorpsePaint.webp"},
+	{"type" : "message", "t" : "2504250041", "content" : "Ahora miren lo que he hecho con esos dibujos."},
+
+	{"type" : "timestamp", "t" : "2504250017"},
+
+	{"type" : "message", "t" : "2504242221", "content" : "Aquí está el último."},
 	{"type" : "image", "t" : "2504242218", "content" : "live_images/250424_Cherry_Tennis.webp"},
 	{"type" : "action", "t" : "2504242218", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250424_Cherry_Tennis.png'>Cherry</a>."},
 

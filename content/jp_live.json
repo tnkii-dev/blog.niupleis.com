@@ -1,5 +1,17 @@
 [
-	{"type" : "message", "t" : "2504222221", "content" : "これが最後の一つだよ。"},
+	{"type" : "message", "t" : "2504250043", "content" : "彼女たちは<span style='font-size: 24px; font-weight: bold; color: #000;'>Punk Suteki</span>です。"},
+	{"type" : "message", "t" : "2504250043", "content" : "はい、メタルをコンセプトに取り入れます。"},
+	{"type" : "message", "t" : "2504250042", "content" : "彼女たちは以前、私の別のブログで紹介したグループのメンバーです。"},
+	{"type" : "message", "t" : "2504250042", "content" : "メイク（コープスペイント）を施しました。"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Cherry_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Jiwoon_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Mishil_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Lis_CorpsePaint.webp"},
+	{"type" : "message", "t" : "2504250041", "content" : "このイラストでやったことを見てください。"},
+
+	{"type" : "timestamp", "t" : "2504250017"},
+
+	{"type" : "message", "t" : "2504242221", "content" : "これが最後の一つだよ。"},
 	{"type" : "image", "t" : "2504242218", "content" : "live_images/250424_Cherry_Tennis.webp"},
 	{"type" : "action", "t" : "2504242218", "content" : "たぬきがイラストを投稿しました: <a href='https://niupleis.com/gallery/?image=250424_Cherry_Tennis.png'>Cherry</a>."},
 

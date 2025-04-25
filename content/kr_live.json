@@ -1,5 +1,17 @@
 [
-	{"type" : "message", "t" : "2504222221", "content" : "여기 마지막이야."},
+	{"type" : "message", "t" : "2504250043", "content" : "그녀들은 <span style='font-size: 24px; font-weight: bold; color: #000;'>Punk Suteki</span>입니다."},
+	{"type" : "message", "t" : "2504250043", "content" : "네, 메탈도 컨셉에 포함됩니다."},
+	{"type" : "message", "t" : "2504250042", "content" : "그녀들은 예전에 제 다른 블로그에서 언급했던 그룹의 멤버들이에요."},
+	{"type" : "message", "t" : "2504250042", "content" : "메이크업(콜스 페인트)을 했어요."},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Cherry_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Jiwoon_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Mishil_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "live_images/250425_Lis_CorpsePaint.webp"},
+	{"type" : "message", "t" : "2504250041", "content" : "이 그림들로 제가 뭘 했는지 보세요."},
+
+	{"type" : "timestamp", "t" : "2504250017"},
+
+	{"type" : "message", "t" : "2504242221", "content" : "여기 마지막이야."},
 	{"type" : "image", "t" : "2504242218", "content" : "live_images/250424_Cherry_Tennis.webp"},
 	{"type" : "action", "t" : "2504242218", "content" : "타누키가 그림을 올렸어요: <a href='https://niupleis.com/gallery/?image=250424_Cherry_Tennis.png'>Cherry</a>."},
 
