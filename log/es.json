@@ -1,0 +1,208 @@
+[	
+	{"type" : "image", "t" : "2505031144", "content" : "images/250503_tema.jpg"},
+	{"type" : "message", "t" : "2505031144", "content" : "Así se vé este tema:"},
+	{"type" : "message", "t" : "2505031143", "content" : "Obviamente basado en la lata de té verde de Arizona"},
+	{"type" : "image", "t" : "2505031143", "content" : "images/250503_greentea.webp"},
+	{"type" : "message", "t" : "2505031143", "content" : "He estado haciendo temas (de ui) para mi motor, anoche hice esta textura:"},
+
+	{"type" : "timestamp", "t" : "2505031116"},
+
+	{"type" : "message", "t" : "2504251412", "content" : "<div style='display: grid; grid-template-columns: 1fr 1fr;'><img style='width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top;' src='https://niupleis.com/gallery/thumbnails/250425_Lis_CorpsePaint.png'><img style='width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top;' src='https://niupleis.com/gallery/thumbnails/250425_Mishil_CorpsePaint.png'><img style='width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top;' src='https://niupleis.com/gallery/thumbnails/250425_Jiwoon_CorpsePaint.png'><img style='width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top;' src='https://niupleis.com/gallery/thumbnails/250425_Cherry_CorpsePaint.png'></div>"},
+	{"type" : "action", "t" : "2504251412", "content" : "Tnkii ha publicado cuatro dibujos: <div style='display: grid; grid-template-columns: 1fr 1fr;'><a href='https://niupleis.com/gallery/?image=250425_Lis_CorpsePaint.png'>Lis Metal</a><a href='https://niupleis.com/gallery/?image=250425_Mishil_CorpsePaint.png'>Mishil Metal</a><a href='https://niupleis.com/gallery/?image=250425_Jiwoon_CorpsePaint.png'>Jiwoon Metal</a><a href='https://niupleis.com/gallery/?image=250425_Cherry_CorpsePaint.png'>Cherry Metal</a></div>"},
+
+	{"type" : "message", "t" : "2504250043", "content" : "Ellas son <span style='font-size: 24px; font-weight: bold; color: #000;'>Punk Suteki</span>"},
+	{"type" : "message", "t" : "2504250043", "content" : "Y si, incluirán el Metal en su concepto."},
+	{"type" : "message", "t" : "2504250042", "content" : "Ellas son las miembros del grupo que mencioné hace mucho en mi otro blog."},
+	{"type" : "message", "t" : "2504250042", "content" : "He puesto maquillaje (Corpse Paint)"},
+	{"type" : "image", "t" : "2504250041", "content" : "images/250425_Cherry_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "images/250425_Jiwoon_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "images/250425_Mishil_CorpsePaint.webp"},
+	{"type" : "image", "t" : "2504250041", "content" : "images/250425_Lis_CorpsePaint.webp"},
+	{"type" : "message", "t" : "2504250041", "content" : "Ahora miren lo que he hecho con esos dibujos."},
+
+	{"type" : "timestamp", "t" : "2504250017"},
+
+	{"type" : "message", "t" : "2504242221", "content" : "Aquí está el último."},
+	{"type" : "image", "t" : "2504242218", "content" : "images/250424_Cherry_Tennis.webp"},
+	{"type" : "action", "t" : "2504242218", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250424_Cherry_Tennis.png'>Cherry</a>."},
+
+	{"type" : "timestamp", "t" : "2504242159"},
+
+	{"type" : "message", "t" : "2504222341", "content" : "Falta uno más O.O"},
+	{"type" : "message", "t" : "2504222341", "content" : "Llevo tres dibujos en 6 dias :D"},
+	{"type" : "image", "t" : "2504222337", "content" : "images/250422_Jiwoon_Chocker.webp"},
+	{"type" : "action", "t" : "2504222337", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250422_Jiwoon_Chocker.png'>Jiwoon</a>."},
+
+	{"type" : "timestamp", "t" : "2504222324"},
+
+	{"type" : "image", "t" : "2504201834", "content" : "images/250420_Mishil_LipStick.webp"},
+	{"type" : "action", "t" : "2504201834", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250420_Mishil_LipStick.png'>Mishil</a>."},
+
+	{"type" : "timestamp", "t" : "2504201823"},
+
+	{"type" : "image", "t" : "2504181857", "content" : "images/250418_Lis_JiraiKei.webp"},
+	{"type" : "message", "t" : "2504181857", "content" : "Hoy hice un dibujo:"},
+	{"type" : "action", "t" : "2504181847", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250418_Lis_JiraiKei.png'>Lis</a>."},
+
+	{"type" : "iframe", "t" : "2504181637", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/neOeaZoGXWg' title='Late Night Drive Playlist | Atmospheric Jungle | Ambient DnB | Liquid' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "message", "t" : "2504181637", "content" : "I've been jamming to this:"},
+
+	{"type" : "image", "t" : "2504181248", "content" : "images/250418_nkys.webp"},
+	{"type" : "message", "t" : "2504181248", "content" : "Quiero hacer waifus 3d, pruebo con blender, es dificil y me desmotivo, quiero hacer waifus así que me motivo, y vuelta a empezar."},
+	{"type" : "message", "t" : "2504181248", "content" : "He querido aprender 3d pero no puedo xd"},
+
+	{"type" : "timestamp", "t" : "2504181248"},
+
+	{"type" : "iframe", "t" : "2504092258", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/kgBcil-EyvE' title='cosas' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "action", "t" : "2504092258", "content" : "tnkii ha publicado un video <a href='https://youtu.be/kgBcil-EyvE'>\"cosas\"</a>"},
+
+	{"type" : "timestamp", "t" : "2504092258"},
+
+	{"type" : "deleted", "oldtype" : "image", "t" : "2504071215", "content" : "images/250407_sv_vhs.jpg"},
+	{"type" : "deleted", "oldtype" : "action", "t" : "2504071215", "content" : "Actualización <a href='https://niupleis.com/resources/'>resources/</a>"},
+	{"type" : "deleted", "oldtype" : "message", "t" : "2504071215", "content" : "Estoy preparando unos recursos para un próximo video de YouTube"},
+
+	{"type" : "timestamp", "t" : "2504071215"},
+
+	{"type" : "message", "t" : "2503271346", "content" : "Me he vuelto a enamorar de ella 💖💖💖"},
+	{"type" : "video", "t" : "2503271345", "content" : "video/250327_PrincessYuna.mp4"},
+	{"type" : "message", "t" : "2503271345", "content" : "<a href='https://youtube.com/shorts/kgKw5LXtu70' target='_blank' style='color:#dff;'>Era este hermoso video:</a>"},
+	{"type" : "message", "t" : "2503271345", "content" : "Ayer miercoles, me desperté con una notificación de youtube"},
+	
+	{"type" : "timestamp", "t" : "2503271345"},
+
+	{"type" : "image", "t" : "2503210142", "content" : "images/250321_chroma.png"},
+	{"type" : "message", "t" : "2503210142", "content" : "Cabbit fué mi sujeto de prueba"},
+	{"type" : "message", "t" : "2503210141", "content" : "Tomé tres fotos sosteniendo la cámara con mi mano, asigné cada una a un canal rgb y luego combiné todo en una sola imágen."},
+	{"type" : "message", "t" : "2503210141", "content" : "He hecho aberración cromática sin algoritmos ni filtros."},
+
+	{"type" : "timestamp", "t" : "2503210141"},
+
+	{"type" : "message", "t" : "2503192005", "content" : "Haremos marketing cuando tenga un juego para demostrár las capácidades del motor."},
+	{"type" : "message", "t" : "2503192005", "content" : "Trataré de terminar la wiki está semana, eso devería ser suficiente para un lanzamiento discreto."},
+	{"type" : "message", "t" : "2503192005", "content" : "Eso es lo que más tiempo está tomando, además necesito escribir tutoriales, plantillas, guias y demás."},
+	{"type" : "image", "t" : "2503192004", "content" : "images/250317_nekoplay_wiki.png"},
+	{"type" : "message", "t" : "2503192004", "content" : "Es un framework de videojuegos web que funciona en la web, se llama NekoPlay, ya lo había mencionado en dias anteriores, está terminado y se supone que esté disponible en <a href='https://niupleis.com/NekoPlay/'>niupleis.com</a> pero llevo un par de semanas escribiendo documentación en forma de una wiki..."},
+	{"type" : "image", "t" : "2503192003", "content" : "images/250317nekoplay.png"},
+	{"type" : "message", "t" : "2503192003", "content" : "Esto es el lo que he estado trabajando:"},
+
+	{"type" : "timestamp", "t" : "2503192003"},
+
+	{"type" : "iframe", "t" : "2503102206", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/TamDOXponnM' title='YEJI &quot;Air&quot; M/V' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "message", "t" : "2503102206", "content" : "Yeji!!!<br>💖​💓​💝​💞​💕​💝​💓​💖​💞​💕​💖​"},
+
+	{"type" : "timestamp", "t" : "2503102206"},
+
+	{"type" : "message", "t" : "2503051702", "content" : "Estamos barack!!!"},
+	{"type" : "message", "t" : "2503051701", "content" : "Ya me cambié de casa, me sacaron la muela y estoy mejor."},
+
+	{"type" : "timestamp", "t" : "2503051701"},
+
+	{"type" : "image", "t" : "2502250929", "content" : "images/250225_nekoplay_maichan.png"},
+	{"type" : "message", "t" : "2502250929", "content" : "Lamento la inactividad, me cambié de casa y estoy enfermo."},
+
+	{"type" : "timestamp", "t" : "2502250929"},
+
+	{"type" : "image", "t" : "2502061058", "content" : "images/250206_niupleis_update.png"},
+	{"type" : "action", "t" : "2502061056", "content" : "Nueva sección: <a href='https://niupleis.com/#GAMES' target='_blank'>Juegos</a>"},
+	{"type" : "action", "t" : "2502061056", "content" : "Se ha actualizado niupleis.com"},
+
+	{"type" : "image", "t" : "2502060930", "content" : "images/250206_wpp.jpg"},
+	{"type" : "message", "t" : "2502060930", "content" : "Mirad, mi nuevo fondo de pantalla."},
+
+	{"type" : "timestamp", "t" : "2502060930"},
+
+	{"type" : "message", "t" : "2502032226", "content" : "Históricamente el doble salto ha sido consecuencia de una implementación deficiente del 'tiempo coyote'."},
+	{"type" : "message", "t" : "2502032225", "content" : "Lo explico..."},
+	{"type" : "message", "t" : "2502032223", "content" : "Doble salto = ser tonto."},
+
+	{"type" : "timestamp", "t" : "2502032223"},
+
+	{"type" : "message", "t" : "2501311032", "content" : "Eso está listo, solo falta refinar, lo siguiente es hacerla saltar."},
+	{"type" : "video", "t" : "2501311032", "content" : "video/250131_HatsuneMikuWalking.mp4"},
+	{"type" : "message", "t" : "2501311032", "content" : "Mirad como camina esta Miku! (Y como corre)​"},
+
+	{"type" : "timestamp", "t" : "2501311032"},
+
+	{"type" : "image", "t" : "2501290104", "content" : "images/250129_yuna.jpg"},
+	{"type" : "message", "t" : "2501290104", "content" : "es Cabbit! el plushie de Yuna 💖​💗​💕​💖​💗​​💕​​💖​"},
+	{"type" : "image", "t" : "2501290102", "content" : "images/250129_cabbit.jpg"},
+	{"type" : "message", "t" : "2501290102", "content" : "Miren esto!!!"},
+
+	{"type" : "timestamp", "t" : "2501290102"},
+
+	{"type" : "message", "t" : "2501252349", "content" : "Consideren eso un teaser de ese juego (｡•̀ᴗ-)"},
+	{"type" : "image", "t" : "2501252348", "content" : "images/250125_MikuSpritesheet.jpg"},
+	{"type" : "message", "t" : "2501252347", "content" : "Como sea, desde hace 2 dias estoy haciendo assests para el juego:"},
+	{"type" : "message", "t" : "2501252343", "content" : "Aparte para no lanzarlo a lo tonto sin nada que mostrar."},
+	{"type" : "message", "t" : "2501252341", "content" : "Para localizar y corregir errores estoy haciendo un juego (Más grande que NekoNoid)"},
+	{"type" : "message", "t" : "2501252341", "content" : "Mi framework de juegos está preácticamente terminado"},
+
+	{"type" : "timestamp", "t" : "2501252341"},
+
+	{"type" : "message", "t" : "2501221537", "content" : "💔"},
+
+	{"type" : "timestamp", "t" : "2501221537"},
+
+	{"type" : "message", "t" : "2501211242", "content" : "He visto a canales de icebers narrar con más respeto lost media de hentai que a canales true crime sobre masacres <br>(⊙ _ ⊙ )"},
+
+	{"type" : "timestamp", "t" : "2501211242"},
+
+	{"type" : "message", "t" : "2501162239", "content" : "୧(๑•̀ᗝ•́)૭ Algoritmos..."},
+	{"type" : "video", "t" : "2501162239", "content" : "video/250116_zalgoyuna.mp4"},
+	{"type" : "message", "t" : "2501162239", "content" : "Busco \"zalgo\" en pinterest ¿Y qué me encuentro? A Yuna XD"},
+
+	{"type" : "iframe", "t" : "2501160924", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/XShaIZs7J7M' title='BABYMONSTER - ‘Really Like You’ M/V' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "message", "t" : "2501160924", "content" : "Que bonita canción!"},
+
+	{"type" : "timestamp", "t" : "2501160924"},
+
+	{"type" : "message", "t" : "2501142327", "content" : "tardé como 5 horas owo"},
+	{"type" : "image", "t" : "2501142326", "content" : "images/250114_MikiStardom.jpg"},
+	{"type" : "message", "t" : "2501142326", "content" : "Hoy hice un dibujo:"},
+	{"type" : "action", "t" : "2501142312", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250114_MikiStardom.png'>Miki Stardom</a>."},
+
+	{"type" : "iframe", "t" : "2501141605", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/4wcYVTP4gJ8' title='Kandis | &#39;Playground&#39; Official M/V' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "message", "t" : "2501141605", "content" : "Por fin, Kandis debut!!!"},
+
+	{"type" : "timestamp", "t" : "2501141605"},
+
+	{"type" : "iframe", "t" : "2501121518", "content" : "<iframe width='320' height='180' src='https://niupleis.com/games/NekoNoid_Iframe' ></iframe>"},
+	{"type" : "message", "t" : "2501121518", "content" : "De hecho, mi framework es tan versatil que lo pueden jugar aquí:"},
+	{"type" : "message", "t" : "2501121516", "content" : "Y lo pueden jugar en <a style='color: #0ff;' href='https://niupleis.com/games/NekoNoid'>niupleis.com</a>."},
+	{"type" : "message", "t" : "2501121516", "content" : "NekoNoid es un clon de Arkanoid de texto, lo programé en unas 4 horas."},
+	{"type" : "message", "t" : "2501121515", "content" : "Esta madrugada quería probar una build beta así que hice NekoNoid."},
+	{"type" : "message", "t" : "2501121515", "content" : "Llevo un par de semanas programando un framework de videojuegos, y para probarlo estoy haciendo prototipos."},
+
+
+	{"type" : "action", "t" : "2501121445", "content" : "Tnkii ha publicado un videojuego: <a href='https://niupleis.com/games/#NekoNoid'>NekoNoid</a>."},
+
+	{"type" : "timestamp", "t" : "2501121445"},
+
+	{"type" : "iframe", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/PD8xu0ooYko' title='Angel/MEM [Jungle|Breakcore|DnB|Dreamcast|PSX]' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "iframe", "t" : "2501110944", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/d3KfkKXRDzk' title='Sanctuary OS (Atmospheric Breaks/Jungle/Frutiger Aero/Nintendo/Dreamcast)' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type" : "message", "t" : "2501110944", "content" : "Escuché estos anoche:"},
+	{"type" : "message", "t" : "2501110944", "content" : "He estado escuchando breakbeats para trabajar o antes de dormir."},
+
+	{"type" : "timestamp", "t" : "2501110944"},
+
+	{"type" : "action", "t" : "2501101821", "content" : "Tnkii ha publicado un nuevo blog: <a href='entry.html?id=250110'>Actualizando el blog</a>."},
+
+	{"type" : "timestamp", "t" : "2501101821"},
+
+	{"type" : "video", "t" : "2501101635", "content" : "video/250110_blackpink.mp4"},
+	{"type" : "message", "t" : "2501101635", "content" : "y también videos."},
+	{"type" : "audio", "t" : "2501101634", "content" : "audio/250110_blackpink.m4a"},
+	{"type" : "message", "t" : "2501101634", "content" : "También audios"},
+	{"type" : "image", "t" : "2501101633", "content" : "images/250110_blackpink.jpg"},
+	{"type" : "image", "t" : "2501101633", "content" : "images/250110_itzy.jpg"},
+	{"type" : "image", "t" : "2501101633", "content" : "images/250110_triples.jpg"},
+	{"type" : "message", "t" : "2501101633", "content" : "También puedo publicar imágenes:"},
+	{"type" : "action", "t" : "2501101632", "content" : "Tnkii ha creado una nueva sección."},
+	{"type" : "message", "t" : "2501101632", "content" : "Logs de actividad:"},
+	{"type" : "message", "t" : "2501101632", "content" : "Hay Puedo publicar mensajes como estos"},
+	{"type" : "message", "t" : "2501101632", "content" : "En esta sección publicaré actualizaciónes cortas  más seguido."},
+	{"type" : "message", "t" : "2501101632", "content" : "Hola!"},
+
+	{"type" : "timestamp", "t" : "2501101632"}
+]

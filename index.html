@@ -2,76 +2,64 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-
-	<title>Niupleis Blog</title>
-	
-	<script src="script.js"></script>
-
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/nav.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog</title>
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<script src="script.js"></script>
 </head>
-
 <body>
-<!--NAV && ASIDE--------------------------------------------------------------------------------------------------------------------------------->
 	<nav>
-		<img onclick="classToggle('lang', 'show')" src="/res/iconLang.png" class="icon">
-		<img src="/res/blogLogo_anim.gif" style="height: 100%;">
-		<img onclick="classToggle('menu', 'show')" src="/res/iconMenu.png" class="icon">
+		<img onclick="show('lang')" src="res/iconLang.png">
+		<img src="res/blogLogo_anim.gif">
+		<img onclick="show('nav')" src="res/iconMenu.png">
 	</nav>
-	
-	<aside id="lang">
-		<a onclick="ts('lang', 'kr')" style="font-family: 'Sawarabi Gothic';">한국어</a> <span>•</span>
-		<a onclick="ts('lang', 'jp')" style="font-family: 'Hahmlet';">日本語</a><br>
-		<a onclick="ts('lang', 'cn')" style="font-family: 'zcoolxiaoWei';">官话</a> <span>•</span>
-		<a onclick="ts('lang', 'es')" >Español</a><br>
-		<a onclick="ts('lang', 'en')" >English</a>
-	</aside>
-
-	<aside id="menu">
-		<a href="https://niupleis.com">niupleis.com ↗</a>
-	</aside>
-<!--NAV && ASIDE--------------------------------------------------------------------------------------------------------------------------------->
-
-	<div id="screen-selector" style="display: none;">
-		<a onclick="selectScreen(1)">Live</a>
-		<a onclick="selectScreen(2)">Posts</a>
-		<a onclick="selectScreen(3)">Articles</a>
+	<div class="lang">
+		<a onclick="loadContent('ko')" style="font-family: 'Sawarabi Gothic';">한국어</a>
+		<a onclick="loadContent('ja')" style="font-family: 'Hahmlet';">日本語</a>
+		<a onclick="loadContent('zh')" style="font-family: 'zcoolxiaoWei';">官话</a>
+		<a onclick="loadContent('es')" >Español</a>
+		<a onclick="loadContent('en')" >English</a>
+	</div>
+	<div class="nav">
+		<a href="https://niupleis.com">niupleis.com</a>
 	</div>
 
-	<main id="m">
-		<section id="live-log"></section>
-
-		<section id="blog-posts"></section>
-
-		<section id="articles"></section>
+	<main>
+		<!--div class="iframe">
+			<iframe width='360' height='203' src='https://www.youtube.com/embed/neOeaZoGXWg' title='Late Night Drive Playlist | Atmospheric Jungle | Ambient DnB | Liquid' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>
+			<i><span>09 Mayo 2025</span></i>
+		</div>
+		<div class="video">
+			<video controls src="live_video/250327_PrincessYuna.mp4"></video>
+			<i><span>09 Mayo 2025</span></i>
+		</div>
+		<div class="audio">
+			<audio controls src="live_audio/250110_blackpink.m4a"></audio>
+			<i><span>09 Mayo 2025</span></i>
+		</div>
+		<div class="image">
+			<img src="live_images/250503_greentea.webp">
+			<i><span>09 Mayo 2025</span></i>
+		</div>
+		<div class="action">
+			<p>El blog se ha actualizado</p>
+			<i><span>09 Mayo 2025</span></i>
+		</div>
+		<div class="message primer">
+			<p>He estado haciendo temas (de ui) para mi motor, anoche hice esta textura</p>
+			<i><span>09 Mayo 2025</span></i>
+		</div>
+		<p class="timestamp">09 Mayo 2025</p-->
 	</main>
-	
-	<script>
-		var url = new URL(window.location.href);
-		var params = url.searchParams;
-		lang = "es";
-		var userLanguage = navigator.language || navigator.languages[0];
-		console.log(userLanguage);
-		
-		if (params.has('lang') && params.get('lang') !== "") {
-			lang = params.get('lang');
-		} else if (userLanguage.startsWith('es')) {
-			lang = "es";
-		} else if (userLanguage.startsWith('en')) {
-			lang = "en";
-		} else if (userLanguage.startsWith('ko')) {			
-			lang = "kr";
-		} else if (userLanguage.startsWith('ja')) {
-			lang = "jp";
-		} else if (userLanguage.startsWith('zh')) {
-			lang = "cn";
-		} else {
-			lang = "es";
-		}
 
-		selectScreen(1);
+	<script>
+		const langs = ["es", "en", "ja", "ko", "zh"];
+		if (langs.includes(navigator.language.substring(0, 2))) {
+			loadContent(navigator.language.substring(0, 2));
+		} else {
+			loadContent("en");
+		}
 	</script>
 </body>
 </html>
