@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2505121327", "content" : "images/250512_ruby.png"},
+	{"type" : "message", "t" : "2505121327", "f" : "1", "content" : "Voy a aprender Ruby"},
+
+	{"type" : "timestamp", "t" : "2505121317"},
+
 	{"type" : "image", "t" : "2505112153", "content" : "images/250511_waifu_luna.webp"},
 	{"type" : "message", "t" : "2505112153", "content" : "y lo hice solo por las waifus xd"},
 	{"type" : "image", "t" : "2505112153", "content" : "images/250511_rivals.webp"},
