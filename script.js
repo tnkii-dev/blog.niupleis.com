@@ -12,10 +12,9 @@ function loadContent(lang) {
 	})
 	.then(data => {
 		data.forEach((log, i) => {
-		setTimeout(() => {
 			const div = document.createElement('div');
 			div.className = log.type;
-			
+
 			if (log.f) div.classList.toggle("primer");
 
 			switch (log.type) {
@@ -49,8 +48,9 @@ function loadContent(lang) {
 				break;
 			}
 
+		//setTimeout(() => {
 			blog.appendChild(div);
-		}, 50 * i)
+		//}, 10 * i)
 		})
 	})
 }
@@ -89,3 +89,33 @@ function getDate(lang, time) {
 		return `20${y}年${m}月${d}日`;
 	}
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+	let videos = document.querySelectorAll("video[data-src]");
+
+	let observer = new IntersectionObserver((entries, observer) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				let video = entry.target;
+				video.src = video.dataset.src;
+				observer.unobserve(video);
+			}
+		});
+	});
+
+	videos.forEach(video => observer.observe(video));
+	
+	let iframes = document.querySelectorAll("iframe[data-src]");
+
+	let observer_i = new IntersectionObserver((entries, observer_i) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				let iframe = entry.target;
+				iframe.src = iframe.dataset.src;
+				observer_i.unobserve(iframe);
+			}
+		});
+	});
+
+	iframes.forEach(iframe => observer_i.observe(iframe));
+});

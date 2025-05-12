@@ -33,6 +33,7 @@ nav {
 nav > img {
 	height: 1.5rem;
 	margin: 5px;
+	cursor: pointer;
 }
 
 .lang, .nav {
@@ -114,7 +115,6 @@ main > div > i {
 
 .primer { border-top-left-radius: 0; }
 .primer::before {
-	color: var(--blog);
 	position: absolute;
 	content: '◥';
 	transform: translate(-16px, -11px);
@@ -134,25 +134,32 @@ main > div > i {
 }
 
 .message { background-color: var(--blog); }
+.message.primer::before { color: var(--blog); }
 
 .action { background-color: var(--niu); }
+.action.primer::before { color: var(--niu); }
 
 .image { padding: 0.5rem; background-color: var(--blog); width: fit-content; }
+.image.primer::before { color: var(--blog); }
 .image > img { max-width: 100%; max-height: 65vh; border-radius: 0.5rem; }
 
 .audio { background-color: var(--blog); width: fit-content; }
+.audio.primer::before { color: var(--blog); }
 .audio > audio { height: 2rem; filter: invert(); }
 
 .video { padding: 0.5rem; background-color: var(--blog); width: fit-content; }
+.video.primer::before { color: var(--blog); }
 .video > video { max-width: 100%; max-height: 65vh; border-radius: 0.5rem; }
 
 .iframe { padding: 0.5rem; background-color: var(--lnk); }
+.iframe.primer::before { color: var(--lnk); }
 .iframe > iframe { border-radius: 0.5rem; }
 
 .deleted {
 	color: black;
 	background-color: #f22;
 }
+.deleted.primer::before { color: #f22; }
 
 
 
