@@ -68,15 +68,18 @@ nav > img {
 .nav { right: -200px; }
 .nav.show { right: 0; }
 .nav a {
+	display: flex;
+	gap: 3px;
 	color: var(--niu);
-	display: block;
 	padding-block: 3px;
 	padding-inline: 5px;
 	margin: 5px;
 	text-align: center;
 	background-color: #ffffff22;
 	border-radius: 8px;
+	align-items: center;
 }
+.nav a > img { height: 16px; }
 .nav > a:hover { background-color: #ffffff44; }
 
 /* --------------------------------------------------------- */
