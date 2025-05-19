@@ -1,4 +1,11 @@
 [
+	{"type" : "message", "t" : "2505191231", "content" : "¿No es increíble el lenguage?"},
+	{"type" : "message", "t" : "2505191231", "content" : "Ya hasta tengo el dominio <a href='https://shovelwave.com'>shovelwave.com</a>."},
+	{"type" : "message", "t" : "2505191230", "content" : "Creí que alguién más lo haría eventualmente pero creo que soy el único que lo ha pensado."},
+	{"type" : "message", "t" : "2505191230", "f" : "1", "content" : "Quiero acuñar el término \"Shovelwave\""},
+
+	{"type" : "timestamp", "t" : "2505191220"},
+
 	{"type" : "image", "t" : "2505121327", "content" : "images/250512_ruby.png"},
 	{"type" : "message", "t" : "2505121327", "f" : "1", "content" : "Voy a aprender Ruby"},
 

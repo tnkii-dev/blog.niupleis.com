@@ -1,4 +1,11 @@
 [
+	{"type" : "message", "t" : "2505191231", "content" : "语言是不是很神奇？"},
+	{"type" : "message", "t" : "2505191231", "content" : "我甚至已经拥有了域名 <a href='https://shovelwave.com'>shovelwave.com</a>。"},
+	{"type" : "message", "t" : "2505191230", "content" : "我以为迟早会有人去做，但好像只有我想到过。"},
+	{"type" : "message", "t" : "2505191230", "f" : "1", "content" : "我想创造“Shovelwave”这个词。"},
+
+	{"type" : "timestamp", "t" : "2505191220"},
+
 	{"type" : "image", "t" : "2505121327", "content" : "images/250512_ruby.png"},
 	{"type" : "message", "t" : "2505121327", "f" : "1", "content" : "我要学Ruby"},
 
