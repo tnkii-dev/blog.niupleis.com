@@ -1,4 +1,9 @@
 [
+	{"type" : "message", "t" : "2505211243", "content" : "stay tuned <a href=\"https://youtube.com/@idol_wannabe\">Idol Wannabe</a>"},
+	{"type" : "message", "t" : "2505211243", "content" : "I'm uploading a new video to YouTube tomorrow"},
+
+	{"type" : "timestamp", "t" : "2505211230"},
+
 	{"type" : "message", "t" : "2505191231", "content" : "Isn't the language amazing?"},
 	{"type" : "message", "t" : "2505191231", "content" : "I even have the domain <a href='https://shovelwave.com'>shovelwave.com</a>."},
 	{"type" : "message", "t" : "2505191230", "content" : "I thought someone else would do it eventually, but I think I'm the only one who's thought of it."},
