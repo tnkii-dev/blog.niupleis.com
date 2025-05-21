@@ -1,6 +1,6 @@
 [
 	{"type" : "message", "t" : "2505211243", "content" : "estad atentos <a href=\"https://youtube.com/@idol_wannabe\">Idol Wannabe</a>"},
-	{"type" : "message", "t" : "2505211243", "content" : "mañana subo nuevo video a Youtube"},
+	{"type" : "message", "t" : "2505211243", "f" : "1", "content" : "mañana subo nuevo video a Youtube"},
 
 	{"type" : "timestamp", "t" : "2505211230"},
 
