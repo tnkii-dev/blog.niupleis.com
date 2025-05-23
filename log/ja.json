@@ -1,8 +1,4 @@
 [
-	{"type" : "message", "t" : "2505211243", "content" : "<a href=\"https://youtube.com/@idol_wannabe\">Idol Wannabe</a> をお見逃しなく"},
-	{"type" : "message", "t" : "2505211243", "f" : "1", "content" : "明日YouTubeに新しい動画をアップします"},
-
-	{"type" : "timestamp", "t" : "2505211230"},
 
 	{"type" : "message", "t" : "2505191231", "content" : "言語ってすごくない？"},
 	{"type" : "message", "t" : "2505191231", "content" : "<a href='https://shovelwave.com'>shovelwave.com</a>のドメインまで取ったよ。"},

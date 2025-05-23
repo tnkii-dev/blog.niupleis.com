@@ -1,8 +1,4 @@
 [
-	{"type" : "message", "t" : "2505211243", "content" : "请关注 <a href=\"https://youtube.com/@idol_wannabe\">Idol Wannabe</a>"},
-	{"type" : "message", "t" : "2505211243", "f" : "1", "content" : "明天我会在 YouTube 上传新视频"},
-
-	{"type" : "timestamp", "t" : "2505211230"},
 
 	{"type" : "message", "t" : "2505191231", "content" : "语言是不是很神奇？"},
 	{"type" : "message", "t" : "2505191231", "content" : "我甚至已经拥有了域名 <a href='https://shovelwave.com'>shovelwave.com</a>。"},
