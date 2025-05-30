@@ -1,4 +1,12 @@
 [
+	{"type" : "message", "t" : "2505192246", "content" : "Hasta entonces!"},
+	{"type" : "message", "t" : "2505192245", "content" : "Entonces podré empezar a trabajar de nuevo"},
+	{"type" : "message", "t" : "2505192245", "content" : "Voy a tener que hacer un poco de mágia, llevo 6 dias sin tomar mis medecinas así que en poco tiempo emepzaré a usar las voces como combustible"},
+	{"type" : "image", "t" : "2505192244", "content" : "images/250529_purple-guy.jpg"},
+	{"type" : "message", "t" : "2505192243", "content" : "así que no me puedo concentrar"},
+	{"type" : "message", "t" : "2505202243", "content" : "Hay cuatro putos en mi casa"},
+
+	{"type" : "timestamp", "t" : "2505292222"},
 
 	{"type" : "message", "t" : "2505191231", "content" : "¿No es increíble el lenguage?"},
 	{"type" : "message", "t" : "2505191231", "content" : "Ya hasta tengo el dominio <a href='https://shovelwave.com'>shovelwave.com</a>."},

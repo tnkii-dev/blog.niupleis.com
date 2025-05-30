@@ -1,4 +1,12 @@
 [
+	{"type": "message", "t": "2505192246", "content": "それじゃあ、またね！"},
+	{"type": "message", "t": "2505192245", "content": "そしたら、また作業ができるようになるはず。"},
+	{"type": "message", "t": "2505192245", "content": "ちょっと魔法が必要になりそう。薬を6日間飲んでなくて、そろそろ幻聴だけで動く感じになる。"},
+	{"type": "image", "t": "2505192244", "content": "images/250529_purple-guy.jpg"},
+	{"type": "message", "t": "2505192243", "content": "だから集中できないんだ。"},
+	{"type": "message", "t": "2505202243", "content": "私の家にクソガキが4人います！"},
+
+	{"type" : "timestamp", "t" : "2505292222"},
 
 	{"type" : "message", "t" : "2505191231", "content" : "言語ってすごくない？"},
 	{"type" : "message", "t" : "2505191231", "content" : "<a href='https://shovelwave.com'>shovelwave.com</a>のドメインまで取ったよ。"},
