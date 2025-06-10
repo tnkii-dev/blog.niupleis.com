@@ -1,4 +1,11 @@
 [
+	{"type": "message", "t": "2506091841", "content": "こんな背景を描いたのは初めて。"},
+	{"type": "message", "t": "2506091841", "content": "<a href='https://nekoplay.niupleis.com/wiki/'>Nekoplay</a>のWikiを飾るためにこのイラストを描きました。"},
+	{"type" : "image", "t" : "2506091841", "content" : "images/250609_Mimi-chan.png"},
+	{"type" : "action", "t" : "2506091841", "f" : "1", "content" : "たぬきがイラストを投稿しました: <a href='https://niupleis.com/gallery/?image=250609_Mimi-chan.png'>Mimi chan</a>."},
+
+	{"type" : "timestamp", "t" : "2506091818"},
+
 	{"type": "message", "t": "2505192246", "content": "それじゃあ、またね！"},
 	{"type": "message", "t": "2505192245", "content": "そしたら、また作業ができるようになるはず。"},
 	{"type": "message", "t": "2505192245", "content": "ちょっと魔法が必要になりそう。薬を6日間飲んでなくて、そろそろ幻聴だけで動く感じになる。"},

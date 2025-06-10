@@ -1,4 +1,11 @@
 [
+	{"type": "message", "t": "2506091841", "content": "이런 배경을 그린 건 처음이야."},
+	{"type": "message", "t": "2506091841", "content": "<a href='https://nekoplay.niupleis.com/wiki/'>Nekoplay</a> 위키를 꾸미려고 이 그림을 그렸어."},
+	{"type" : "image", "t" : "2506091841", "content" : "images/250609_Mimi-chan.png"},
+	{"type" : "action", "t" : "2506091841", "f" : "1", "content" : "타누키가 그림을 올렸어요: <a href='https://niupleis.com/gallery/?image=250609_Mimi-chan.png'>Mimi chan</a>."},
+
+	{"type" : "timestamp", "t" : "2506091818"},
+
 	{"type": "message", "t": "2505192246", "content": "그럼 그때 봐요!"},
 	{"type": "message", "t": "2505192245", "content": "그때쯤 다시 일할 수 있을 거야."},
 	{"type": "message", "t": "2505192245", "content": "약을 6일째 안 먹고 있어서, 이제 곧 환청으로 버텨야 할 것 같아. 마법이라도 써야겠어."},

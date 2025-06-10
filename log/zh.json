@@ -1,4 +1,11 @@
 [
+	{"type": "message", "t": "2506091841", "content": "这是我第一次画这种背景。"},
+	{"type": "message", "t": "2506091841", "content": "我画了这张图，是为了装饰<a href='https://nekoplay.niupleis.com/wiki/'>Nekoplay</a>的维基页面。"},
+	{"type" : "image", "t" : "2506091841", "content" : "images/250609_Mimi-chan.png"},
+	{"type" : "action", "t" : "2506091841", "f" : "1", "content" : "TNKII  发布了一张画作：<a href='https://niupleis.com/gallery/?image=250609_Mimi-chan.png'>Mimi chan</a>."},
+
+	{"type" : "timestamp", "t" : "2506091818"},
+
 	{"type": "message", "t": "2505192246", "content": "到时候见！"},
 	{"type": "message", "t": "2505192245", "content": "那我就能重新开始工作了。"},
 	{"type": "message", "t": "2505192245", "content": "我已经六天没吃药了，接下来可能只能靠幻听硬撑了，得施点魔法。"},

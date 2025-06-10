@@ -1,4 +1,11 @@
 [
+	{"type": "message", "t": "2506091841", "content": "First time drawing a background like this."},
+	{"type": "message", "t": "2506091841", "content": "I made this drawing to decorate the <a href='https://nekoplay.niupleis.com/wiki/'>Nekoplay</a> wiki."},
+	{"type" : "image", "t" : "2506091841", "content" : "images/250609_Mimi-chan.png"},
+	{"type" : "action", "t" : "2506091841", "f" : "1", "content" : "Tnkii has posted a drawing: <a href='https://niupleis.com/gallery/?image=250609_Mimi-chan.png'>Mimi chan</a>."},
+
+	{"type" : "timestamp", "t" : "2506091818"},
+
 	{"type": "message", "t": "2505192246", "content": "See you then!"},
 	{"type": "message", "t": "2505192245", "content": "Then I’ll be able to start working again"},
 	{"type": "message", "t": "2505192245", "content": "I'm going to need a bit of magic, I’ve been off my meds for six days, so pretty soon I’ll be fueled by voices"},

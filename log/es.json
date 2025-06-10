@@ -1,4 +1,11 @@
 [
+	{"type" : "message", "t" : "2506091841", "content" : "Primera véz que dibujo un fondo así."},
+	{"type" : "message", "t" : "2506091841", "content" : "Hice este dibujo que necesito para adornar la wiki de <a href='https://nekoplay.niupleis.com/wiki/'>Nekoplay</a>"},
+	{"type" : "image", "t" : "2506091841", "content" : "images/250609_Mimi-chan.png"},
+	{"type" : "action", "t" : "2506091841", "f" : "1", "content" : "Tnkii ha publicado un dibujo: <a href='https://niupleis.com/gallery/?image=250609_Mimi-chan.png'>Mimi chan</a>."},
+
+	{"type" : "timestamp", "t" : "2506091818"},
+
 	{"type" : "message", "t" : "2505192246", "content" : "Hasta entonces!"},
 	{"type" : "message", "t" : "2505192245", "content" : "Entonces podré empezar a trabajar de nuevo"},
 	{"type" : "message", "t" : "2505192245", "content" : "Voy a tener que hacer un poco de mágia, llevo 6 dias sin tomar mis medecinas así que en poco tiempo emepzaré a usar las voces como combustible"},
