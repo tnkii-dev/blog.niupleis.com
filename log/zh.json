@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2506140032", "content" : "images/2500614_MimiChan_Nekoplay.png"},
+	{"type" : "action", "t" : "2506140032", "f" : "1", "content" : "TNKII  发布了一张画作：<a href='https://niupleis.com/gallery/?image=250614_MimiChan_Nekoplay.png'>Mimi for Nekoplay</a>."},
+
+	{"type" : "timestamp", "t" : "2506140015"},
+
 	{"type": "message", "t": "2506091841", "content": "这是我第一次画这种背景。"},
 	{"type": "message", "t": "2506091841", "content": "我画了这张图，是为了装饰<a href='https://nekoplay.niupleis.com/wiki/'>Nekoplay</a>的维基页面。"},
 	{"type" : "image", "t" : "2506091841", "content" : "images/250609_Mimi-chan.png"},

@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2506140032", "content" : "images/2500614_MimiChan_Nekoplay.png"},
+	{"type" : "action", "t" : "2506140032", "f" : "1", "content" : "타누키가 그림을 올렸어요: <a href='https://niupleis.com/gallery/?image=250614_MimiChan_Nekoplay.png'>Mimi for Nekoplay</a>."},
+
+	{"type" : "timestamp", "t" : "2506140015"},
+
 	{"type": "message", "t": "2506091841", "content": "이런 배경을 그린 건 처음이야."},
 	{"type": "message", "t": "2506091841", "content": "<a href='https://nekoplay.niupleis.com/wiki/'>Nekoplay</a> 위키를 꾸미려고 이 그림을 그렸어."},
 	{"type" : "image", "t" : "2506091841", "content" : "images/250609_Mimi-chan.png"},
