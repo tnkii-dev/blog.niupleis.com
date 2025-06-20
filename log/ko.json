@@ -1,4 +1,15 @@
 [
+	{"type": "message", "t": "2506201721", "content": "GG!!!"},
+	{"type": "message", "t": "2506201721", "content": "몇 달이나 걸렸지만 정말 즐거웠어."},
+	{"type": "message", "t": "2506201720", "content": "6개 언어로 제공됩니다."},
+	{"type": "message", "t": "2506201720", "content": "버전은 1.0.0입니다."},
+	{"type": "message", "t": "2506201720", "content": "<a href='https://nekoplay.niupleis.com/'>nekoplay.niupleis.com</a> 에서 이용할 수 있어요."},
+	{"type": "message", "t": "2506201720", "content": "Nekoplay가 드디어 온라인에 공개됐습니다!"},
+	{"type" : "image", "t" : "2506201719", "content" : "images/250620_NekoplayBanner.jpg"},
+	{"type" : "action", "t" : "2506201719", "f" : "1", "content" : "타누키가 그림을 올렸어요: <a href='https://niupleis.com/gallery/?image=250620_nekoplayBanner.jpg'>Nekoplay Banner</a>."},
+
+	{"type" : "timestamp", "t" : "2506201703"},
+
 	{"type" : "image", "t" : "2506140032", "content" : "images/2500614_MimiChan_Nekoplay.png"},
 	{"type" : "action", "t" : "2506140032", "f" : "1", "content" : "타누키가 그림을 올렸어요: <a href='https://niupleis.com/gallery/?image=250614_MimiChan_Nekoplay.png'>Mimi for Nekoplay</a>."},
 

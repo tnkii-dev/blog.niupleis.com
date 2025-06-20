@@ -1,4 +1,15 @@
 [
+	{"type": "message", "t": "2506201721", "content": "GG!!!"},
+	{"type": "message", "t": "2506201721", "content": "It took me months, but it was fun."},
+	{"type": "message", "t": "2506201720", "content": "It's available in 6 languages."},
+	{"type": "message", "t": "2506201720", "content": "This is version 1.0.0"},
+	{"type": "message", "t": "2506201720", "content": "You can find it at <a href='https://nekoplay.niupleis.com/'>nekoplay.niupleis.com</a>"},
+	{"type": "message", "t": "2506201720", "content": "Nekoplay is now online!"},
+	{"type" : "image", "t" : "2506201719", "content" : "images/250620_NekoplayBanner.jpg"},
+	{"type" : "action", "t" : "2506201719", "f" : "1", "content" : "Tnkii has posted a drawing: <a href='https://niupleis.com/gallery/?image=250620_nekoplayBanner.jpg'>Nekoplay Banner</a>."},
+
+	{"type" : "timestamp", "t" : "2506201703"},
+
 	{"type" : "image", "t" : "2506140032", "content" : "images/2500614_MimiChan_Nekoplay.png"},
 	{"type" : "action", "t" : "2506140032", "f" : "1", "content" : "Tnkii has posted a drawing: <a href='https://niupleis.com/gallery/?image=250614_MimiChan_Nekoplay.png'>Mimi for Nekoplay</a>."},
 

@@ -1,4 +1,15 @@
 [
+	{"type": "message", "t": "2506201721", "content": "GG!!!"},
+	{"type": "message", "t": "2506201721", "content": "花了我好几个月，但真的很有趣。"},
+	{"type": "message", "t": "2506201720", "content": "目前支持6种语言。"},
+	{"type": "message", "t": "2506201720", "content": "当前版本为1.0.0。"},
+	{"type": "message", "t": "2506201720", "content": "可以在 <a href='https://nekoplay.niupleis.com/'>nekoplay.niupleis.com</a> 上访问。"},
+	{"type": "message", "t": "2506201720", "content": "Nekoplay 现在上线啦！"},
+	{"type" : "image", "t" : "2506201719", "content" : "images/250620_NekoplayBanner.jpg"},
+	{"type" : "action", "t" : "2506201719", "f" : "1", "content" : "TNKII  发布了一张画作：<a href='https://niupleis.com/gallery/?image=250620_nekoplayBanner.jpg'>Nekoplay Banner</a>."},
+
+	{"type" : "timestamp", "t" : "2506201703"},
+
 	{"type" : "image", "t" : "2506140032", "content" : "images/2500614_MimiChan_Nekoplay.png"},
 	{"type" : "action", "t" : "2506140032", "f" : "1", "content" : "TNKII  发布了一张画作：<a href='https://niupleis.com/gallery/?image=250614_MimiChan_Nekoplay.png'>Mimi for Nekoplay</a>."},
 
