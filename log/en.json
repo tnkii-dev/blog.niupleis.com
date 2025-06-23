@@ -1,4 +1,10 @@
 [
+	{"type": "message", "t": "2506230913", "f" : "1", "content": "The group is called Baby Don't Cry, but I’m gonna call them <span style='font-weight:bold;'>bbno;-;</span>"},
+	{"type" : "iframe", "t" : "2506230913", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/KEUlytSqlsU' title='Baby DONT Cry - ‘F Girl’ MV' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
+	{"type": "message", "t": "2506230913", "f" : "1", "content": "I liked the song from this new group!!"},
+
+	{"type" : "timestamp", "t" : "2506230903"},
+
 	{"type": "message", "t": "2506201721", "content": "GG!!!"},
 	{"type": "message", "t": "2506201721", "content": "It took me months, but it was fun."},
 	{"type": "message", "t": "2506201720", "content": "It's available in 6 languages."},
