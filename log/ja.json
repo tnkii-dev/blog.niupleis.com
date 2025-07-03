@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2507030247", "content" : "https://niupleis.com/gallery/images/250703_Miku_The_Bat.png"},
+	{"type" : "action", "t" : "2507030247", "f" : "1", "content" : "たぬきがイラストを投稿しました: <a href='https://niupleis.com/gallery/?image=250703_Miku_The_Bat.png'>Miku The Bat</a>."},
+
+	{"type" : "timestamp", "t" : "2507030242"},
+
 	{"type": "message", "t": "2506230913", "f" : "1", "content": "グループ名は「Baby Don't Cry」だけど、私は<span style='font-weight:bold;'>bbno;-;</span>って呼ぶことにする〜"},
 	{"type" : "iframe", "t" : "2506230913", "content" : "<iframe width='360' height='203' src='https://www.youtube.com/embed/KEUlytSqlsU' title='Baby DONT Cry - ‘F Girl’ MV' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"},
 	{"type": "message", "t": "2506230913", "f" : "1", "content": "この新しいグループの曲、気に入った！！"},
