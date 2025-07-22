@@ -1,4 +1,12 @@
 [
+	{"type": "message", "t": "2507221256", "content": "这将是我第一次参加 Game Jam。我想在参加之前先完成两个作品放入我的作品集中。"},
+	{"type": "message", "t": "2507221256", "content": "我暂时不会对 Nekoplay 做重大更新。我希望在<u>GMTK Game Jam 2025</u>之前在这一周完成一个新游戏。"},
+	{"type": "iframe", "t": "2507221255", "content": "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},
+	{"type": "message", "t": "2507221255", "content": "另外我用这个版本更新了我的游戏 <a href='https://niupleis.com/games/Nekonoid/'>Nekonoid</a>。"},
+	{"type": "message", "t": "2507221255", "f": "1", "content": "你好！几天前我发布了 <a href='https://nekoplay.niupleis.com/wiki/?tab=Version'>Nekoplay 的 1.0.0 版本</a>，这版中我实现了一个自定义脚本语言叫 Nekoscript。"},
+
+	{"type" : "timestamp", "t" : "2507221230"},
+
 	{"type" : "image", "t" : "2507030247", "content" : "https://niupleis.com/gallery/images/250703_Miku_The_Bat.png"},
 	{"type" : "action", "t" : "2507030247", "f" : "1", "content" : "TNKII  发布了一张画作：<a href='https://niupleis.com/gallery/?image=250703_Miku_The_Bat.png'>Miku The Bat</a>."},
 

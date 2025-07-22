@@ -1,4 +1,12 @@
 [
+	{"type": "message", "t": "2507221256", "content": "今回が初めてのゲームジャム参加になる予定です。参加する前にポートフォリオに2つゲームを入れたいな。"},
+	{"type": "message", "t": "2507221256", "content": "今のところ Nekoplay に大きなアップデートを入れる予定はありません。<u>GMTK Game Jam 2025</u> の前に新しいゲームを一つ完成させたい。"},
+	{"type": "iframe", "t": "2507221255", "content": "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},
+	{"type": "message", "t": "2507221255", "content": "あと、<a href='https://niupleis.com/games/Nekonoid/'>Nekonoid</a> をこのバージョンで更新しました。"},
+	{"type": "message", "t": "2507221255", "f": "1", "content": "こんにちは、数日前に <a href='https://nekoplay.niupleis.com/wiki/?tab=Version'>Nekoplay バージョン1.0.0</a> を公開しました。このバージョンには Nekoscript というカスタムスクリプト言語が実装されています。"},
+
+	{"type" : "timestamp", "t" : "2507221230"},
+
 	{"type" : "image", "t" : "2507030247", "content" : "https://niupleis.com/gallery/images/250703_Miku_The_Bat.png"},
 	{"type" : "action", "t" : "2507030247", "f" : "1", "content" : "たぬきがイラストを投稿しました: <a href='https://niupleis.com/gallery/?image=250703_Miku_The_Bat.png'>Miku The Bat</a>."},
 

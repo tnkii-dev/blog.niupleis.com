@@ -1,4 +1,12 @@
 [
+	{"type": "message", "t": "2507221256", "content": "This will be the first Jam I participate in. I want to have two games in my portfolio before joining."},
+	{"type": "message", "t": "2507221256", "content": "I won’t be doing major updates to Nekoplay for now. I want to finish a new game this week before the <u>GMTK Game Jam 2025</u>."},
+	{"type": "iframe", "t": "2507221255", "content": "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},
+	{"type": "message", "t": "2507221255", "content": "Also, I updated my game <a href='https://niupleis.com/games/Nekonoid/'>Nekonoid</a> with this version."},
+	{"type": "message", "t": "2507221255", "f": "1", "content": "Hi! A few days ago I released version <a href='https://nekoplay.niupleis.com/wiki/?tab=Version'>1.0.0 of Nekoplay</a>, which includes a custom scripting language called Nekoscript."},
+
+	{"type" : "timestamp", "t" : "2507221230"},
+
 	{"type" : "image", "t" : "2507030247", "content" : "https://niupleis.com/gallery/images/250703_Miku_The_Bat.png"},
 	{"type" : "action", "t" : "2507030247", "f" : "1", "content" : "Tnkii has posted a drawing: <a href='https://niupleis.com/gallery/?image=250703_Miku_The_Bat.png'>Miku The Bat</a>."},
 
