@@ -1,4 +1,9 @@
 [
+	{"type" : "message", "t" : "2507291152", "content" : "我将只用一个作品参加这次游戏创作活动"},
+	{"type" : "message", "t" : "2507291152", "f" : "1", "content" : "离比赛开始还有24小时，但我还没做出新游戏"},
+
+	{"type" : "timestamp", "t" : "2507291151"},
+
 	{"type": "message", "t": "2507221256", "content": "这将是我第一次参加 Game Jam。我想在参加之前先完成两个作品放入我的作品集中。"},
 	{"type": "message", "t": "2507221256", "content": "我暂时不会对 Nekoplay 做重大更新。我希望在<u>GMTK Game Jam 2025</u>之前在这一周完成一个新游戏。"},
 	{"type": "iframe", "t": "2507221255", "content": "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},

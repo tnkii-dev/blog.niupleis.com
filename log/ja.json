@@ -1,4 +1,9 @@
 [
+	{"type" : "message", "t" : "2507291152", "content" : "ポートフォリオに1本のゲームだけで参加します"},
+	{"type" : "message", "t" : "2507291152", "f" : "1", "content" : "ジャムが始まる24時間前なのに、まだ新しいゲームを作っていません"},
+
+	{"type" : "timestamp", "t" : "2507291151"},
+
 	{"type": "message", "t": "2507221256", "content": "今回が初めてのゲームジャム参加になる予定です。参加する前にポートフォリオに2つゲームを入れたいな。"},
 	{"type": "message", "t": "2507221256", "content": "今のところ Nekoplay に大きなアップデートを入れる予定はありません。<u>GMTK Game Jam 2025</u> の前に新しいゲームを一つ完成させたい。"},
 	{"type": "iframe", "t": "2507221255", "content": "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},

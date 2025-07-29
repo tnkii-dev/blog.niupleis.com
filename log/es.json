@@ -1,4 +1,9 @@
 [
+	{"type" : "message", "t" : "2507291152", "content" : "Voy a entrar con solo un juego en mi portafolio"},
+	{"type" : "message", "t" : "2507291152", "f" : "1", "content" : "No hice ningún juego antes de la jam y comienza en 24 horas"},
+
+	{"type" : "timestamp", "t" : "2507291151"},
+
 	{"type" : "message", "t" : "2507221256", "content" : "Será la primera Jam en la que participo, quiero tener dos juegos en mi portafolio antes de participar."},
 	{"type" : "message", "t" : "2507221256", "content" : "No voy a hacer actualizaciónes grandes a Nekoplay por ahora, quiero terminar un nuevo juego en esta semana antes de la <u>GMTK Game Jam 2025</u>."},
 	{"type" : "iframe", "t" : "2507221255", "content" : "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},
