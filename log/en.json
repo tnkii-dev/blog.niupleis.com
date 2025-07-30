@@ -1,4 +1,13 @@
 [
+	{"type" : "message", "t" : "2507301101", "content" : "ouroboros"},
+	{"type" : "image", "t" : "2507301101", "content" : "images/250730_ouroboros.jpg"},
+	{"type" : "message", "t" : "2507301101", "content" : "Y ya tengo una idea:"},
+	{"type" : "image", "t" : "2507301100", "content" : "images/250730_loop_theme.jpg"},
+	{"type" : "message", "t" : "2507301100", "content" : "El tema es <b>Loop</b>"},
+	{"type" : "message", "t" : "2507301100", "f" : "1", "content" : "Ha empezado la gmtk game jam 2025"},
+
+	{"type" : "timestamp", "t" : "2507301024"},
+
 	{"type" : "message", "t" : "2507291152", "content" : "I'm going to participate with only one game in my portfolio"},
 	{"type" : "message", "t" : "2507291152", "f" : "1", "content" : "I didn’t make any new game before the jam starts and it begins in 24 hours"},
 
