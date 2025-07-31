@@ -1,10 +1,10 @@
 [
-	{"type" : "message", "t" : "2507301101", "content" : "ouroboros"},
-	{"type" : "image", "t" : "2507301101", "content" : "images/250730_ouroboros.jpg"},
-	{"type" : "message", "t" : "2507301101", "content" : "Y ya tengo una idea:"},
-	{"type" : "image", "t" : "2507301100", "content" : "images/250730_loop_theme.jpg"},
-	{"type" : "message", "t" : "2507301100", "content" : "El tema es <b>Loop</b>"},
-	{"type" : "message", "t" : "2507301100", "f" : "1", "content" : "Ha empezado la gmtk game jam 2025"},
+	{"type": "message", "t": "2507301101", "content": "乌洛波洛斯"},
+	{"type": "image", "t": "2507301101", "content": "images/250730_ouroboros.jpg"},
+	{"type": "message", "t": "2507301101", "content": "我已经有一个想法了："},
+	{"type": "image", "t": "2507301100", "content": "images/250730_loop_theme.jpg"},
+	{"type": "message", "t": "2507301100", "content": "这次的主题是<b>循环</b>"},
+	{"type": "message", "t": "2507301100", "f": "1", "content": "GMTK Game Jam 2025 已经开始了"},
 
 	{"type" : "timestamp", "t" : "2507301024"},
 
