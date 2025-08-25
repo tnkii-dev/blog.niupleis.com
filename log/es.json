@@ -1,24 +1,12 @@
 [
-	{"type" : "message", "t" : "2507301101", "content" : "ouroboros"},
-	{"type" : "image", "t" : "2507301101", "content" : "images/250730_ouroboros.jpg"},
-	{"type" : "message", "t" : "2507301101", "content" : "Y ya tengo una idea:"},
-	{"type" : "image", "t" : "2507301100", "content" : "images/250730_loop_theme.jpg"},
-	{"type" : "message", "t" : "2507301100", "content" : "El tema es <b>Loop</b>"},
-	{"type" : "message", "t" : "2507301100", "f" : "1", "content" : "Ha empezado la gmtk game jam 2025"},
+	{"type": "message", "t": "2508251012", "content": "Y pienso debutar a Punk Suteki en hallowhen, esa es mi meta actual."},
+	{"type": "message", "t": "2508251012", "content": "estoy preparando la próxima actualización de Nekoplay"},
+	{"type": "message", "t": "2508251011", "content": "afortunadamente está terminando y comienza mi época favorita"},
+	{"type": "message", "t": "2508251011", "f" : "1", "content": "He estado inactivo por el verano, es la época del año que más odio"},
 
-	{"type" : "timestamp", "t" : "2507301024"},
+	{"type" : "timestamp", "t" : "2508251001"},
 
-	{"type" : "message", "t" : "2507291152", "content" : "Voy a entrar con solo un juego en mi portafolio"},
-	{"type" : "message", "t" : "2507291152", "f" : "1", "content" : "No hice ningún juego antes de la jam y comienza en 24 horas"},
-
-	{"type" : "timestamp", "t" : "2507291151"},
-
-	{"type" : "message", "t" : "2507221256", "content" : "Será la primera Jam en la que participo, quiero tener dos juegos en mi portafolio antes de participar."},
-	{"type" : "message", "t" : "2507221256", "content" : "No voy a hacer actualizaciónes grandes a Nekoplay por ahora, quiero terminar un nuevo juego en esta semana antes de la <u>GMTK Game Jam 2025</u>."},
-	{"type" : "iframe", "t" : "2507221255", "content" : "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},
-	{"type" : "message", "t" : "2507221255", "content" : "Aparte actualicé mi juego <a href='https://niupleis.com/games/Nekonoid/'>Nekonoid</a> con esta versión."},
-	{"type" : "message", "t" : "2507221255", "f" : "1", "content" : "Hola, hace unos dias publiqué la versión <a href='https://nekoplay.niupleis.com/wiki/?tab=Version'>1.0.0 de Nekoplay</a>, en esta implemente un lenguaje custom llamado Nekoscript."},
-
+	{"type": "deleted", "oldtype" : "message", "t" : "2507221255", "f" : "1", "content" : ""},
 	{"type" : "timestamp", "t" : "2507221230"},
 
 	{"type" : "image", "t" : "2507030247", "content" : "https://niupleis.com/gallery/images/250703_Miku_The_Bat.png"},

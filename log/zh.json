@@ -1,24 +1,12 @@
 [
-	{"type": "message", "t": "2507301101", "content": "乌洛波洛斯"},
-	{"type": "image", "t": "2507301101", "content": "images/250730_ouroboros.jpg"},
-	{"type": "message", "t": "2507301101", "content": "我已经有一个想法了："},
-	{"type": "image", "t": "2507301100", "content": "images/250730_loop_theme.jpg"},
-	{"type": "message", "t": "2507301100", "content": "这次的主题是<b>循环</b>"},
-	{"type": "message", "t": "2507301100", "f": "1", "content": "GMTK Game Jam 2025 已经开始了"},
+	{"type" : "message", "t" : "2508251012", "content": "我打算在万圣节让Punk Suteki出道，这是我目前的目标。"},
+	{"type": "message", "t": "2508251012", "content": "我正在准备Nekoplay的下一个更新"},
+	{"type": "message", "t": "2508251011", "content": "幸运的是夏天快结束了，我最喜欢的季节就要开始了"},
+	{"type": "message", "t": "2508251011", "f" : "1", "content": "整个夏天我都很不活跃，这是我一年中最讨厌的季节"},
 
-	{"type" : "timestamp", "t" : "2507301024"},
+	{"type" : "timestamp", "t" : "2508251001"},
 
-	{"type" : "message", "t" : "2507291152", "content" : "我将只用一个作品参加这次游戏创作活动"},
-	{"type" : "message", "t" : "2507291152", "f" : "1", "content" : "离比赛开始还有24小时，但我还没做出新游戏"},
-
-	{"type" : "timestamp", "t" : "2507291151"},
-
-	{"type": "message", "t": "2507221256", "content": "这将是我第一次参加 Game Jam。我想在参加之前先完成两个作品放入我的作品集中。"},
-	{"type": "message", "t": "2507221256", "content": "我暂时不会对 Nekoplay 做重大更新。我希望在<u>GMTK Game Jam 2025</u>之前在这一周完成一个新游戏。"},
-	{"type": "iframe", "t": "2507221255", "content": "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},
-	{"type": "message", "t": "2507221255", "content": "另外我用这个版本更新了我的游戏 <a href='https://niupleis.com/games/Nekonoid/'>Nekonoid</a>。"},
-	{"type": "message", "t": "2507221255", "f": "1", "content": "你好！几天前我发布了 <a href='https://nekoplay.niupleis.com/wiki/?tab=Version'>Nekoplay 的 1.0.0 版本</a>，这版中我实现了一个自定义脚本语言叫 Nekoscript。"},
-
+	{"type": "deleted", "oldtype" : "message", "t" : "2507221255", "f" : "1", "content" : ""},
 	{"type" : "timestamp", "t" : "2507221230"},
 
 	{"type" : "image", "t" : "2507030247", "content" : "https://niupleis.com/gallery/images/250703_Miku_The_Bat.png"},

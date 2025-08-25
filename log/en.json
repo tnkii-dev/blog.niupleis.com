@@ -1,24 +1,12 @@
 [
-	{"type": "message", "t": "2507301101", "content": "ouroboros"},
-	{"type": "image", "t": "2507301101", "content": "images/250730_ouroboros.jpg"},
-	{"type": "message", "t": "2507301101", "content": "And I already have an idea:"},
-	{"type": "image", "t": "2507301100", "content": "images/250730_loop_theme.jpg"},
-	{"type": "message", "t": "2507301100", "content": "The theme is <b>Loop</b>"},
-	{"type": "message", "t": "2507301100", "f": "1", "content": "The GMTK Game Jam 2025 has started"},
+	{"type": "message", "t": "2508251012", "content": "And I plan to debut Punk Suteki on Halloween, that’s my current goal."},
+	{"type": "message", "t": "2508251012", "content": "I’m preparing the next update of Nekoplay"},
+	{"type": "message", "t": "2508251011", "content": "Fortunately it’s ending and my favorite season begins"},
+	{"type": "message", "t": "2508251011", "f" : "1", "content": "I’ve been inactive during the summer, it’s the season I hate the most"},
 
-	{"type" : "timestamp", "t" : "2507301024"},
+	{"type" : "timestamp", "t" : "2508251001"},
 
-	{"type" : "message", "t" : "2507291152", "content" : "I'm going to participate with only one game in my portfolio"},
-	{"type" : "message", "t" : "2507291152", "f" : "1", "content" : "I didn’t make any new game before the jam starts and it begins in 24 hours"},
-
-	{"type" : "timestamp", "t" : "2507291151"},
-
-	{"type": "message", "t": "2507221256", "content": "This will be the first Jam I participate in. I want to have two games in my portfolio before joining."},
-	{"type": "message", "t": "2507221256", "content": "I won’t be doing major updates to Nekoplay for now. I want to finish a new game this week before the <u>GMTK Game Jam 2025</u>."},
-	{"type": "iframe", "t": "2507221255", "content": "<iframe width='256' height='256' src='https://niupleis.com/games/Nekonoid/'></iframe>"},
-	{"type": "message", "t": "2507221255", "content": "Also, I updated my game <a href='https://niupleis.com/games/Nekonoid/'>Nekonoid</a> with this version."},
-	{"type": "message", "t": "2507221255", "f": "1", "content": "Hi! A few days ago I released version <a href='https://nekoplay.niupleis.com/wiki/?tab=Version'>1.0.0 of Nekoplay</a>, which includes a custom scripting language called Nekoscript."},
-
+	{"type": "deleted", "oldtype" : "message", "t" : "2507221255", "f" : "1", "content" : ""},
 	{"type" : "timestamp", "t" : "2507221230"},
 
 	{"type" : "image", "t" : "2507030247", "content" : "https://niupleis.com/gallery/images/250703_Miku_The_Bat.png"},
