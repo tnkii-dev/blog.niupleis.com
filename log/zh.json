@@ -1,4 +1,12 @@
 [
+	{"type": "message", "t": "2509111206", "content": "信息在这里: <a href='https://nekoplay.niupleis.com/wiki/zh/?tab=Version'>nekoplay wiki ↗</a>"},
+	{"type": "image", "t": "2509111206", "content": "images/250911_b.jpg"},
+	{"type": "message", "t": "2509111206", "content": "<details><summary>特性</summary>• <code>div</code> 模块<br>• 颜色函数: <code>rgb()</code><code>hsl()</code><code>oklab()</code> 等<br>• 命令行<br>• Nekoscript: <code>every</code><code>wait</code><code>message</code><code>on</code><code>once</code><code>remove</code><code>@messages</code></details>"},
+	{"type": "image", "t": "2509111205", "content": "images/250911_a.jpg"},
+	{"type": "message", "t": "2509111205", "f" : "1", "content": "Nekoplay 更新 <code>1.2.0</code>"},
+
+	{"type" : "timestamp", "t" : "2509111135"},
+
 	{"type" : "message", "t" : "2508251012", "content": "我打算在万圣节让Punk Suteki出道，这是我目前的目标。"},
 	{"type": "message", "t": "2508251012", "content": "我正在准备Nekoplay的下一个更新"},
 	{"type": "message", "t": "2508251011", "content": "幸运的是夏天快结束了，我最喜欢的季节就要开始了"},

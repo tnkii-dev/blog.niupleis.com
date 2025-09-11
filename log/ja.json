@@ -1,4 +1,12 @@
 [
+	{"type": "message", "t": "2509111206", "content": "情報はこちら: <a href='https://nekoplay.niupleis.com/wiki/ja/?tab=Version'>nekoplay wiki ↗</a>"},
+	{"type": "image", "t": "2509111206", "content": "images/250911_b.jpg"},
+	{"type": "message", "t": "2509111206", "content": "<details><summary>特徴</summary>• <code>div</code> モジュール<br>• カラー関数: <code>rgb()</code><code>hsl()</code><code>oklab()</code> など<br>• コマンドライン<br>• Nekoscript: <code>every</code><code>wait</code><code>message</code><code>on</code><code>once</code><code>remove</code><code>@messages</code></details>"},
+	{"type": "image", "t": "2509111205", "content": "images/250911_a.jpg"},
+	{"type": "message", "t": "2509111205", "f" : "1", "content": "Nekoplay アップデート <code>1.2.0</code>"},
+
+	{"type" : "timestamp", "t" : "2509111135"},
+
 	{"type" : "message", "t" : "2508251012", "content": "ハロウィンにPunk Sutekiをデビューさせるつもりです。これが今の目標です。"},
 	{"type": "message", "t": "2508251012", "content": "Nekoplayの次のアップデートを準備しています"},
 	{"type": "message", "t": "2508251011", "content": "幸いにも夏が終わり、私のお気に入りの季節が始まります"},

@@ -1,4 +1,12 @@
 [
+	{"type": "message", "t": "2509111206", "content": "Info aquí: <a href='https://nekoplay.niupleis.com/wiki/es/?tab=Version'>nekoplay wiki ↗</a>"},
+	{"type": "image", "t": "2509111206", "content": "images/250911_b.jpg"},
+	{"type": "message", "t": "2509111206", "content": "<details><summary>Caracteristicas</summary>• Módulo <code>div</code><br>• Funciones de color: <code>rgb()</code><code>hsl()</code><code>oklab()</code>etc.<br>• Línea de comandos<br>• Nekoscript: <code>every</code><code>wait</code><code>message</code><code>on</code><code>once</code><code>remove</code><code>@messages</code></details>"},
+	{"type": "image", "t": "2509111205", "content": "images/250911_a.jpg"},
+	{"type": "message", "t": "2509111205", "f" : "1", "content": "Actualización Nekoplay <code>1.2.0</code>"},
+
+	{"type" : "timestamp", "t" : "2509111135"},
+
 	{"type": "message", "t": "2508251012", "content": "Y pienso debutar a Punk Suteki en halloween, esa es mi meta actual."},
 	{"type": "message", "t": "2508251012", "content": "estoy preparando la próxima actualización de Nekoplay"},
 	{"type": "message", "t": "2508251011", "content": "afortunadamente está terminando y comienza mi época favorita"},

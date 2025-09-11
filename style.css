@@ -136,6 +136,16 @@ main > div > i {
 	text-align: center;
 }
 
+.message details summary { cursor: pointer; }
+.message details code {
+	font-family: monospace;
+	color: #000;
+	background-color: #50d7ff88;
+	border-radius: 3px;
+	margin-inline: 1px;
+	padding-inline: 2px;
+}
+
 .message { background-color: var(--blog); }
 .message.primer::before { color: var(--blog); }
 
