@@ -1,4 +1,10 @@
 [
+	{"type": "message", "t": "2509231222", "content": "어떤 게 먼저 나올지 보자."},
+	{"type": "message", "t": "2509231221", "content": "Nekoplay 업데이트, 비디오 게임, 그리고 Punk Suteki의 데뷔를 동시에 작업 중이야."},
+	{"type": "message", "t": "2509231221", "f" : "1", "content": "할로페리돌이 없어서 좀비가 됐으니, 불면증을 이용해서 오늘 밤 뭔가 해볼 거야."},
+
+	{"type" : "timestamp", "t" : "2509231105"},
+
 	{"type": "message", "t": "2509111206", "content": "정보 여기: <a href='https://nekoplay.niupleis.com/wiki/ko/?tab=Version'>nekoplay wiki ↗</a>"},
 	{"type": "image", "t": "2509111206", "content": "images/250911_b.jpg"},
 	{"type": "message", "t": "2509111206", "content": "<details><summary>특징</summary>• <code>div</code> 모듈<br>• 색상 함수: <code>rgb()</code><code>hsl()</code><code>oklab()</code> 등<br>• 명령줄<br>• Nekoscript: <code>every</code><code>wait</code><code>message</code><code>on</code><code>once</code><code>remove</code><code>@messages</code></details>"},
