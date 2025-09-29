@@ -60,7 +60,7 @@ function setupLang(lang) {
 	if (lang === "en") {
 		meses = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	} else if (lang === "es") {
-		meses = ["", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+		meses = ["", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 	}
 }
 
@@ -80,7 +80,7 @@ function getDate(lang, time) {
 	case "es":
 		return `${d} de ${meses[Number(m)]} de 20${y}`;
 	case "en":
-		return `${d} ${meses[Number(m)]}, 20${y}`;
+		return `${d} ${meses[Number(m-1)]}, 20${y}`;
 	case "ko":
 		return `20${y}년 ${m}월 ${d}일`;
 	case "ja":
