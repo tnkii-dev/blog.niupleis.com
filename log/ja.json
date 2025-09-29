@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2509281048", "content" : "https://niupleis.com/gallery/ja.html?image=250927_MimiChan_shorts.png"},
+	{"type" : "image", "t" : "2509281048", "content" : "https://niupleis.com/gallery/ja.html?image=250927_MimiChan_dress.png"},
+
+	{"type" : "timestamp", "t" : "2509281043"},
+
 	{"type": "message", "t": "2509231222", "content": "どれが先に出るか見てみよう。"},
 	{"type": "message", "t": "2509231221", "content": "Nekoplayの別のアップデート、ビデオゲーム、そしてPunk Sutekiのデビューに取り組んでいます。"},
 	{"type": "message", "t": "2509231221", "f" : "1", "content": "ハロペリドールがなくてゾンビみたいになったので、不眠を利用して今夜何かを進めます。"},

@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2509281048", "content" : "https://niupleis.com/gallery/zh.html?image=250927_MimiChan_shorts.png"},
+	{"type" : "image", "t" : "2509281048", "content" : "https://niupleis.com/gallery/zh.html?image=250927_MimiChan_dress.png"},
+
+	{"type" : "timestamp", "t" : "2509281043"},
+
 	{"type": "message", "t": "2509231222", "content": "看看哪个先出来。"},
 	{"type": "message", "t": "2509231221", "content": "我正在制作另一个Nekoplay更新、一款游戏，以及Punk Suteki的出道。"},
 	{"type": "message", "t": "2509231221", "f" : "1", "content": "缺少氟哌啶醇让我像僵尸一样，所以我打算利用失眠在今晚做点事情。"},

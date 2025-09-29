@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2509281048", "content" : "https://niupleis.com/gallery/en.html?image=250927_MimiChan_shorts.png"},
+	{"type" : "image", "t" : "2509281048", "content" : "https://niupleis.com/gallery/en.html?image=250927_MimiChan_dress.png"},
+
+	{"type" : "timestamp", "t" : "2509281043"},
+
 	{"type": "message", "t": "2509231222", "content": "Let's see which one comes out first."},
 	{"type": "message", "t": "2509231221", "content": "I'm working on another Nekoplay update, a video game, and Punk Suteki's debut."},
 	{"type": "message", "t": "2509231221", "f" : "1", "content": "I turned into a zombie from lack of haloperidol, so I'll use the insomnia to get something done tonight."},

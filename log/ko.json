@@ -1,4 +1,9 @@
 [
+	{"type" : "image", "t" : "2509281048", "content" : "https://niupleis.com/gallery/ko.html?image=250927_MimiChan_shorts.png"},
+	{"type" : "image", "t" : "2509281048", "content" : "https://niupleis.com/gallery/ko.html?image=250927_MimiChan_dress.png"},
+
+	{"type" : "timestamp", "t" : "2509281043"},
+
 	{"type": "message", "t": "2509231222", "content": "어떤 게 먼저 나올지 보자."},
 	{"type": "message", "t": "2509231221", "content": "Nekoplay 업데이트, 비디오 게임, 그리고 Punk Suteki의 데뷔를 동시에 작업 중이야."},
 	{"type": "message", "t": "2509231221", "f" : "1", "content": "할로페리돌이 없어서 좀비가 됐으니, 불면증을 이용해서 오늘 밤 뭔가 해볼 거야."},
